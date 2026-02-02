@@ -1,0 +1,11 @@
+body{margin:0;font-family:Cairo,Tahoma;background:#eef2f7}
+.header{background:#0f2c66;color:#fff;padding:20px;text-align:center}
+.main-nav{background:#020617;padding:12px;text-align:center}
+.main-nav a{color:#e5e7eb;margin:0 15px;text-decoration:none;font-weight:bold}
+.main-nav a.active,.main-nav a:hover{color:#38bdf8}
+.hero{text-align:center;padding:30px}
+.kpis{display:flex;gap:20px;padding:20px}
+.kpi{background:#fff;padding:20px;border-radius:12px;flex:1;text-align:center}
+.section{background:#fff;margin:20px;padding:25px;border-radius:15px}
+#map{height:500px;margin:20px;border-radius:15px}
+footer{text-align:center;padding:15px;background:#020617;color:#cbd5f5}
