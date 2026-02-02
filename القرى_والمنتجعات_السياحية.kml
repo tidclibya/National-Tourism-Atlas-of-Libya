@@ -1,0 +1,1550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>القرى_والمنتجعات_السياحية</name>
+    <Style id="icon-1521-880E4F-labelson">
+      <IconStyle>
+        <color>ff4f0e88</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>قرية إدوس السياحية</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopojyV8Lw6nT92pk26BDxlx_DymMjhv4J_LILTneqHMebdH_95FzU11xJdmis8mSZvIaXYg7wnp2KV56Zm_dnIAKrW6S5EItjaLmLpQnKPYCaNMQlSw28xWq-l2T-AUVSf-PYSRmoOEcCyJ1vNxtzc80NjZ0jG6as1xgz--B6MugsQbYgrmGXqlFrvX-ccxFRIBVbdR1y5RbPPbw-BV2pvjqOyhssKdhDRY2TVoh-GSEKCjedDkEtXLPNI?authuser=1&fife=s16383" height="200" width="auto" /><br><br>قرية إدوس السياحية <br>XXQX+XCP، زوارة<br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBor6lmE7uOknMlPefcTQOgs3r2nHYnQAb3-OhITWiEebTjffJ83p-WNPzrP8dZJ9tGXZc9LEr2gGX2k8dwCeEcVx6S09SQ57CnMMzY0zDh9pO0pNPlJVGrtKGtGKiW9ID7DplhfbliBsNDG1Vflb0h-zLYkiS9Stid6q0qx6uLL_VMgUzIqWX0S6_Lova77FKO7gIoTWc5hXbcFTxUmuahg10j8EaL8o-_dBNnCx4RjkhLzZR7r7r2vP_8I?authuser=1&fife=s16383" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopojyV8Lw6nT92pk26BDxlx_DymMjhv4J_LILTneqHMebdH_95FzU11xJdmis8mSZvIaXYg7wnp2KV56Zm_dnIAKrW6S5EItjaLmLpQnKPYCaNMQlSw28xWq-l2T-AUVSf-PYSRmoOEcCyJ1vNxtzc80NjZ0jG6as1xgz--B6MugsQbYgrmGXqlFrvX-ccxFRIBVbdR1y5RbPPbw-BV2pvjqOyhssKdhDRY2TVoh-GSEKCjedDkEtXLPNI?authuser=1&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBor6lmE7uOknMlPefcTQOgs3r2nHYnQAb3-OhITWiEebTjffJ83p-WNPzrP8dZJ9tGXZc9LEr2gGX2k8dwCeEcVx6S09SQ57CnMMzY0zDh9pO0pNPlJVGrtKGtGKiW9ID7DplhfbliBsNDG1Vflb0h-zLYkiS9Stid6q0qx6uLL_VMgUzIqWX0S6_Lova77FKO7gIoTWc5hXbcFTxUmuahg10j8EaL8o-_dBNnCx4RjkhLzZR7r7r2vP_8I?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          11.998442,32.9900855,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>قرية مرمرة السياحية</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorWKN_3JUcDFyPWED9zzAXn8l9olUPRz7TlHJ81JjTz0-VWN4usb52CXq83ue852lRWtfdvKREO4inPJynZYCW6W9uwUQW8-uafxUvqKpJ-02xFO3OGyTnKh1dfc5qkdTlADjXOPJ0tJA9m9myBm-kRu1vt9wIH1OpymbgMa4WengnlmVRcwUljJneLb352qZcvF32RqTNJAK1FbLxLA9sAW_wdkN51Wk8cMwTUYKVI7TKua2IMlu-u2oc?authuser=1&fife=s16383" height="200" width="auto" /><br><br>قرية مرمرة السياحية <br>زوارة]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorWKN_3JUcDFyPWED9zzAXn8l9olUPRz7TlHJ81JjTz0-VWN4usb52CXq83ue852lRWtfdvKREO4inPJynZYCW6W9uwUQW8-uafxUvqKpJ-02xFO3OGyTnKh1dfc5qkdTlADjXOPJ0tJA9m9myBm-kRu1vt9wIH1OpymbgMa4WengnlmVRcwUljJneLb352qZcvF32RqTNJAK1FbLxLA9sAW_wdkN51Wk8cMwTUYKVI7TKua2IMlu-u2oc?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          12.00665,32.98545,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>قرية فيرونا السياحية</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqTkNF9wuo_luxeBGmesKbMO0nyvl-xEmrEwTqk2bAGX0PQtsPU1dBBlNf1fKYQcZa7d-kkMLXxvXk8d5nJiLJgIBJ9ALgKiZBgcPSlURP8jO6ZBJI_iQSUeLz1JNvVIVvQEpxI0R9dDeLgqJFRHP7BiS4ZTvVbotJPLxg925Pvbh6Cb3e6gJC6jjqagM-Q5ypXpFZ9oFvprzO_mVp1QL99Q_QvMA7SNqVuX7TnjqRiv3Cr15XVKIKcofY?authuser=1&fife=s16383" height="200" width="auto" /><br><br>قرية ?يرونا السياحية<br>التصن قرية سياحية <br> المدي زوارة <br> عدد_ا 20 <br> عدد__1 80<br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBop2jKee6uWcBBFa0i_6wBpptYtGi-xIMlr_psGlragQIQuksy3nBs20mAWFRZlIH90k5clJA2gfW4w1Sm6sXJbvvR8ry9RzS_ZnuEkizTRtG7El2LBDc_DumULBIYWTmWjWDLgnxYbJ3hWx-blYCF5FSsYA-0LpdYVy5qIFoBp1tuKbSQbtQfnPr_r03cXJrrjjNGYgTnUIm3SF7srFYUi1cE1mCn7sbjIcQMCp0Sl1AO3BkI7lIAx1Mtk?authuser=1&fife=s16383" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqTkNF9wuo_luxeBGmesKbMO0nyvl-xEmrEwTqk2bAGX0PQtsPU1dBBlNf1fKYQcZa7d-kkMLXxvXk8d5nJiLJgIBJ9ALgKiZBgcPSlURP8jO6ZBJI_iQSUeLz1JNvVIVvQEpxI0R9dDeLgqJFRHP7BiS4ZTvVbotJPLxg925Pvbh6Cb3e6gJC6jjqagM-Q5ypXpFZ9oFvprzO_mVp1QL99Q_QvMA7SNqVuX7TnjqRiv3Cr15XVKIKcofY?authuser=1&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBop2jKee6uWcBBFa0i_6wBpptYtGi-xIMlr_psGlragQIQuksy3nBs20mAWFRZlIH90k5clJA2gfW4w1Sm6sXJbvvR8ry9RzS_ZnuEkizTRtG7El2LBDc_DumULBIYWTmWjWDLgnxYbJ3hWx-blYCF5FSsYA-0LpdYVy5qIFoBp1tuKbSQbtQfnPr_r03cXJrrjjNGYgTnUIm3SF7srFYUi1cE1mCn7sbjIcQMCp0Sl1AO3BkI7lIAx1Mtk?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          12.01095,32.97933,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>قرية البرتقالة</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorCxezMIjuekOwI217Luq4CX2q_JYcIA0x4dRfVrFwRpL79fFQ5x9RbzXnim5vAWaL9p9QvInGQOtCuDN0kqcBHtKxm62SPwI2Nx0DVcthgEbiYQ0JDPy4y-kqKSQr2rAv-brmlY7_yL6tKnZis3pfMzkLLm8ZBRu441APbTzKvFHH5SMlFe8lzsIQ5UALpoVYFTY_aqztpoPFDALetfZN1i7ki2fOBdaLmgcoV3-Lh_wWQfT3e9fTUGL0?authuser=1&fife=s16383" height="200" width="auto" /><br><br>قرية البرتقالة<br>التصن قرية سياحية <br> المدي زوارة <br> عدد_ا 22 <br> عدد__1 88]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorCxezMIjuekOwI217Luq4CX2q_JYcIA0x4dRfVrFwRpL79fFQ5x9RbzXnim5vAWaL9p9QvInGQOtCuDN0kqcBHtKxm62SPwI2Nx0DVcthgEbiYQ0JDPy4y-kqKSQr2rAv-brmlY7_yL6tKnZis3pfMzkLLm8ZBRu441APbTzKvFHH5SMlFe8lzsIQ5UALpoVYFTY_aqztpoPFDALetfZN1i7ki2fOBdaLmgcoV3-Lh_wWQfT3e9fTUGL0?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          12.0234337,32.9749453,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>قرية شط النخيل زوارة</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopR2AYhT7fDp_ihowwZJMFSE2p8u695SgiHZpipiMp0hL80AYRw6fZORYUryREyKLHxTSpSM8uFHzjiS82N5vsxS4tVo0PW_wekEexWIE4ccFemyELgmvihTKcLpncl1qy7vLIVpdP09AghqXqMx-RT1fjp0I-0i0e8wF2Ww1mmsOjc8rZZu0K0-cXw2dz3ilIJCBCGAK5iXxZPa43i7NZy-toNfP5PtAjY_ClQfhZE__Xm9g067aZHeng?authuser=1&fife=s16383" height="200" width="auto" /><br><br>قرية شط النخيل زوارة]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopR2AYhT7fDp_ihowwZJMFSE2p8u695SgiHZpipiMp0hL80AYRw6fZORYUryREyKLHxTSpSM8uFHzjiS82N5vsxS4tVo0PW_wekEexWIE4ccFemyELgmvihTKcLpncl1qy7vLIVpdP09AghqXqMx-RT1fjp0I-0i0e8wF2Ww1mmsOjc8rZZu0K0-cXw2dz3ilIJCBCGAK5iXxZPa43i7NZy-toNfP5PtAjY_ClQfhZE__Xm9g067aZHeng?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          12.0486794,32.955312,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>قرية أوليڤيا السياحية - زوارة
+</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorRKnMgO58DpN-0Ys35ZZ6H-heZZcihkR07V4NoJDLgH-4tEwB86lYVS3BHDDskUU5GP9K_6alUy2g5kX3UnHk3ViBTRkG6mkGfB2hiR8zKJgnWj2n30UsmAoHeZ1N1uS3VkbdtiPtUfy3eTR2OV5mizt22Q4ClfhSEKayw9tks3Y77mTAOsk0QvWz_RHXgRU-Dg40K7jwtvoFU4cQc6owXuHWo6zBZuwIrOUWds90EfzTqUemvgvBIkqQ?authuser=1&fife=s16383" height="200" width="auto" /><br><br>طريق سيدي سعيد - قصور الشعير بالقرب من قرية البرتقالة, زوارة<br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorK0-fJBa9EGBcD9EYmx-o9ru8Y3SAXTIdNXf6U10ls0nWU36PUhIlkL6_zGuXAHPrxOJkPy5n55q-DOOfMH6G0GwJjqV2gL3QipKe-5xCwZiWsqwGZWNK9-VJlLTaG1d0jnbtcRHVudxPOPD1kMavu_07OW-o-XT07OPnTvUsAphKCPuqmuF1ZdviPUlT62qpkebAL8BcQzy7B1UWm5LxfK_bqTr02YLWGwsZ4K0DVLh5ahoGUo3TMlX4?authuser=1&fife=s16383" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorRKnMgO58DpN-0Ys35ZZ6H-heZZcihkR07V4NoJDLgH-4tEwB86lYVS3BHDDskUU5GP9K_6alUy2g5kX3UnHk3ViBTRkG6mkGfB2hiR8zKJgnWj2n30UsmAoHeZ1N1uS3VkbdtiPtUfy3eTR2OV5mizt22Q4ClfhSEKayw9tks3Y77mTAOsk0QvWz_RHXgRU-Dg40K7jwtvoFU4cQc6owXuHWo6zBZuwIrOUWds90EfzTqUemvgvBIkqQ?authuser=1&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorK0-fJBa9EGBcD9EYmx-o9ru8Y3SAXTIdNXf6U10ls0nWU36PUhIlkL6_zGuXAHPrxOJkPy5n55q-DOOfMH6G0GwJjqV2gL3QipKe-5xCwZiWsqwGZWNK9-VJlLTaG1d0jnbtcRHVudxPOPD1kMavu_07OW-o-XT07OPnTvUsAphKCPuqmuF1ZdviPUlT62qpkebAL8BcQzy7B1UWm5LxfK_bqTr02YLWGwsZ4K0DVLh5ahoGUo3TMlX4?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          12.0248071,32.9751944,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>منتجع رياض المنصوري</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopSvgGLS-6wp3-xgOidtUHIr_5t_JPG5s4Q0nRvMZVlGEOLvOnRmOANLC9-WXW5aCIvspCYYDcq0tomdtcXv2aHFV8XirQ8keW79Y8wnDgmwJYmKE7yRksFv06dAJdGiO6cLSTAVxF0G7QudsR2dbDup56d5GUte2CCdHe3TWy9SBFGhTr45HhxSOlXvV7uziUG9nH18eDQvErXryPlyRVufcjhuLiuSX2jVW4jOqgcRE_bzq1Mk75vdtk?authuser=1&fife=s16383" height="200" width="auto" /><br><br>منتجع رياض المنصوري Titanix Resort Zuwara<br> <br>التصن منتجع سياحي <br> المدي زوارة <br> عدد_ا 18 <br> عدد__1 72]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopSvgGLS-6wp3-xgOidtUHIr_5t_JPG5s4Q0nRvMZVlGEOLvOnRmOANLC9-WXW5aCIvspCYYDcq0tomdtcXv2aHFV8XirQ8keW79Y8wnDgmwJYmKE7yRksFv06dAJdGiO6cLSTAVxF0G7QudsR2dbDup56d5GUte2CCdHe3TWy9SBFGhTr45HhxSOlXvV7uziUG9nH18eDQvErXryPlyRVufcjhuLiuSX2jVW4jOqgcRE_bzq1Mk75vdtk?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          12.0565,32.95211,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>إقامة تولين السياحية</name>
+      <description><![CDATA[إقامة تولين السياحية <br> <br>التصن قرية سياحية <br> المدي زوارة <br> عدد_ا 8 <br> عدد__1 32]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          12.0213868,32.978668,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>VILLA HAYA‏
+‏</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBop4uKvtUzJCUkpc9x-17_GCRlOc0CQ06oPTfF01dMSZE4e7aAcW6YlrXMBnlHReN3dwKYWKKXYcjprZjd_RzaAjdFg5weJDnPnL_Gb45HcLIG_hc1ilNn_ctXzy_dZYzW1e6R0z-Zh9u6j43vECXSK06C7Ql-L6tUocFsADCLZ1MtrJGFMSdVVKVRIaObmUFsCkQfYvH42Yfq7kv6g_2k6EWO5gIci73Br_whXPpnYkB4Mvb3qU-yu_IxY?authuser=1&fife=s16383" height="200" width="auto" /><br><br>منتجع فيلا هيا <br> <br>التصن منتجع سياحي <br> المدي زوارة <br> عدد_ا 4 <br> عدد__1 35]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBop4uKvtUzJCUkpc9x-17_GCRlOc0CQ06oPTfF01dMSZE4e7aAcW6YlrXMBnlHReN3dwKYWKKXYcjprZjd_RzaAjdFg5weJDnPnL_Gb45HcLIG_hc1ilNn_ctXzy_dZYzW1e6R0z-Zh9u6j43vECXSK06C7Ql-L6tUocFsADCLZ1MtrJGFMSdVVKVRIaObmUFsCkQfYvH42Yfq7kv6g_2k6EWO5gIci73Br_whXPpnYkB4Mvb3qU-yu_IxY?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          12.06513,32.94623,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>منتجع زين السياحي</name>
+      <description><![CDATA[منتجع زين السياحي <br>الماتشوك، طريق سيدي سعيد, زوارة]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          12.0418755,32.961648,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>قرية تيبودا السياحيه</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorJGNVCbw__Vw2HQ1kirBrXKnnzgPdKEV6eQUP-y8bm6BfEyZS2khab6C5w-aGiHMim_kLOkQfeAhZcZtQe4rnnZNA3RB6TPxkdeoOFeJ-1moFRJ-S1PTQfy9Wl_8mEg2TbzCVGSbt2rL7oghwWpTmImS8VJgLh0UrchzHv6dXt-YZRk1V8Cw5PeLoJo7guRh0zWk2hPntIMH9uRN1329neROMsaVVtk8ykvKEaq3kZ1iC_NJtLxeaQGN8?authuser=1&fife=s16383" height="200" width="auto" /><br><br>قرية تيبودا السياحيه <br>Tiboda Resort Zuwara‏<br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqSl3PYiajNrY-WLUW5P0WYmmmRZ4_iSxN_IwMkv3W0ow22A6-kVqajjDM3W-mSTZb4ffIHqZBbYleGuILpgawWkag1zD58u9W9pkhmLuSdJyDn4F654ThaAkrDKHAbgEhYUx6ZHlM64t1gNHU9dw5PScO0WwIArMby8BYkY3Bt7HX7XKLMBHastkpPTxq4bMCSGax7hzAE9HSLpbzZU-ftDjyB-6jEvJ2-ENzQLvf1qEGhAailrBkVCuw?authuser=1&fife=s16383" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorJGNVCbw__Vw2HQ1kirBrXKnnzgPdKEV6eQUP-y8bm6BfEyZS2khab6C5w-aGiHMim_kLOkQfeAhZcZtQe4rnnZNA3RB6TPxkdeoOFeJ-1moFRJ-S1PTQfy9Wl_8mEg2TbzCVGSbt2rL7oghwWpTmImS8VJgLh0UrchzHv6dXt-YZRk1V8Cw5PeLoJo7guRh0zWk2hPntIMH9uRN1329neROMsaVVtk8ykvKEaq3kZ1iC_NJtLxeaQGN8?authuser=1&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqSl3PYiajNrY-WLUW5P0WYmmmRZ4_iSxN_IwMkv3W0ow22A6-kVqajjDM3W-mSTZb4ffIHqZBbYleGuILpgawWkag1zD58u9W9pkhmLuSdJyDn4F654ThaAkrDKHAbgEhYUx6ZHlM64t1gNHU9dw5PScO0WwIArMby8BYkY3Bt7HX7XKLMBHastkpPTxq4bMCSGax7hzAE9HSLpbzZU-ftDjyB-6jEvJ2-ENzQLvf1qEGhAailrBkVCuw?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          12.05311,32.9545,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>منتجع سيتي بارك زوارة
+</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopt4br3OClqFsYMZf-V9iFFBPwVHSYDwgKAXzjmN96aH_pJf2dWaFh77eSM3_YSEXVMcw4hRTmf4QufE1EEbZBf9mT2DruBjDIETzu6F4MmmYgqErXQwFXsiNpnAqV32QDWAKcUqR_iTQJqnpIHI7HoQ89GRWew4Xwxv7jelBV28gtdA39IjU6Yjj-TsdGezLj0UZaJT-CUCfXutleGMzp3LjlG-cnRnFI9z6Yzepx5UfhsttpCfeQoYr8?authuser=1&fife=s16383" height="200" width="auto" /><br><br>منتجع ستي بارك <br> <br>التصن منتجع سياحي <br> المدي زوارة <br> عدد_ا 0 <br> عدد__1 0<br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBortCkNkzGvhGLDtG5vwa9ZQ4TOQYCbyYBY57yDfn9NJ1H9yp5wuZV3fYy_uP-mIXNi_Ekz-oQglcrZQiYGasQvPF95kPR2q4UUiAIfavYna3yMZT6w4Zq5n_CUoaRh8ktHDqJlEkNUqeWFUy95ulntZyaxOXLxE0WrOkPLYNaaQuPDY3TY7o8VzkG1MXv7H98r47UIWYI2UFmKOc1Zoi_0_WO_PX25PzevoMIh5tRdH_r6oCowtZWAwUEE?authuser=1&fife=s16383" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopt4br3OClqFsYMZf-V9iFFBPwVHSYDwgKAXzjmN96aH_pJf2dWaFh77eSM3_YSEXVMcw4hRTmf4QufE1EEbZBf9mT2DruBjDIETzu6F4MmmYgqErXQwFXsiNpnAqV32QDWAKcUqR_iTQJqnpIHI7HoQ89GRWew4Xwxv7jelBV28gtdA39IjU6Yjj-TsdGezLj0UZaJT-CUCfXutleGMzp3LjlG-cnRnFI9z6Yzepx5UfhsttpCfeQoYr8?authuser=1&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBortCkNkzGvhGLDtG5vwa9ZQ4TOQYCbyYBY57yDfn9NJ1H9yp5wuZV3fYy_uP-mIXNi_Ekz-oQglcrZQiYGasQvPF95kPR2q4UUiAIfavYna3yMZT6w4Zq5n_CUoaRh8ktHDqJlEkNUqeWFUy95ulntZyaxOXLxE0WrOkPLYNaaQuPDY3TY7o8VzkG1MXv7H98r47UIWYI2UFmKOc1Zoi_0_WO_PX25PzevoMIh5tRdH_r6oCowtZWAwUEE?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          12.10216,32.93167,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>قرية جوهرة صبراتة السياحية</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBooMD9ATxUentmrxPM56p2DmK1c_hlTRHipZA6r3qR_mVDoU1qUn3SksswKZnxq6eJaqGdXmQjTgCFpkrGsQ2Pc7frS5gGfUBNGiVIFhv20wMIIN3DdrhwBSoAPt1ENBFBFHWZ7ABuZ9ul4XMJ9Y5BXVRPC9yFlr5ADgbbeN9lKhc02awCjYqnTtGe_CeIg_xNzjmkLw1tWrWBFKGEU02B_vw5k7VkRpFmrNLDvAjaav3vkeAh1t5B5AcL0?authuser=1&fife=s16383" height="200" width="auto" /><br><br>قرية جوهرة صبراتة السياحية <br> 091-7670236<br>المدي صبراتة <br> عدد_ا 21 <br> عدد__1 84]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBooMD9ATxUentmrxPM56p2DmK1c_hlTRHipZA6r3qR_mVDoU1qUn3SksswKZnxq6eJaqGdXmQjTgCFpkrGsQ2Pc7frS5gGfUBNGiVIFhv20wMIIN3DdrhwBSoAPt1ENBFBFHWZ7ABuZ9ul4XMJ9Y5BXVRPC9yFlr5ADgbbeN9lKhc02awCjYqnTtGe_CeIg_xNzjmkLw1tWrWBFKGEU02B_vw5k7VkRpFmrNLDvAjaav3vkeAh1t5B5AcL0?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          12.45843,32.8107,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>قرية المغرب العربي صبراتة</name>
+      <description><![CDATA[قرية المغرب العربي <br> <br>التصن قرية سياحية <br> المدي صبراتة <br> عدد_ا 98 <br> عدد__1 392]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          12.3285944,32.8259566,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>مركب تليل السياحي_صبراتة</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoq8VcbCOn1gWPswiaCLuDUd7mt0bdNQRSm7LNom_ieq6sYPWMfVNhPSVSobkKLPTv2OXJDgFoJz8WKM10WF0cRbXuWmI0o1u-vajqFkq8wEjMYHlrhvkXe5zfsMstZ4k2CBDIiOhr60D7YTIk9xjX0IOBQ0MkyfCj6IsYy5yEcpF2GvI68MbxPtE171jGJgbxoZfBQ06IVoIEMRTKcySYCIJm3i79vog2MYk3CsLYGn48xcTJ2rZ53rLo4?authuser=1&fife=s16383" height="200" width="auto" /><br><br>مركب تليل السياحي <br> <br>التصنيف  قرية سياحية <br> المدينة  صبراتة <br> عدد_الغرف  203 <br> عدد__الاسرة 482<br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopzVch31avnbGpvhlGBdQucsausfFx_G2rRymlweHeuJa6MZYtRRUGPL99um2YL2QYl2NOjMrXnXIUcegIBo98vzi4vdoPIkNyPyD9NkNQMVmw_8FDrX10I8hp7KtjBlpRXRRTCWa2yzgamBDms3F3isBkrqxlXmPyAD04n3AzLTslKY7fSESimbZ--oU_aVUCMGTJatFxBUOTNoQ2hUuuBokWImZCIqN5iomsziK9r-stIp8pPD4pmjXg?authuser=1&fife=s16383" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoq8VcbCOn1gWPswiaCLuDUd7mt0bdNQRSm7LNom_ieq6sYPWMfVNhPSVSobkKLPTv2OXJDgFoJz8WKM10WF0cRbXuWmI0o1u-vajqFkq8wEjMYHlrhvkXe5zfsMstZ4k2CBDIiOhr60D7YTIk9xjX0IOBQ0MkyfCj6IsYy5yEcpF2GvI68MbxPtE171jGJgbxoZfBQ06IVoIEMRTKcySYCIJm3i79vog2MYk3CsLYGn48xcTJ2rZ53rLo4?authuser=1&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopzVch31avnbGpvhlGBdQucsausfFx_G2rRymlweHeuJa6MZYtRRUGPL99um2YL2QYl2NOjMrXnXIUcegIBo98vzi4vdoPIkNyPyD9NkNQMVmw_8FDrX10I8hp7KtjBlpRXRRTCWa2yzgamBDms3F3isBkrqxlXmPyAD04n3AzLTslKY7fSESimbZ--oU_aVUCMGTJatFxBUOTNoQ2hUuuBokWImZCIqN5iomsziK9r-stIp8pPD4pmjXg?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          12.37648,32.81694,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>القرية السياحية جنزور</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBooGojYIV1d5QspWDZKcv6pdGMDtYkhLxrzYAGcvbHcknprq-gr78m9wYhJhIfB8qKkYZn1XeFFbA--n6ee7E8rSl2pTEovhHDE1ISgk7usBAYgJhMlX9cLys7c0q8t2YpvNiRgIQd65hQgTS1Yp-LMk4yz67lFMcVdHPLKxGHBk2lbDtiwCZLOP8ILnmS-6npnCqOk885DRKtG2ehfkqDsA4w1bsuafpkt7FECBHMr7J9XGb6mD2PHcdqE?authuser=1&fife=s16383" height="200" width="auto" /><br><br>القرية السياحية جنزور <br> <br>التصن قرية سياحية <br> المدي جنزور <br> عدد_ا 185 <br> عدد__1 458]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBooGojYIV1d5QspWDZKcv6pdGMDtYkhLxrzYAGcvbHcknprq-gr78m9wYhJhIfB8qKkYZn1XeFFbA--n6ee7E8rSl2pTEovhHDE1ISgk7usBAYgJhMlX9cLys7c0q8t2YpvNiRgIQd65hQgTS1Yp-LMk4yz67lFMcVdHPLKxGHBk2lbDtiwCZLOP8ILnmS-6npnCqOk885DRKtG2ehfkqDsA4w1bsuafpkt7FECBHMr7J9XGb6mD2PHcdqE?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.00864,32.83712,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>قرية بالم سيتي/قرية النخيل السياحية طرابلس
+</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBooPeuWpuwYabl0GX-Qxw8AY-A6y_2KlXBXFJET3virkjnaXd1vjjvh0WlRDFrmzxMRmohleIESKOrPdAc3kulSINaXQL3XC1KQZdvcKLDmKpJnRPE_fNCN-Kvk391y0AeUF28ipem1SeNAhwTRxbLob_K4cAwT-gVr81ziD-MWWEYc4OeGT7t5NUl-Jpl4kj4WD_GAeakJKbl_ylsy_4M_0w2J809YQ7WcUQkUofu6Ew_x01pQTcX1C9To?authuser=1&fife=s16383" height="200" width="auto" /><br><br>قرية بالم سيتي <br> <br>التصن قرية سياحية <br> المدي جنزور <br> عدد_ا 413 <br> عدد__1 826<br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoofdDMtDXD3AFYN6e_QoM_aEwQIIvrFD_jwVD8LYeyBRAs0X3hAIJnd4yju9Gur-7-WOchC2hk8Etbv4kzoLyRlNn-3lx22WRUqJ11vG8qPgqWxBAQBypDcydE8qsJfBdtJWoSGpb9jhQj9omeDteb0z8DJhuEaJt38jZramdSG-u2LQF7m4i5VSyZxT6LVkrKOfP9a8beD1H3TX-PiVBuIXjMItkLpcZHTdEJBSDy3tuTvA-RBBo24Hl8?authuser=1&fife=s16383" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBooPeuWpuwYabl0GX-Qxw8AY-A6y_2KlXBXFJET3virkjnaXd1vjjvh0WlRDFrmzxMRmohleIESKOrPdAc3kulSINaXQL3XC1KQZdvcKLDmKpJnRPE_fNCN-Kvk391y0AeUF28ipem1SeNAhwTRxbLob_K4cAwT-gVr81ziD-MWWEYc4OeGT7t5NUl-Jpl4kj4WD_GAeakJKbl_ylsy_4M_0w2J809YQ7WcUQkUofu6Ew_x01pQTcX1C9To?authuser=1&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoofdDMtDXD3AFYN6e_QoM_aEwQIIvrFD_jwVD8LYeyBRAs0X3hAIJnd4yju9Gur-7-WOchC2hk8Etbv4kzoLyRlNn-3lx22WRUqJ11vG8qPgqWxBAQBypDcydE8qsJfBdtJWoSGpb9jhQj9omeDteb0z8DJhuEaJt38jZramdSG-u2LQF7m4i5VSyZxT6LVkrKOfP9a8beD1H3TX-PiVBuIXjMItkLpcZHTdEJBSDy3tuTvA-RBBo24Hl8?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.041687,32.848441,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>القرية السياحية الريقاتة</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBooYHk6jDdgNZykpe-f3xe6U8CiBkNROF52V--Eg8194-4Xbxvv2pf22t-w8SBR99STKxOL_vUn2Q9bSxEhE85RtQ1FPIcyQT6cn54bhLwVPgwnetWGY4WBnwd5dy2qcM0NOtQBHDbuPTqIG3v5yb5GXf9HEOSqVl3HWlSOCBvCoWsghoe_22QP0tuPvSvTWoi-UKC6xo_MINOXhWdcVSsOqpXXxL0fJFFNJ-fotJQjFiolttWL4uYrksCw?authuser=1&fife=s16383" height="200" width="auto" /><br><br>القرية السياحية الريقاتة <br> <br>التصن قرية سياحية <br> المدي طرابلس <br> عدد_ا 721 <br> عدد__1 2884<br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBop-OFkXcqJ09si4ssiZbJ2PlEC3GSG5-B6wgAJRBg2icD9IukwjbGElAXKHZ42AmbL7q1JeK_Arv5i6lhlF8k150VWlgk8JEmx4khURrW6NTSjDkkbU5SmHZ7yGmI5z9bRdRGHBOH1pcHKiYXjemA4SG93y8sAsOeq6s8E5ebij4DY2E9Ywgf5YsNGrhHZ24-pjM6YK0BxBuqtbHK0jylThIU6GIQM_cqGwSGriR6WV_2CXlwwSMDvZxzg?authuser=1&fife=s16383" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBooYHk6jDdgNZykpe-f3xe6U8CiBkNROF52V--Eg8194-4Xbxvv2pf22t-w8SBR99STKxOL_vUn2Q9bSxEhE85RtQ1FPIcyQT6cn54bhLwVPgwnetWGY4WBnwd5dy2qcM0NOtQBHDbuPTqIG3v5yb5GXf9HEOSqVl3HWlSOCBvCoWsghoe_22QP0tuPvSvTWoi-UKC6xo_MINOXhWdcVSsOqpXXxL0fJFFNJ-fotJQjFiolttWL4uYrksCw?authuser=1&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBop-OFkXcqJ09si4ssiZbJ2PlEC3GSG5-B6wgAJRBg2icD9IukwjbGElAXKHZ42AmbL7q1JeK_Arv5i6lhlF8k150VWlgk8JEmx4khURrW6NTSjDkkbU5SmHZ7yGmI5z9bRdRGHBOH1pcHKiYXjemA4SG93y8sAsOeq6s8E5ebij4DY2E9Ywgf5YsNGrhHZ24-pjM6YK0BxBuqtbHK0jylThIU6GIQM_cqGwSGriR6WV_2CXlwwSMDvZxzg?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.05782,32.8521,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>مركب شيراتون - النقاط الأربعة</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqLuH7IcoJ0mls5Fs7LQwjuV10eBlSzb3sFEeAfQRxEIefn_eAZKwABsnQnjvLyXrspPJOUCZrI2QsWrlNMGlljJKsFVZ0XCQVRzOhLbDYAnr_GkOd-fLUFrHVMqrwUIZ9x1oz31-T4fJVN_YA2yM-9wFqs9ZvgJpugIcGw5PI2EIPBCyVq-44QKg3ZwAMayq4qkDGwwutI4Nc5FSf7W-gC-ide2iq7oM5qjbPSXyC_2tQJhwAGa22e-mE?authuser=1&fife=s16383" height="200" width="auto" /><br><br>مركب شيراتون - النقاط الأربعة                                                فندق الاندلس - شيراتون - النقاط الأربعة<br>التصن مركب سياحية <br> المدي طرابلس <br> عدد_ا 204 <br> عدد__1 400<br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoo_yld_mrlpXpAwDLuURv0dmezKHiQ-BB6F8VCxwWwxLiB76H77JH5O3JTFnDhQYvzLUKpt0QitvosGqCyFdmFqUNkTvB32vmGPhnTQafhM-dcvNXI1ql6o8fzDvmgJBlwboAwxgoNh4VT66ZoNHYNlLfWleU5A_wFPxioRG7O5t6MzGRdOKDAcT1Z3uJrA_WlAPDswliNCLiAysH0lXosN9FsitLj2sgwWnCi1Egc2WWh2mU99mTIA6ZE?authuser=1&fife=s16383" height="200" width="auto" /><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopmMJKYZi31fehcxcooiq9I85Xr6H32LXLs1BUl6RmpHpnCiWhNt259vLq3Used_kM3irdBnN4Q2gUi4UPEjFSezcYedXT7YqY30eNZW53KhtBx7P_wNBM9ZvOWhbmRLKqo2_4gjYqB7ZSzFxQ2iOsVWWaXgsNvh1yxSKeAml9WoiZgpfYgopm-YQA5NgykSUR67glz-G5knF7EdRTkju00rsroyp74zpC5YlHm0CKll88EVcUZ5ajRqAM?authuser=1&fife=s16383" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqLuH7IcoJ0mls5Fs7LQwjuV10eBlSzb3sFEeAfQRxEIefn_eAZKwABsnQnjvLyXrspPJOUCZrI2QsWrlNMGlljJKsFVZ0XCQVRzOhLbDYAnr_GkOd-fLUFrHVMqrwUIZ9x1oz31-T4fJVN_YA2yM-9wFqs9ZvgJpugIcGw5PI2EIPBCyVq-44QKg3ZwAMayq4qkDGwwutI4Nc5FSf7W-gC-ide2iq7oM5qjbPSXyC_2tQJhwAGa22e-mE?authuser=1&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoo_yld_mrlpXpAwDLuURv0dmezKHiQ-BB6F8VCxwWwxLiB76H77JH5O3JTFnDhQYvzLUKpt0QitvosGqCyFdmFqUNkTvB32vmGPhnTQafhM-dcvNXI1ql6o8fzDvmgJBlwboAwxgoNh4VT66ZoNHYNlLfWleU5A_wFPxioRG7O5t6MzGRdOKDAcT1Z3uJrA_WlAPDswliNCLiAysH0lXosN9FsitLj2sgwWnCi1Egc2WWh2mU99mTIA6ZE?authuser=1&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopmMJKYZi31fehcxcooiq9I85Xr6H32LXLs1BUl6RmpHpnCiWhNt259vLq3Used_kM3irdBnN4Q2gUi4UPEjFSezcYedXT7YqY30eNZW53KhtBx7P_wNBM9ZvOWhbmRLKqo2_4gjYqB7ZSzFxQ2iOsVWWaXgsNvh1yxSKeAml9WoiZgpfYgopm-YQA5NgykSUR67glz-G5knF7EdRTkju00rsroyp74zpC5YlHm0CKll88EVcUZ5ajRqAM?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.146279,32.880963,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>القرية السياحية تاجوراء</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopXrXdH3MglrJoU3k4d_FgFJ1Xre__tUv7GUGWtsK6EBgZB0cmUyp9-ZPASARsFJiORVs0heephGEo7ennnILludjTI7poeYUXON5fp8bqwxPjn7KMc6QyYuq7xBXJ0f1PBBos_8mPNfoAfWa41wXjPEV6ihDqCJ-ENG5UqbVPpFpk60-j2imQaQ8FFVNOl1eKeWDFP1jidiJMJ07-cO3tlkbEzAeSiekKxCWgo31Dsyb_OVUXwHptNfQc?authuser=1&fife=s16383" height="200" width="auto" /><br><br>القرية السياحية تاجوراء <br> <br>التصن قرية سياحية <br> المدي تاجوراء <br> عدد_ا 152 <br> عدد__1 300<br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBooNmJZ16BROhv4xcDlYmccKByQQiEdfk2SZlUbYnUPasPoeZ-9tBYhoXLIvfJEOCePrUYUKuqRQiJQCuFkw4YdJ4kwVEqR2O0cdiXae7CzF6pq3QpyIKSx1wSOuDY9h0oheoVarJdF7dzZpNbhibCO3yEiMZxQNRcVCnw1-nEJEu2ujQNMrNxfJc_V4ZdmM41TpJ_hyy5tfh6TjtYWiSqhQn-vsDwcGQRs7O3YkERJv6zkLTlj_57bCP9Y?authuser=1&fife=s16383" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopXrXdH3MglrJoU3k4d_FgFJ1Xre__tUv7GUGWtsK6EBgZB0cmUyp9-ZPASARsFJiORVs0heephGEo7ennnILludjTI7poeYUXON5fp8bqwxPjn7KMc6QyYuq7xBXJ0f1PBBos_8mPNfoAfWa41wXjPEV6ihDqCJ-ENG5UqbVPpFpk60-j2imQaQ8FFVNOl1eKeWDFP1jidiJMJ07-cO3tlkbEzAeSiekKxCWgo31Dsyb_OVUXwHptNfQc?authuser=1&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBooNmJZ16BROhv4xcDlYmccKByQQiEdfk2SZlUbYnUPasPoeZ-9tBYhoXLIvfJEOCePrUYUKuqRQiJQCuFkw4YdJ4kwVEqR2O0cdiXae7CzF6pq3QpyIKSx1wSOuDY9h0oheoVarJdF7dzZpNbhibCO3yEiMZxQNRcVCnw1-nEJEu2ujQNMrNxfJc_V4ZdmM41TpJ_hyy5tfh6TjtYWiSqhQn-vsDwcGQRs7O3YkERJv6zkLTlj_57bCP9Y?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.42962,32.86297,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>منتجع سمرلاند المائي</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqdMTBQr1FYRcr2p7kW7SJaIuekgaofqdFJ9m-vAifKUmBTIqarkWjgc7x6DMxY3Vr_fJwIWdSfhsVDJvOhXg7BrzuomMtrZrjnDsUc5TTVQnUjvOVbxT3e27aVlIz5FDx8bCOrbdfllOF4XLRpa3aGvpVgmHTOyHMdtWzq4EvED1es46P_4XZ9ZtwmCK-HvtbygnT87OqbzTqSFtSPNNvqrrbU6ZR18ZFRGWG78wDQMevbtB9FcF7i9HY?authuser=1&fife=s16383" height="200" width="auto" /><br><br>منتجع سمرلاند المائي <br> Summerland                                                                   http://www.summerland.ly/<br>التصن منتجع سياحي <br> المدي تاجوراء <br> عدد_ا 25 <br> عدد__1 100<br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoq9ODVTFByOhtPunqDZuvT_g5axZp6WvSAs_KzpyDD4CaNW-_W2szlnTfh3k96sN9Wyb88X376x7SbCS36zIprcqOldw4gxleVI0kN_XrOH84g7odbT_svvRH7TI43nGEecT4Lzg19CQMA1EybEW4CYjH9A_AtXnAXdt0NH-eWGmh5j3L6iBAcRUZxCjDSX7Ee9jp7f7nRzY9brR-I8FHyylOzhxKuY_Zzaflm1IEmPwyU_-0wIAhtkMyM?authuser=1&fife=s16383" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqdMTBQr1FYRcr2p7kW7SJaIuekgaofqdFJ9m-vAifKUmBTIqarkWjgc7x6DMxY3Vr_fJwIWdSfhsVDJvOhXg7BrzuomMtrZrjnDsUc5TTVQnUjvOVbxT3e27aVlIz5FDx8bCOrbdfllOF4XLRpa3aGvpVgmHTOyHMdtWzq4EvED1es46P_4XZ9ZtwmCK-HvtbygnT87OqbzTqSFtSPNNvqrrbU6ZR18ZFRGWG78wDQMevbtB9FcF7i9HY?authuser=1&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoq9ODVTFByOhtPunqDZuvT_g5axZp6WvSAs_KzpyDD4CaNW-_W2szlnTfh3k96sN9Wyb88X376x7SbCS36zIprcqOldw4gxleVI0kN_XrOH84g7odbT_svvRH7TI43nGEecT4Lzg19CQMA1EybEW4CYjH9A_AtXnAXdt0NH-eWGmh5j3L6iBAcRUZxCjDSX7Ee9jp7f7nRzY9brR-I8FHyylOzhxKuY_Zzaflm1IEmPwyU_-0wIAhtkMyM?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.582164,32.79624,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>مصيف قرية مارينا السياحية
+</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorRAnO2Q9X1Pmxrm_llQSmqWh9fXei98nlSQOIIGf6W2mxYuf5f8A8mWcEHiXuf1rv1Sq7p_ss2f_L4d-qubon3txdDMJd6D_FTqlcrz0-gUzP3zhs8YtYWkyaMQ4VugYdNLb8WPZgRfT4RpNgGBKa5CZeOgpejq4HJattbhsXRKmdju52JDITRdRCcVLpYu3aHyD2m28ul85PWvamSml9bq0sTO25Zl74oKPj53H-vUhei0Ik4GKkWWJ4?authuser=1&fife=s16383" height="200" width="auto" /><br><br>قرية مارينا السياحية <br> <br>التصن قرية سياحية <br> المدي الخمس <br> عدد_ا 5 <br> عدد__1 60<br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorUUUf-GeO2OYXMdlTAojssKyfFZGwOENBa9rtO4H6iRK_tsjuQjGu-RRX_j7CUVfGNFbaKiTr1aMtDcUreBSuHI4AhbuHk_fN4_ThDqKr0KtRYCiZLOXR82ltjDLYT0hj9YwMSouf_qQw_zeoH-8C7G_z4d8OwWxLnD43vP2gf2kwUGA429utXg8jV4BvOTgXKbJHKBL6fOx5hdd4X0xiCVxWsLrHXYTDA8YWoQMSdv_NgPv8dZNTJeuU?authuser=1&fife=s16383" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorRAnO2Q9X1Pmxrm_llQSmqWh9fXei98nlSQOIIGf6W2mxYuf5f8A8mWcEHiXuf1rv1Sq7p_ss2f_L4d-qubon3txdDMJd6D_FTqlcrz0-gUzP3zhs8YtYWkyaMQ4VugYdNLb8WPZgRfT4RpNgGBKa5CZeOgpejq4HJattbhsXRKmdju52JDITRdRCcVLpYu3aHyD2m28ul85PWvamSml9bq0sTO25Zl74oKPj53H-vUhei0Ik4GKkWWJ4?authuser=1&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorUUUf-GeO2OYXMdlTAojssKyfFZGwOENBa9rtO4H6iRK_tsjuQjGu-RRX_j7CUVfGNFbaKiTr1aMtDcUreBSuHI4AhbuHk_fN4_ThDqKr0KtRYCiZLOXR82ltjDLYT0hj9YwMSouf_qQw_zeoH-8C7G_z4d8OwWxLnD43vP2gf2kwUGA429utXg8jV4BvOTgXKbJHKBL6fOx5hdd4X0xiCVxWsLrHXYTDA8YWoQMSdv_NgPv8dZNTJeuU?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          14.3535,32.5956358,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>قرية قصر سيلين العائلية</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqrCq-UIAEoeOixIe-xoNb3O37VQoUdS1xtLiJoIKO-hzVQ1q0DwtbKw4My8tftoT4tIhB6w11XcDsPZom6RqXtYjIJa7IeBdh2fXLGMt-6CPoiCiOuh-3MtPNq1kTCKv06NfCmXnaHilr0ksOEjVd65geWPdzBJ1G4_l6WZqgX9JFlfXoK8L2bpJnLh64jFkIyR4jz2UTdgh_AyKoxHDMzXBGJDOg17jN3u6rD4QNTvD5lQ66DQOpbyDE?authuser=1&fife=s16383" height="200" width="auto" /><br><br>قرية قصر سيلين العائلية <br> منطقة سيلين بالقرب من فيلا سيلين الاثرية, الخمس<br>التصن قرية سياحية <br> المدي الخمس <br> عدد_ا 11 <br> عدد__1 44<br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBop59uooTQUyS7y1lwAB02z1W2dGJ9VuDwMTtiQ0D4YS4mV9riZIFBTiUgv1G0dL95pWr7vIPUUx1-mrYB5ML0phuBNg6bpe9vyjqm7Bei21DCSBDCEVv65eJnc4FXyrx2E7WaaMzfh8S6oeqKGCzVSZNXeHDN0xwRIV16SZ-UUXnF5O1xVwZT1oIlYH7cn63-NdczVjCbjIdKlN8If1DdgBv6dpFOYHx6q5aO1_Z1sz1KZhDbZJqfvxgM0?authuser=1&fife=s16383" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqrCq-UIAEoeOixIe-xoNb3O37VQoUdS1xtLiJoIKO-hzVQ1q0DwtbKw4My8tftoT4tIhB6w11XcDsPZom6RqXtYjIJa7IeBdh2fXLGMt-6CPoiCiOuh-3MtPNq1kTCKv06NfCmXnaHilr0ksOEjVd65geWPdzBJ1G4_l6WZqgX9JFlfXoK8L2bpJnLh64jFkIyR4jz2UTdgh_AyKoxHDMzXBGJDOg17jN3u6rD4QNTvD5lQ66DQOpbyDE?authuser=1&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBop59uooTQUyS7y1lwAB02z1W2dGJ9VuDwMTtiQ0D4YS4mV9riZIFBTiUgv1G0dL95pWr7vIPUUx1-mrYB5ML0phuBNg6bpe9vyjqm7Bei21DCSBDCEVv65eJnc4FXyrx2E7WaaMzfh8S6oeqKGCzVSZNXeHDN0xwRIV16SZ-UUXnF5O1xVwZT1oIlYH7cn63-NdczVjCbjIdKlN8If1DdgBv6dpFOYHx6q5aO1_Z1sz1KZhDbZJqfvxgM0?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          14.1871872,32.7041884,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>قرية حدائق غنيمة</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBop9mTKzGygTs6v65_1LrvcL6SK7LUNtgsCnvV-wJTCC2yRLpaPnxBKDyeuh2tIMJwXtQhpu6jBqko0qMr9oQ8dien3e41RIto2S6HEqklojhyT25_AnHsqHhQxTu-5t_cp1UUeJiIbw5cLuWgdIfigXAR3AueR43oCRVGrkm0x8AYuAUhvgRPX4ew8wIb6Nt6Lk3nEEQNL5h5TqlgJOBJx8sKWHZ-6Q9YgezUJHY0XLrHhoAsE7pxXJMcA?authuser=1&fife=s16383" height="200" width="auto" /><br><br>قرية حدائق غنيمة <br> Unnamed Road, غنيمة،، غنيمة<br>www.facebook.com‏<br>+218 91-3340202‏<br>التصن قرية سياحية <br> المدي الخمس <br> عدد_ا 23 <br> عدد__1 250<br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoq0VzxoZ8tfJA9v-uXn5_mXyKxK0mhIryRyAL7p2D6ogP41qcFG4NWISCY40rkx_dYwcItW6rJJYr8l9riyGHOBDiPTCfgE4L1uBDXbqQH3vMwgpEVGEKZzS0I5L0Hfnt5dlETMr4-bEcK7kWudByrsqeTV8vcfniArO2Wg4PM593OyboxS1DR05m8EL5F6rcFe-maaRDoDCFLKn3V06mIH44vtl9XA3Q4CPuxGDVNEsc6yxPTpwBRcTF4?authuser=1&fife=s16383" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBop9mTKzGygTs6v65_1LrvcL6SK7LUNtgsCnvV-wJTCC2yRLpaPnxBKDyeuh2tIMJwXtQhpu6jBqko0qMr9oQ8dien3e41RIto2S6HEqklojhyT25_AnHsqHhQxTu-5t_cp1UUeJiIbw5cLuWgdIfigXAR3AueR43oCRVGrkm0x8AYuAUhvgRPX4ew8wIb6Nt6Lk3nEEQNL5h5TqlgJOBJx8sKWHZ-6Q9YgezUJHY0XLrHhoAsE7pxXJMcA?authuser=1&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoq0VzxoZ8tfJA9v-uXn5_mXyKxK0mhIryRyAL7p2D6ogP41qcFG4NWISCY40rkx_dYwcItW6rJJYr8l9riyGHOBDiPTCfgE4L1uBDXbqQH3vMwgpEVGEKZzS0I5L0Hfnt5dlETMr4-bEcK7kWudByrsqeTV8vcfniArO2Wg4PM593OyboxS1DR05m8EL5F6rcFe-maaRDoDCFLKn3V06mIH44vtl9XA3Q4CPuxGDVNEsc6yxPTpwBRcTF4?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          14.0588067,32.7198825,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>إستراحة شط غنيمة</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorRWHR3xYoM3HFP-pzz3AQIXzmzL73dMx_DsaIl2ZK9FzikqdVBB1ied8pMpVOv86NIoQFrN6_x0KusNi5d5v56w9VdYwFq7F7yaFZQD8MYA9mYVE8bkxiwvjErfnUHS1Y637vHEtgNaj52qxquY88Mno91bmrWH09U6aDoxkgRIPq5TSH6TrSLwwxiaw516R2P52j2KTjsrgX76UhI_ddEOnZKyex_i-f6lDZYWj_ZZk0-YrX7W4bqO4c?authuser=1&fife=s16383" height="200" width="auto" /><br><br>إستراحة شط غنيمة <br> شارع الاربعين 40 غنيمة، الخمس<br>التصن إستراحة <br> المدي الخمس <br> عدد_ا 1 <br> عدد__1 4]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorRWHR3xYoM3HFP-pzz3AQIXzmzL73dMx_DsaIl2ZK9FzikqdVBB1ied8pMpVOv86NIoQFrN6_x0KusNi5d5v56w9VdYwFq7F7yaFZQD8MYA9mYVE8bkxiwvjErfnUHS1Y637vHEtgNaj52qxquY88Mno91bmrWH09U6aDoxkgRIPq5TSH6TrSLwwxiaw516R2P52j2KTjsrgX76UhI_ddEOnZKyex_i-f6lDZYWj_ZZk0-YrX7W4bqO4c?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          14.0287912,32.7217682,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>قرية المتوسط العائلية</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorbNC7BngKlh8_ixM8x0sOEcgt_MXQ61w6n9ZLNGP1m6KCaU_OD0gX_GhqhQa6buux-OLIz13NbSdi_-cboXx1bYetQlL2wRozRdLEqTOg_vN4Y918GsiCjKyaP2-0K0bNWFjPh7w37Zsrqil0Gs51jPYXd2Fbf-Dq56HtGyfVvogqVRDoy0OqXyNhNSPmDvGwEIPpopB1b0QQoTtCtpcgrXwSr5HgWWHw_BCzDWAqZ-76xxkHdhsuqvOE?authuser=1&fife=s16383" height="200" width="auto" /><br><br>قرية المتوسط العائلية <br> شعبية المرقب،،، P2GH+HRM، غنيمة<br>التصن قرية سياحية <br> المدي الخمس <br> عدد_ا 23 <br> عدد__1 92]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorbNC7BngKlh8_ixM8x0sOEcgt_MXQ61w6n9ZLNGP1m6KCaU_OD0gX_GhqhQa6buux-OLIz13NbSdi_-cboXx1bYetQlL2wRozRdLEqTOg_vN4Y918GsiCjKyaP2-0K0bNWFjPh7w37Zsrqil0Gs51jPYXd2Fbf-Dq56HtGyfVvogqVRDoy0OqXyNhNSPmDvGwEIPpopB1b0QQoTtCtpcgrXwSr5HgWWHw_BCzDWAqZ-76xxkHdhsuqvOE?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          14.0296077,32.7266548,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>قرية قوس غنيمة السياحية</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBooy1_gS25MOdG_9UyDXVxsRFir9GoGSWBkex2spyx683vTgx_Lt7P-YP6N038ya0pKW16c-yqajtDVvvJpTJrpW_PBpEI0QFMuku9kAslmHf67n7Tb_J13oBKQ8J0nlBmOUC80I5Xruel6P8TbDTvzrl_UKiQx2K7ZTdJ-ZOlEK-qAE5dWqxYpaDC5S2hW5gUpTGupJhg3caUwJ9wZjQZ6OhXOp7nxD-hvcvtsJl-q8mgebY3VyNHffFY8?authuser=1&fife=s16383" height="200" width="auto" /><br><br>قرية قوس غنيمة السياحية <br> <br>التصن قرية سياحية <br> المدي الخمس <br> عدد_ا 10 <br> عدد__1 20]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBooy1_gS25MOdG_9UyDXVxsRFir9GoGSWBkex2spyx683vTgx_Lt7P-YP6N038ya0pKW16c-yqajtDVvvJpTJrpW_PBpEI0QFMuku9kAslmHf67n7Tb_J13oBKQ8J0nlBmOUC80I5Xruel6P8TbDTvzrl_UKiQx2K7ZTdJ-ZOlEK-qAE5dWqxYpaDC5S2hW5gUpTGupJhg3caUwJ9wZjQZ6OhXOp7nxD-hvcvtsJl-q8mgebY3VyNHffFY8?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          14.05611,32.72302,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>قرية لؤلؤة غنيمة العائلية</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBor5kDglIC6nljAVRgumT7n83A77JkWgLV_W93PlpD6pvnIBwWPln3TpmAbVre3lhuNifBY20ypxtlN2x8EKBFAyCbo99JBPft9EbOPBBL803pbPfDXDkNci7iGwPkl94XKMjoCQoDNM3nydgAHjIzP5naIXFfoQhFJaj9CKH1HQiXV0CGuqMX6CUROkcYqAfJBbyorobfo_2hN3qhCpl1BNJfou3tvuf27hCIcsPj26ZYplYLhA5oJfrl4?authuser=1&fife=s16383" height="200" width="auto" /><br><br>قرية لؤلؤة غنيمة العائلية <br> <br>التصن قرية سياحية <br> المدي الخمس <br> عدد_ا 10 <br> عدد__1 20]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBor5kDglIC6nljAVRgumT7n83A77JkWgLV_W93PlpD6pvnIBwWPln3TpmAbVre3lhuNifBY20ypxtlN2x8EKBFAyCbo99JBPft9EbOPBBL803pbPfDXDkNci7iGwPkl94XKMjoCQoDNM3nydgAHjIzP5naIXFfoQhFJaj9CKH1HQiXV0CGuqMX6CUROkcYqAfJBbyorobfo_2hN3qhCpl1BNJfou3tvuf27hCIcsPj26ZYplYLhA5oJfrl4?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          14.03409,32.72176,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>قرية شمس البحر</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqlRVwDhEsCn4LoOCM75Vn5TKfkN_VkGBiZTj3WD6PlhjaeXAVifZ0J4vR0qjUyE-GAskGqP1DykaLqEdhe40PcDW0fqQSca-j4CZHE0lq0Vp_oSM4WQhuzrqZEME2NP8xik_PZV2oakhPOk2wMt2gNdquvgRIR-qiHnDJpwf2MWotiDK5ho1Jrw1vn0T-5WNRmSaT35oaCFy4G06Ao2WBL8FX98ZwgPQTnY4XbnbFSERQ75PrEPiUV3Io?authuser=1&fife=s16383" height="200" width="auto" /><br><br>قرية شمس البحر <br> <br>التصن قرية سياحية <br> المدي الخمس <br> عدد_ا 10 <br> عدد__1 20]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqlRVwDhEsCn4LoOCM75Vn5TKfkN_VkGBiZTj3WD6PlhjaeXAVifZ0J4vR0qjUyE-GAskGqP1DykaLqEdhe40PcDW0fqQSca-j4CZHE0lq0Vp_oSM4WQhuzrqZEME2NP8xik_PZV2oakhPOk2wMt2gNdquvgRIR-qiHnDJpwf2MWotiDK5ho1Jrw1vn0T-5WNRmSaT35oaCFy4G06Ao2WBL8FX98ZwgPQTnY4XbnbFSERQ75PrEPiUV3Io?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          14.05883,32.72176,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>قرية الشاطيء الذهبي</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqMHZoH3fUeg99BOVYAPIvsh_MgWAiph_e745I-O3L5kw9djw4OMPO4k63CiURYBkUAUPAzKCRVkcDsLTQ-bnz8Dsg1AVGQDSDLoGdPqPoaeOz-bcwj6RiEIV5lj1nWfhMI8f_FUvYdL-h2quvVjWdpoanvU2m71EUc2KkK_W_4mFidtjHVHeQMoCOssCV09blAiIG4ys68M2HcSBqrib3k2b6y02w4Yd7ElIutgrmubmdNre5eR_w3t1A?authuser=1&fife=s16383" height="200" width="auto" /><br><br>الشاطيء الذهبي <br> <br>التصن منتجع سياحي <br> المدي الخمس/غنيمة<br> عدد_ا 15 <br> عدد__1 30<br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorij6biqcmjGiBgSfg10EpucrxG8smW7-pT0dj02tXBUdHMPPw8irYrzt8s9Ep42NzmW4j76K8DtifyeJ4b7JumevJtrimQZOu_7PFgtUGeBT68cqabZB9wF9coNiQFIDiL-WCTYVYDf_wdX1lZhw41WKqbhwkrZhbu4Mr41sT8XcihLzclzJGpfz9dTdQwsH-5pfjqlpbBPVaTD0ub_u_pSPNB0OtsF34QgV3qftloq2_zMfIZirQQj20?authuser=1&fife=s16383" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqMHZoH3fUeg99BOVYAPIvsh_MgWAiph_e745I-O3L5kw9djw4OMPO4k63CiURYBkUAUPAzKCRVkcDsLTQ-bnz8Dsg1AVGQDSDLoGdPqPoaeOz-bcwj6RiEIV5lj1nWfhMI8f_FUvYdL-h2quvVjWdpoanvU2m71EUc2KkK_W_4mFidtjHVHeQMoCOssCV09blAiIG4ys68M2HcSBqrib3k2b6y02w4Yd7ElIutgrmubmdNre5eR_w3t1A?authuser=1&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorij6biqcmjGiBgSfg10EpucrxG8smW7-pT0dj02tXBUdHMPPw8irYrzt8s9Ep42NzmW4j76K8DtifyeJ4b7JumevJtrimQZOu_7PFgtUGeBT68cqabZB9wF9coNiQFIDiL-WCTYVYDf_wdX1lZhw41WKqbhwkrZhbu4Mr41sT8XcihLzclzJGpfz9dTdQwsH-5pfjqlpbBPVaTD0ub_u_pSPNB0OtsF34QgV3qftloq2_zMfIZirQQj20?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          14.05915,32.71876,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>منتجع سي شيلز</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorKxzjBCtym7lfQlPcKYGhI2ySxk0QbZcM6b8GWFmfBZlV2myfDzULXMwXtDVmtPF9vsXMrlI4EAXAmK6i-a_GtgajZVHvyZjAlMsApToj8ban9cx8cj8d6eSa3JFd5vQ2BVoLTgkSQ6Pg1dJVaK0rkbTG_08QHipMkRp-m6dM9k9brR_2QwrtZNVoMhyrzd2sWl057sg9aOt7VfaoR6BVF3ABkY9YcxZx9dVSZBuNTf1PyMlVKaOMEkzU?authuser=1&fife=s16383" height="200" width="auto" /><br><br>منتجع سي شيلز <br> SeaShells Resort‏                                                          +218 91-7084444‏<br>التصن منتجع سياحي <br> المدي الخمس <br> عدد_ا 8 <br> عدد__1 48]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorKxzjBCtym7lfQlPcKYGhI2ySxk0QbZcM6b8GWFmfBZlV2myfDzULXMwXtDVmtPF9vsXMrlI4EAXAmK6i-a_GtgajZVHvyZjAlMsApToj8ban9cx8cj8d6eSa3JFd5vQ2BVoLTgkSQ6Pg1dJVaK0rkbTG_08QHipMkRp-m6dM9k9brR_2QwrtZNVoMhyrzd2sWl057sg9aOt7VfaoR6BVF3ABkY9YcxZx9dVSZBuNTf1PyMlVKaOMEkzU?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          14.1902606,32.7048271,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>منتجع حوض البحر Seapool Resort</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorJspRRI9fBgxysHdJS7379TCSADPj7wJ3W7UJEmbJldXRl6j57FH4ZivvLUSQN5Z3Q6ISdIl0zNjj02WEPLgrD8wJu4iBwxuZbzc3iTeTFuydytPbWXHiMXWYftZD2d_owR_MjNNfTqXKrqnlPxujHWX9J9Jc_8kUgKrk6mbvH1T3iiDRsni9mz0lHpHN9jSVktbzvrab4Q-jA8ipGfAR5THKC5EXhYicIisv_KgvUMoxs7SdWaH0Dqz0?authuser=1&fife=s16383" height="200" width="auto" /><br><br>منتجع حوض البحر <br> <br>التصن قرية سياحية <br> المدي الخمس <br> عدد_ا 58 <br> عدد__1 250<br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoq7apGyzmKG7AUnIGdKlr4lULr28VMF-EO9ALdzNBMOIjZaa_HjcrIJCTVv9cQNOcfKZBfr-0cM-SP1tM2px4CT1NKUk38yAN6_-E0zEBOh5Owm2EyHpdVYAp2Osrz5sF5PxLP6BQ6-09oImujK9Ha0H_45wUwvOfqKfn8M7j8eA79PGzLZBe9tWEbEj5MUrDqSWaII9vfq3GcshiJ7zjgqndSDPzpJlniziiN-k6EGVjuJHu-t_K8V0A0?authuser=1&fife=s16383" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorJspRRI9fBgxysHdJS7379TCSADPj7wJ3W7UJEmbJldXRl6j57FH4ZivvLUSQN5Z3Q6ISdIl0zNjj02WEPLgrD8wJu4iBwxuZbzc3iTeTFuydytPbWXHiMXWYftZD2d_owR_MjNNfTqXKrqnlPxujHWX9J9Jc_8kUgKrk6mbvH1T3iiDRsni9mz0lHpHN9jSVktbzvrab4Q-jA8ipGfAR5THKC5EXhYicIisv_KgvUMoxs7SdWaH0Dqz0?authuser=1&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoq7apGyzmKG7AUnIGdKlr4lULr28VMF-EO9ALdzNBMOIjZaa_HjcrIJCTVv9cQNOcfKZBfr-0cM-SP1tM2px4CT1NKUk38yAN6_-E0zEBOh5Owm2EyHpdVYAp2Osrz5sF5PxLP6BQ6-09oImujK9Ha0H_45wUwvOfqKfn8M7j8eA79PGzLZBe9tWEbEj5MUrDqSWaII9vfq3GcshiJ7zjgqndSDPzpJlniziiN-k6EGVjuJHu-t_K8V0A0?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          14.0607489,32.7222509,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>قرية الخمس السياحية</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqY9r3mN3p_Bz0j07uMK7qmc5mNWl6LRj8-p5O1pZJQNkskPYEnRdfCFUWkHLcELKH_xPA1cjsoNrYOIHhjC5Tg0MwZEZUkrOobpMXPOrGteRHkvtPsVW_H_OfWoKCGVITX_7zT_Gz13pFGWuruCO_JX3W89VWHJtocvmAuQ8qAtpMKwAOqTc7uL81e9-ghDmx7T0giYSaWJp88cMXqwSeMLtfO7NcFCqlpu22-mAbmyPVDZbl-wTXRWyA?authuser=1&fife=s16383" height="200" width="auto" /><br><br>قرية الخمس السياحية <br> <br> FID 32 <br> Field1 33 <br> إسم_ا قرية الخمس السياحية <br> X 14.27789 <br> Y 32.64594 <br> التصن قرية سياحية <br> المدي الخمس <br> عدد_ا 24 <br> عدد__1 96]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqY9r3mN3p_Bz0j07uMK7qmc5mNWl6LRj8-p5O1pZJQNkskPYEnRdfCFUWkHLcELKH_xPA1cjsoNrYOIHhjC5Tg0MwZEZUkrOobpMXPOrGteRHkvtPsVW_H_OfWoKCGVITX_7zT_Gz13pFGWuruCO_JX3W89VWHJtocvmAuQ8qAtpMKwAOqTc7uL81e9-ghDmx7T0giYSaWJp88cMXqwSeMLtfO7NcFCqlpu22-mAbmyPVDZbl-wTXRWyA?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          14.2779222,32.6457684,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>قريه غنيمه العائليه</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBooYoOB7QVSiD0UBKD3O2tiSzJX7-AppM7-a6pKJ6e6t7XtfxZ0_EawMU8kXL02MCAiwP-LbCBm3ueNMX0BcDXNbRHtz-U5OnvaaYVSof00vx0ZKsoiIU5k_Q3a2pu0p2zUBZgSKXcU8g9Te_xyEgXkC9CU6WghbJaa4kgzO6iBSp2Oso0YsRp57kF14Lx69oP0K9gFOjKbpleoPNmlbY2Z5n48SFVjwrN6xL_OKnIM_yi2IhG5fms1igiA?authuser=1&fife=s16383" height="200" width="auto" /><br><br>قريه غنيمه العائليه <br> <br>التصن قرية سياحية <br> المدي الخمس <br> عدد_ا 52 <br> عدد__1 100]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBooYoOB7QVSiD0UBKD3O2tiSzJX7-AppM7-a6pKJ6e6t7XtfxZ0_EawMU8kXL02MCAiwP-LbCBm3ueNMX0BcDXNbRHtz-U5OnvaaYVSof00vx0ZKsoiIU5k_Q3a2pu0p2zUBZgSKXcU8g9Te_xyEgXkC9CU6WghbJaa4kgzO6iBSp2Oso0YsRp57kF14Lx69oP0K9gFOjKbpleoPNmlbY2Z5n48SFVjwrN6xL_OKnIM_yi2IhG5fms1igiA?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          14.27806,32.64588,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>قرية اكوا مارين السياحية</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoplED-ypA9TT6WiBwTe3um0DvT7cRSFRx6nFOLUZ9-2ml_AdO5dlWPz9xZz7RbvTnIKA1d7v4lyMoGIkP1nEnqkbYDteYMAUZ1G8dIMlVK-LdxJhqBPuwh7hBfl-vsf3Ion4PP29x3xi2PMC-rhgMydXhiX-yqVEQG_tNWFWRzwTnzY6y-GMgA-6KjIVDgVA2xx-VkzrdCzD9T-R1hjHHRLukdBngh6sO08EMmyo4d-o6OAmcXHdO_Iou4?authuser=1&fife=s16383" height="200" width="auto" /><br><br>قرية اكوا مارين السياحية <br> <br>التصن قرية سياحية <br> المدي الخمس <br> عدد_ا 10 <br> عدد__1 13]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoplED-ypA9TT6WiBwTe3um0DvT7cRSFRx6nFOLUZ9-2ml_AdO5dlWPz9xZz7RbvTnIKA1d7v4lyMoGIkP1nEnqkbYDteYMAUZ1G8dIMlVK-LdxJhqBPuwh7hBfl-vsf3Ion4PP29x3xi2PMC-rhgMydXhiX-yqVEQG_tNWFWRzwTnzY6y-GMgA-6KjIVDgVA2xx-VkzrdCzD9T-R1hjHHRLukdBngh6sO08EMmyo4d-o6OAmcXHdO_Iou4?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          14.034,32.72555,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>قرية جنيف العائلية غنيمة</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqmfRmLapXwgY0IgZWM_It6-aFkCZfueQiLeEPqxj6dVQQZD23nb3B35A9-hq2Rg8O-XqI5Q25sLTCLHZfLTxTIypJwa33nNyPh7qEkzIjzyl23uerv4mRAOnbrZc1F9JiqqNqOO58zWv24GI1GSuIJNBMrYx-hysMNKFee3C1uzKa5E5gs5RSmyIuo1S4XvR7Mznk-Vc6ktRSow6mpw9PiIl5J62-53Ny9W5uKeV8dnrx9nJxkIXhSJCo?authuser=1&fife=s16383" height="200" width="auto" /><br><br>قرية جنيف العائلية غنيمة <br> <br>التصن قرية سياحية <br> المدي الخمس <br> عدد_ا 15 <br> عدد__1 37]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqmfRmLapXwgY0IgZWM_It6-aFkCZfueQiLeEPqxj6dVQQZD23nb3B35A9-hq2Rg8O-XqI5Q25sLTCLHZfLTxTIypJwa33nNyPh7qEkzIjzyl23uerv4mRAOnbrZc1F9JiqqNqOO58zWv24GI1GSuIJNBMrYx-hysMNKFee3C1uzKa5E5gs5RSmyIuo1S4XvR7Mznk-Vc6ktRSow6mpw9PiIl5J62-53Ny9W5uKeV8dnrx9nJxkIXhSJCo?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          14.03118,32.72632,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>منتجع شاطئ غنيمة</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBooSFDBpVb9GwCBnbb352FbKGEqJzkVyYlS67t4_C8OhVIMGBxDhqY_FZSKMzbyKygzw1n_stM7IxKpkS29ZR8eTvkUKTGpKNvQzaSqBZwSEivbUbxFAktnD_l8h8cA9ppYMEnIMLhxXHRfVUS_uhct0b9HQzirV31jZt2etLXI_fqLGxFTC6nn0po6m8G_AQ_w0w5hEZLvf356CuDPNEqPeRs-TPH676x81XbUae-YKYBfYzb2buhygAfo?authuser=1&fife=s16383" height="200" width="auto" /><br><br>منتجع شاطئ غنيمة <br> <br>التصن قرية سياحية <br> المدي الخمس <br> عدد_ا 52 <br> عدد__1 104<br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqvVTtZkczu9-rvbGwspTL-EQP4pbm0Yb0S7kRSrMWo6dp_Y5IyvZjlQ9C3irUE1lnLqAqf9mY2oleVjpTZXq8kxf0GHev-LlhzIJXfNDzzTJ6wx1dpuo9jK4_1L21ymljxZ6CsmzRf9fHeX9Zx8-LBKeDScRmc7pc7Jz0uaY_ABRZ6RZvjzH2fQTdw4zQraAkQTPbvzBfXW7U3wMAKUTwobJORhH7ZxLj9C4e-DHIlJaS6Rvk9zUTSGIg?authuser=1&fife=s16383" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBooSFDBpVb9GwCBnbb352FbKGEqJzkVyYlS67t4_C8OhVIMGBxDhqY_FZSKMzbyKygzw1n_stM7IxKpkS29ZR8eTvkUKTGpKNvQzaSqBZwSEivbUbxFAktnD_l8h8cA9ppYMEnIMLhxXHRfVUS_uhct0b9HQzirV31jZt2etLXI_fqLGxFTC6nn0po6m8G_AQ_w0w5hEZLvf356CuDPNEqPeRs-TPH676x81XbUae-YKYBfYzb2buhygAfo?authuser=1&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqvVTtZkczu9-rvbGwspTL-EQP4pbm0Yb0S7kRSrMWo6dp_Y5IyvZjlQ9C3irUE1lnLqAqf9mY2oleVjpTZXq8kxf0GHev-LlhzIJXfNDzzTJ6wx1dpuo9jK4_1L21ymljxZ6CsmzRf9fHeX9Zx8-LBKeDScRmc7pc7Jz0uaY_ABRZ6RZvjzH2fQTdw4zQraAkQTPbvzBfXW7U3wMAKUTwobJORhH7ZxLj9C4e-DHIlJaS6Rvk9zUTSGIg?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          14.053946,32.719393,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>شاليهات بن حمودة العائلي</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBooBvJe9oVKIegKDXg_9hCmxFIXg8p5kSfYTGcHujVPLlFFgDvb_byy5w2ol7KrIMA8AwblirVVn9eKeoJMGetUqqiM2dg1hZE3BaZDinpN8EtIFGhAQwlaBe6vOsgS1awCj2zCGvyoiQ7US1ABBDhmPn-JtnVk3U_eAE7WW7rtT-LRE8F7Eq7mZhfHZ9zK0LsFYn1E1qdyODBhPjyQu0E8cCqe703Qj4eYpcKguWGtPcbDRb_7S2SbrBzo?authuser=1&fife=s16383" height="200" width="auto" /><br><br>شاليهات بن حمودة العائلي <br> <br>التصن شاليهات <br> المدي الخمس <br> عدد_ا 10 <br> عدد__1 20]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBooBvJe9oVKIegKDXg_9hCmxFIXg8p5kSfYTGcHujVPLlFFgDvb_byy5w2ol7KrIMA8AwblirVVn9eKeoJMGetUqqiM2dg1hZE3BaZDinpN8EtIFGhAQwlaBe6vOsgS1awCj2zCGvyoiQ7US1ABBDhmPn-JtnVk3U_eAE7WW7rtT-LRE8F7Eq7mZhfHZ9zK0LsFYn1E1qdyODBhPjyQu0E8cCqe703Qj4eYpcKguWGtPcbDRb_7S2SbrBzo?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          14.036992,32.724932,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>منتجع كريستال السياحي</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBool9AhxYw2JWK5HI8-yUGnLPLIwLFdkYL0_dq5yfyHVl9FQyPuEZxtR9pBal0x-kuzUR8oUDjpa19WVPJ0y0IK34VouAdGjaW04halk53V9XVnmfbpoHL26xq14URsNTn0GTIneBrjPJSvZxwMcO7g4pS2CvKqZ9KFEu4WqJS_gA96h1fv-bTYkXGEtETTfDJIVMrBc9D3mPNAXpIdKPdLJFgOpzZDVqG0xCOiZFAf6mwqaXDKBUhOv3cU?authuser=1&fife=s16383" height="200" width="auto" /><br><br>منتجع كريستال السياحي <br> شارع قرية القويعة القويعة, QJQP+248، تاجوراء<br>التصن منتجع سياحي <br> المدي القره بولي <br> عدد_ا 6 <br> عدد__1 24<br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorKa9v-ngl3UgK0IfeDTvOv01-HB7Jfm5DQfnv9Zh3LV9zlWKOlqj2UIDeGYuT_Gt5bELXJ0dBVvGUg_TClrR4GoXCU8O_-rOw6WtUXzKWSLQ0cwY_bAcEaR0iqUKdKgyK_AMZOZZm3sKrFXhC0BZepUuv6CQ--KroO2FBkhLZSNtZGZe5rfO7mwt2OAhDBy00KS_MacIPiMIne-Ns5O_JUWuya9POuxrArkIKnV1lXdVyL4ixXaksBCYo?authuser=1&fife=s16383" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBool9AhxYw2JWK5HI8-yUGnLPLIwLFdkYL0_dq5yfyHVl9FQyPuEZxtR9pBal0x-kuzUR8oUDjpa19WVPJ0y0IK34VouAdGjaW04halk53V9XVnmfbpoHL26xq14URsNTn0GTIneBrjPJSvZxwMcO7g4pS2CvKqZ9KFEu4WqJS_gA96h1fv-bTYkXGEtETTfDJIVMrBc9D3mPNAXpIdKPdLJFgOpzZDVqG0xCOiZFAf6mwqaXDKBUhOv3cU?authuser=1&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorKa9v-ngl3UgK0IfeDTvOv01-HB7Jfm5DQfnv9Zh3LV9zlWKOlqj2UIDeGYuT_Gt5bELXJ0dBVvGUg_TClrR4GoXCU8O_-rOw6WtUXzKWSLQ0cwY_bAcEaR0iqUKdKgyK_AMZOZZm3sKrFXhC0BZepUuv6CQ--KroO2FBkhLZSNtZGZe5rfO7mwt2OAhDBy00KS_MacIPiMIne-Ns5O_JUWuya9POuxrArkIKnV1lXdVyL4ixXaksBCYo?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.6352738,32.7875341,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>منتجع رويال السياحي</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoo9IYz_ZUiz5gpf9hj1uQGglAYiDOaeb9NWsCaLQsw9aChCzsMga1wLoy9Wk_gG6FvkufAS1j3Db8ixRdVg18fF7Dz1O--KwepBre6FP5mR003POyN8ORxg_o-9FeasYzc2EvVPfca2z5rlNuqWrpzM8toc-BDCiZxWrzcmO5r3kG-h0l-M_rWt_Ev9ynU0_vRJJ4n9C4mlV2GuuvufZ7_p2SyHQ2CNMePuLkBqxFcGTMx77lc1GzGGzfE?authuser=1&fife=s16383" height="200" width="auto" /><br><br>منتجع رويال السياحي <br> www.facebook.com‏<br>التصن منتجع سياحي <br> المدي القره بولي <br> عدد_ا 40 <br> عدد__1 80]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoo9IYz_ZUiz5gpf9hj1uQGglAYiDOaeb9NWsCaLQsw9aChCzsMga1wLoy9Wk_gG6FvkufAS1j3Db8ixRdVg18fF7Dz1O--KwepBre6FP5mR003POyN8ORxg_o-9FeasYzc2EvVPfca2z5rlNuqWrpzM8toc-BDCiZxWrzcmO5r3kG-h0l-M_rWt_Ev9ynU0_vRJJ4n9C4mlV2GuuvufZ7_p2SyHQ2CNMePuLkBqxFcGTMx77lc1GzGGzfE?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.6649677,32.7880725,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>القويعة</name>
+      <description><![CDATA[القويعة <br> <br>التصن قرية سياحية <br> المدي القره بولي <br> عدد_ا 22 <br> عدد__1 132]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          13.63224,32.788705,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>منتجع فيلا دريم هاوس</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqlFz0fAuP-TNKm-eMDO2KS6IHWzK6HzfMRheQA3sCOok85Ffagn-tspAkRnnwsGGzxI83O4xjUjsBTgiAZQWrs_FOcPUrMTnNn8JXZcoSE5YFEEe4wuErQaJR4WfB4IS--Cc-v580LPlYajezBZDJCzfJCeKuUvVaNbPm-_F8qFtf8pQXeDA9SzFjecG4ecKCgTAT6tHiPuNV7gDKuGlYW4Mdy5jUsInxGYzkMxvio-Tcdra4y46OO1Kk?authuser=1&fife=s16383" height="200" width="auto" /><br><br>منتجع فيلا دريم هاوس <br> <br>التصن منتجع سياحي <br> المدي القره بولي <br> عدد_ا 7 <br> عدد__1 28]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqlFz0fAuP-TNKm-eMDO2KS6IHWzK6HzfMRheQA3sCOok85Ffagn-tspAkRnnwsGGzxI83O4xjUjsBTgiAZQWrs_FOcPUrMTnNn8JXZcoSE5YFEEe4wuErQaJR4WfB4IS--Cc-v580LPlYajezBZDJCzfJCeKuUvVaNbPm-_F8qFtf8pQXeDA9SzFjecG4ecKCgTAT6tHiPuNV7gDKuGlYW4Mdy5jUsInxGYzkMxvio-Tcdra4y46OO1Kk?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.6725922,32.786663,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>منتجع شط مريم</name>
+      <description><![CDATA[منتجع شط مريم    <br>       <br>   FID   42    <br>   Field1   43    <br>   إسم_ا   منتجع شط مريم    <br>   X   13.662256    <br>   Y   32.788957    <br>   التصن   منتجع سياحي    <br>   المدي   القره بولي    <br>   عدد_ا   26    <br>   عدد__1   130]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          13.6623284,32.7888939,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>استراحة الجود القويعه</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBor-tBbdaNq4P4VUF751Lssm_k80XrjLhsg9b-Hxj9j-X5DTiCRLgkDn5ZoIHi4q5GZS_-1CboXp_tdavwNV6hKioaIX17m26HvYRuMa41aNLBi9cNxkjEnvfz6DJ0om9-J-1SnHaYO4ReErQYXQKt_lvbz_bDmLAbaMA8dKDe9yV4EtDhVkgH4byNEzGSq09gf_6wY4egAMyKNaEXZPr-exDBkYtJsxNhfF9TGxwXZdvlvM5fgQocyCZa8?authuser=1&fife=s16383" height="200" width="auto" /><br><br>استراحة الجود القويعه <br> <br>التصن منتجع سياحي <br> المدي القره بولي <br> عدد_ا 1 <br> عدد__1 4]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBor-tBbdaNq4P4VUF751Lssm_k80XrjLhsg9b-Hxj9j-X5DTiCRLgkDn5ZoIHi4q5GZS_-1CboXp_tdavwNV6hKioaIX17m26HvYRuMa41aNLBi9cNxkjEnvfz6DJ0om9-J-1SnHaYO4ReErQYXQKt_lvbz_bDmLAbaMA8dKDe9yV4EtDhVkgH4byNEzGSq09gf_6wY4egAMyKNaEXZPr-exDBkYtJsxNhfF9TGxwXZdvlvM5fgQocyCZa8?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.6329856,32.7884131,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>منتجع اتش تي السياحي</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBooUJGZUOR74Bbh7I574zbJC2X5xCCVk3xoci1t4FGrCc8_ptYevhBSe82P_0XaqEGeZ_fqGqoDs8thwfiyKhWEk4EesDNEZb6fVRqhPZ0zoE_2o70duMKk_4n0_s2Qio6858nU9SCrG7tEhqlPrr2TGZ_EpB2S-N8gJ0CEZ5kWyjm7sVyfxv7XGSGDkKmD1fMGq1hPN_GhDTmn2yiFuaIBe6D1z8Rs5qKAfuP4IzuBwjTwi73e0KTc8TaU?authuser=1&fife=s16383" height="200" width="auto" /><br><br>منتجع اتش تي السياحي <br> <br>التصن منتجع سياحي <br> المدي القره بولي <br> عدد_ا 17 <br> عدد__1 136]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBooUJGZUOR74Bbh7I574zbJC2X5xCCVk3xoci1t4FGrCc8_ptYevhBSe82P_0XaqEGeZ_fqGqoDs8thwfiyKhWEk4EesDNEZb6fVRqhPZ0zoE_2o70duMKk_4n0_s2Qio6858nU9SCrG7tEhqlPrr2TGZ_EpB2S-N8gJ0CEZ5kWyjm7sVyfxv7XGSGDkKmD1fMGq1hPN_GhDTmn2yiFuaIBe6D1z8Rs5qKAfuP4IzuBwjTwi73e0KTc8TaU?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.63298,32.7864,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>منتجع اتش تي 3</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopu60zWuZCBlsyx8InWRamlkIENjyXLyUXdmdMrynoY8GmH82E4PVQYrR4OWXyAaJxYQ4OZBSlORxxQfJQ8_4hWLpp6K-8srhQs3_eYCZPcClYGbYTPJFecpNGUPgq3MvY3Xv1o9ae4xpRqjmaZexrStT5sGb5R3BkLWqOAddh3nxVhOjMo_MLOPLxdjZg-X4Fk-2ImWDFbeUDOKobB9PcqL5pabs83ZqY2GEJAjP43KJlEKRdlLA-wDRY?authuser=1&fife=s16383" height="200" width="auto" /><br><br>منتجع اتش تي 3 <br> <br>التصن منتجع سياحي <br> المدي القره بولي <br> عدد_ا 14 <br> عدد__1 56]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopu60zWuZCBlsyx8InWRamlkIENjyXLyUXdmdMrynoY8GmH82E4PVQYrR4OWXyAaJxYQ4OZBSlORxxQfJQ8_4hWLpp6K-8srhQs3_eYCZPcClYGbYTPJFecpNGUPgq3MvY3Xv1o9ae4xpRqjmaZexrStT5sGb5R3BkLWqOAddh3nxVhOjMo_MLOPLxdjZg-X4Fk-2ImWDFbeUDOKobB9PcqL5pabs83ZqY2GEJAjP43KJlEKRdlLA-wDRY?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.642398,32.788034,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>منتجع شاليهات للاجار</name>
+      <description><![CDATA[منتجع شاليهات للاجار <br> <br>التصن منتجع سياحي <br> المدي القره بولي <br> عدد_ا 8 <br> عدد__1 32]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          13.6444767,32.787918,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>قرية العطايا العائلية</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqT8FsdvlAd6SAWJ2DxjtN4ePsMbQt2y6KUmrHHX3ONCrKaz6ryU9PGGWKN95rCMCQP3B2of0ThG9zUewc22MFFk8qiolKna_2XR9BNFa2hnFgG-DfC15Hb6-ZI4cbqCy3r_BKRuGpYoigFY92MTBOnpLf6_iCW6CEriktZHcholQlaJ0KOBHyhBcuSEK55qYVftcbjQam9sRtKNVWOF_D-Qowvpxm6l-fqzOS0JmZYrdAo2jT5mex7Uvg?authuser=1&fife=s16383" height="200" width="auto" /><br><br>قرية العطايا العائلية <br> <br>التصن قرية سياحية <br> المدي القره بولي <br> عدد_ا 15 <br> عدد__1 31]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqT8FsdvlAd6SAWJ2DxjtN4ePsMbQt2y6KUmrHHX3ONCrKaz6ryU9PGGWKN95rCMCQP3B2of0ThG9zUewc22MFFk8qiolKna_2XR9BNFa2hnFgG-DfC15Hb6-ZI4cbqCy3r_BKRuGpYoigFY92MTBOnpLf6_iCW6CEriktZHcholQlaJ0KOBHyhBcuSEK55qYVftcbjQam9sRtKNVWOF_D-Qowvpxm6l-fqzOS0JmZYrdAo2jT5mex7Uvg?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.675653,32.789468,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>منتجع برستيج</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopLzyZYkHwlNesqrBmV-sV75KoHqEw6MQXjnoiQibHxqqKVWEu1MYc7BlKr-brn3ht_nqZjCoMz59L2g2FbAS2J7oqm7obTeLBPUKLcjrh1XLJGeBXq7m_HXCG1x6akWd4hOFlW-gba6CHZvG69dPoP1Dj0rYt6ByOwq2esksONBfPtj6zZiVAOueMB4eVrr0VMXpXDD_t_vf6b6a6fZN5rvLF_DnibY7Sro7UtyoualpL-8M4e16z8iTk?authuser=1&fife=s16383" height="200" width="auto" /><br><br>منتجع برستيج <br> <br>التصن منتجع سياحي <br> المدي القره بولي <br> عدد_ا 38 <br> عدد__1 152]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopLzyZYkHwlNesqrBmV-sV75KoHqEw6MQXjnoiQibHxqqKVWEu1MYc7BlKr-brn3ht_nqZjCoMz59L2g2FbAS2J7oqm7obTeLBPUKLcjrh1XLJGeBXq7m_HXCG1x6akWd4hOFlW-gba6CHZvG69dPoP1Dj0rYt6ByOwq2esksONBfPtj6zZiVAOueMB4eVrr0VMXpXDD_t_vf6b6a6fZN5rvLF_DnibY7Sro7UtyoualpL-8M4e16z8iTk?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.6673636,32.7869474,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>قرية القويعة السياحية</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoq64LoYcMzddakWws5NU0xbmTjjosEUgU3xKLqKfMmjZtfzO_lkYq85NRicOeeoXu82AHmhA7_r4Vg4ATD6IajM3jAjZi8XtoBasKXA15PI4RHPaxCo2MTPALmvqL5TTl2lcWCVXeOoIPx6RRuDekVO5BvB7cPoFxi0PkwO8AfsKRX7n8n4ZuWa1nzNlP3xvm6uOZ0Sb5-3vcBwz4RjSUjqvB09vCpGjzDL9PoqWS029Cc5imd241zyz5E?authuser=1&fife=s16383" height="200" width="auto" /><br><br>قرية القويعة السياحية <br><br> التصن قرية سياحية <br> المدي القره بولي <br> عدد_ا 22 <br> عدد__1 132]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoq64LoYcMzddakWws5NU0xbmTjjosEUgU3xKLqKfMmjZtfzO_lkYq85NRicOeeoXu82AHmhA7_r4Vg4ATD6IajM3jAjZi8XtoBasKXA15PI4RHPaxCo2MTPALmvqL5TTl2lcWCVXeOoIPx6RRuDekVO5BvB7cPoFxi0PkwO8AfsKRX7n8n4ZuWa1nzNlP3xvm6uOZ0Sb5-3vcBwz4RjSUjqvB09vCpGjzDL9PoqWS029Cc5imd241zyz5E?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.63402,32.78708,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>شاليهات بن بية</name>
+      <description><![CDATA[شاليهات بن بية <br> <br>التصن منتجع سياحي <br> المدي القره بولي <br> عدد_ا 18 <br> عدد__1 36]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          13.6443505,32.7879279,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>قرية ميار البحر العائليه</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoptLAD4skTLi2Efakh2VFDNZuy0ExLEDdIh-j0ST0Cf9-2fbgiHzAsU3xVsLpjpoC9yakFCP_MybL03RjMgyOpgdf9G4o1_1zuO6lhY8Zb6RUuFIZdCpdHgwbeSGN0PT-ocyxxcIf0nKBd_9qNHz21oEssx8MbbspDyFZDkuyxe_X7rAQ4BArisG-GOG2Rxpd1bv0iun6uMkXrhsgcbeSo5xJMB93M_SBKwFYXVo7_lRXu9_vXNZyNpyI4?authuser=1&fife=s16383" height="200" width="auto" /><br><br>قرية ميار البحر العائليه <br><br> التصن قرية سياحية <br> المدي القره بولي <br> عدد_ا 27 <br> عدد__1 108]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoptLAD4skTLi2Efakh2VFDNZuy0ExLEDdIh-j0ST0Cf9-2fbgiHzAsU3xVsLpjpoC9yakFCP_MybL03RjMgyOpgdf9G4o1_1zuO6lhY8Zb6RUuFIZdCpdHgwbeSGN0PT-ocyxxcIf0nKBd_9qNHz21oEssx8MbbspDyFZDkuyxe_X7rAQ4BArisG-GOG2Rxpd1bv0iun6uMkXrhsgcbeSo5xJMB93M_SBKwFYXVo7_lRXu9_vXNZyNpyI4?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.68749,32.789744,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>قرية أغيث السياحية</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqMNduiRLpeOV2my4clYDVUqflscxoFP6JI1Ew9nrT7GQAn0FW3KKRNr1xkfJ9T3sgD1hWTN4OOH0VXwrRY9YqR7BJSJWfYFqQIpSgoAD7qCa6qGBo4ACRU-SC0MyYiChtnsGq87pR8Bn91ziGOBGhbEqqCyns4N2voJwKEW6By1b3x2Dr798tMVCsYgX-TWjAsj-7AWJHkDVYUA7KB1h5HwlQb0QhA6cOrlEz4pmKoSPDETfGx_rmvpXg?authuser=1&fife=s16383" height="200" width="auto" /><br><br>قرية أغيث السياحية <br> <br>التصن قرية سياحية <br> المدي القره بولي <br> عدد_ا 20 <br> عدد__1 40]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqMNduiRLpeOV2my4clYDVUqflscxoFP6JI1Ew9nrT7GQAn0FW3KKRNr1xkfJ9T3sgD1hWTN4OOH0VXwrRY9YqR7BJSJWfYFqQIpSgoAD7qCa6qGBo4ACRU-SC0MyYiChtnsGq87pR8Bn91ziGOBGhbEqqCyns4N2voJwKEW6By1b3x2Dr798tMVCsYgX-TWjAsj-7AWJHkDVYUA7KB1h5HwlQb0QhA6cOrlEz4pmKoSPDETfGx_rmvpXg?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.6456806,32.7876536,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>قرية الخلة السياحية العائلية</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqahraPyLy0lHFjAgaUQ11sgzZNzqF1HdFXbFI1vwTR92SnrI5l5jhOaTD5-ssA1nUtXasv2eZZRPF5Q_z48of2NIaQg3tsLLb__6gEke7ChZAF44_p6flMYVus3gh48RJAYxxR84SU4fKeRO5nDwphw1guBZHnqnjkkovsRubKzdQUt5lWXAfVWBUbb8iMWn-6CrX4NRQHhcSjT9ZO_OcrvkUGwIq5yXy1VxImp8Qtb8_hE2ChH10OfUY?authuser=1&fife=s16383" height="200" width="auto" /><br><br>قرية الخلة السياحية العائلية <br><br> التصن قرية سياحية <br> المدي القره بولي <br> عدد_ا 15 <br> عدد__1 30]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqahraPyLy0lHFjAgaUQ11sgzZNzqF1HdFXbFI1vwTR92SnrI5l5jhOaTD5-ssA1nUtXasv2eZZRPF5Q_z48of2NIaQg3tsLLb__6gEke7ChZAF44_p6flMYVus3gh48RJAYxxR84SU4fKeRO5nDwphw1guBZHnqnjkkovsRubKzdQUt5lWXAfVWBUbb8iMWn-6CrX4NRQHhcSjT9ZO_OcrvkUGwIq5yXy1VxImp8Qtb8_hE2ChH10OfUY?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.679539,32.789005,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>مجمع جواهر لاند</name>
+      <description><![CDATA[مجمع جواهر لاند <br> <br>التصن قرية سياحية <br> المدي القره بولي <br> عدد_ا 14 <br> عدد__1 56]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          13.646366,32.787247,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>منتجع دار البحر</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqWWqCUw0j3rXMipVZCinW10NhHEOsu2tgg5S3yBt6ucrDkyiO1LeQhMPH__NbVEaEN68fKxs2x9_QSDHRZa1sT8OkAWoXsUhRQwq9jfyAwM1qtVjMb1xMl55KIsN0uGUWPxwQsR08eOOTA09Q8gprqdrLv11DFZMoFXIn25tzBEDgBYetSW-n9uRnl0RPM7NiQOeF73VqKIksFdBkaXKizrHvK-NGpyE8RyIfoDPPPl4h3z0NoqcxlSrs?authuser=1&fife=s16383" height="200" width="auto" /><br><br>منتجع دار البحر <br>https://m.facebook.com/DarAlHamdLtd/<br> التصن قرية سياحية <br> المدي القره بولي <br> عدد_ا 0 <br> عدد__1 8]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqWWqCUw0j3rXMipVZCinW10NhHEOsu2tgg5S3yBt6ucrDkyiO1LeQhMPH__NbVEaEN68fKxs2x9_QSDHRZa1sT8OkAWoXsUhRQwq9jfyAwM1qtVjMb1xMl55KIsN0uGUWPxwQsR08eOOTA09Q8gprqdrLv11DFZMoFXIn25tzBEDgBYetSW-n9uRnl0RPM7NiQOeF73VqKIksFdBkaXKizrHvK-NGpyE8RyIfoDPPPl4h3z0NoqcxlSrs?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.6470901,32.7876215,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>منتجع وادي بالنور</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopT8iGbI_G2HGkTn-9teTnaa606HGK96L2HJw3yNP6uCqCYv7c7ssxuA44ZrF9Wjin4i8fkTt-SPBcBzgyqo8Q4DT9lco9YKJZbBm8kQak2-C0cch7Ex9VPFB9CEeLEO4pg8kOyLZp66bu7LJCs985OJYZuDuE8fMylK1YWdLvHSQA1Y8gkj3qhRmvUJwHi0tJvlO-SHcHYbOj193Ia5T_eQ5DJjPXXkH8YD-5geDZ-yao8m1FPMRgYxPo?authuser=1&fife=s16383" height="200" width="auto" /><br><br>منتجع وادي بالنور <br> QHVV+3J8, The Costal Road, Algowaa‏<br>+218 91-6531531‏<br>التصن قرية سياحية <br> المدي القره بولي <br> عدد_ا 30 <br> عدد__1 60]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopT8iGbI_G2HGkTn-9teTnaa606HGK96L2HJw3yNP6uCqCYv7c7ssxuA44ZrF9Wjin4i8fkTt-SPBcBzgyqo8Q4DT9lco9YKJZbBm8kQak2-C0cch7Ex9VPFB9CEeLEO4pg8kOyLZp66bu7LJCs985OJYZuDuE8fMylK1YWdLvHSQA1Y8gkj3qhRmvUJwHi0tJvlO-SHcHYbOj193Ia5T_eQ5DJjPXXkH8YD-5geDZ-yao8m1FPMRgYxPo?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          13.59408,32.7926442,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>منتجع بيتش هاوس</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoosYrDXIG1KSfZb-YJ2nljoK_qkY7ncKmajNK-N_LDn0RsGK4TQhGFB985RsyD48nJMI65p7HV9PV7LPNSQhHpUWqsQHEIulFKbMPfigGk2dlahQigwGJ1Nr2YBSAkVst3w66awDFQTVOy4B13cVl7RHf57gqIvIUAp1xwxb22oBg5u5qUWlkHmJZLM9lHeZ-ndlRlQZrc6nJOltieUpGVi1AP_gJhy7KdRHazfuVnl0XVaHF9gbgnQg1o?authuser=1&fife=s16383" height="200" width="auto" /><br><br>منتجع بيتش هاوس <br>التصن قرية سياحية <br> المدي القره بولي <br> عدد_ا 2 <br> عدد__1 8<br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqCo4uS9_Iqa94s20GiFVAj9g2GdLybllVif4w97TNKX2yyNs2R42wK2fZb_u-Fve-vAyYYiKlvtVpVaxwWg4kYWi_xGkB5N_lQzMnaZFe_Tq9-FDB5ELlIgybECj9l2P-ueJzHsXYXCSrb2eFJaKGArMrXBtcSUv9c4459BNAH28mX8q8KJfrGpPM2KUvmcCEKmk_guFsPhYLTKhjUNzN2QHMr6iH-wotzbfdPcrjgimEemybCfu-P-Us?authuser=1&fife=s16383" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoosYrDXIG1KSfZb-YJ2nljoK_qkY7ncKmajNK-N_LDn0RsGK4TQhGFB985RsyD48nJMI65p7HV9PV7LPNSQhHpUWqsQHEIulFKbMPfigGk2dlahQigwGJ1Nr2YBSAkVst3w66awDFQTVOy4B13cVl7RHf57gqIvIUAp1xwxb22oBg5u5qUWlkHmJZLM9lHeZ-ndlRlQZrc6nJOltieUpGVi1AP_gJhy7KdRHazfuVnl0XVaHF9gbgnQg1o?authuser=1&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqCo4uS9_Iqa94s20GiFVAj9g2GdLybllVif4w97TNKX2yyNs2R42wK2fZb_u-Fve-vAyYYiKlvtVpVaxwWg4kYWi_xGkB5N_lQzMnaZFe_Tq9-FDB5ELlIgybECj9l2P-ueJzHsXYXCSrb2eFJaKGArMrXBtcSUv9c4459BNAH28mX8q8KJfrGpPM2KUvmcCEKmk_guFsPhYLTKhjUNzN2QHMr6iH-wotzbfdPcrjgimEemybCfu-P-Us?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          14.058072,32.7174075,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>قرية قوس غنيمة السياحية</name>
+      <description><![CDATA[قرية قوس غنيمة السياحية    <br>       <br>   FID   58    <br>   Field1   59    <br>   إسم_ا   قرية قوس غنيمة السياحية    <br>   X   14.05612    <br>   Y   32.722872    <br>   التصن   قرية  سياحية    <br>   المدي   القره بولي    <br>   عدد_ا   30    <br>   عدد__1   120]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          14.05612,32.722872,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>منتجع ايليت السياحي</name>
+      <description><![CDATA[منتجع ايليت السياحي    <br>       <br>   FID   59    <br>   Field1   60    <br>   إسم_ا   منتجع ايليت السياحي    <br>   X   13.659208    <br>   Y   32.788161    <br>   التصن   قرية  سياحية    <br>   المدي   القره بولي    <br>   عدد_ا   32    <br>   عدد__1   128]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          13.659208,32.788161,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>قرية شمس البحر</name>
+      <description><![CDATA[قرية شمس البحر    <br>       <br>   FID   60    <br>   Field1   61    <br>   إسم_ا   قرية شمس البحر    <br>   X   14.058758    <br>   Y   32.721782    <br>   التصن   قرية  سياحية    <br>   المدي   القره بولي    <br>   عدد_ا   14    <br>   عدد__1   28]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          14.058758,32.721782,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>قرية لؤلؤة غنيمة العائلية</name>
+      <description><![CDATA[قرية لؤلؤة غنيمة العائلية    <br>       <br>   FID   61    <br>   Field1   62    <br>   إسم_ا   قرية لؤلؤة غنيمة العائلية    <br>   X   14.058367    <br>   Y   32.720385    <br>   التصن   قرية  سياحية    <br>   المدي   القره بولي    <br>   عدد_ا   8    <br>   عدد__1   32]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          14.058367,32.720385,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>شاليهات ركن النيروز</name>
+      <description><![CDATA[شاليهات ركن النيروز    <br>       <br>   FID   62    <br>   Field1   63    <br>   إسم_ا   شاليهات ركن النيروز    <br>   X   13.647632    <br>   Y   32.788222    <br>   التصن   شاليهات    <br>   المدي   القره بولي    <br>   عدد_ا   12    <br>   عدد__1   24]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          13.647632,32.788222,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>قرية رأس الحمراء العائلية</name>
+      <description><![CDATA[قرية رأس الحمراء العائلية    <br>       <br>   FID   63    <br>   Field1   64    <br>   إسم_ا   قرية رأس الحمراء العائلية    <br>   X   13.935119    <br>   Y   32.774035    <br>   التصن   قرية  سياحية    <br>   المدي   العلوص    <br>   عدد_ا   18    <br>   عدد__1   36]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          13.935119,32.774035,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>قرية شاطئ النخيل الذهبي</name>
+      <description><![CDATA[قرية شاطئ النخيل الذهبي    <br>       <br>   FID   64    <br>   Field1   65    <br>   إسم_ا   قرية شاطئ النخيل الذهبي    <br>   X   13.935762    <br>   Y   32.772809    <br>   التصن   قرية  سياحية    <br>   المدي   الخمس    <br>   عدد_ا   30    <br>   عدد__1   120]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          13.935762,32.772809,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>قرية أصيل السياحية</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopC0pdRQa5_Um0LSL_PotZUi_31Qje-pe_z2sb2foIuiPay5VHhT5Tz-RJJxB9qV-f7Gh08Y8OJOLD9XmdhQ2yZw9EEMC5xjZCKwm_TVJ0aiK9ZUYhrYTI0GG9m0cMrleHIf55_9Nw-PmnOLJWa0L8jqI9f62bXf__LMgvZ9nlzlkgYWa0oQ3Xh4B-JYtx2NSNIkm682XXevqQXG7PoHN07h4vY5Hhh_InpVWWen6CoD8ZSOLyjKOGnGBQ?authuser=1&fife=s16383" height="200" width="auto" /><br><br>قرية أصيل السياحية <br> زليتن<br>+218 91-4060090‏<br>التصن قرية سياحية <br> المدي زليتن <br> عدد_ا 4 <br> عدد__1 16]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopC0pdRQa5_Um0LSL_PotZUi_31Qje-pe_z2sb2foIuiPay5VHhT5Tz-RJJxB9qV-f7Gh08Y8OJOLD9XmdhQ2yZw9EEMC5xjZCKwm_TVJ0aiK9ZUYhrYTI0GG9m0cMrleHIf55_9Nw-PmnOLJWa0L8jqI9f62bXf__LMgvZ9nlzlkgYWa0oQ3Xh4B-JYtx2NSNIkm682XXevqQXG7PoHN07h4vY5Hhh_InpVWWen6CoD8ZSOLyjKOGnGBQ?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          14.6145831,32.4892578,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>قرية الهُزم السياحية</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoo6cj2spIzI1pHquQdWGa7Bc_pNvho-dVbzEXhYMoSeHSGuvWhH_ORAG_ehdA5puJOjixkCXOpWorxZTsoiuchrBQTga5ns-3toS1eV44LDZEGU8Pg7vYzyymptmz99FOS_fUKmo2RRp04zOW3Ml6OZjD3qS1aUG-e183IRSP-tbElBXXKBb23Il3gixP6iR4w8dHSCtQXi8EvfCwSVzv0Qu13ciwpjWV8VR7Xysltk8G-K6CH-QXhbWFU?authuser=1&fife=s16383" height="200" width="auto" /><br><br>قرية الهُزم السياحية <br> قرية الهُزم السياحية<br>FJQ9+JR، زليتن<br>+218 91-2032828‏<br>التصن قرية سياحية <br> المدي زليتن <br> عدد_ا 15 <br> عدد__1 30]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoo6cj2spIzI1pHquQdWGa7Bc_pNvho-dVbzEXhYMoSeHSGuvWhH_ORAG_ehdA5puJOjixkCXOpWorxZTsoiuchrBQTga5ns-3toS1eV44LDZEGU8Pg7vYzyymptmz99FOS_fUKmo2RRp04zOW3Ml6OZjD3qS1aUG-e183IRSP-tbElBXXKBb23Il3gixP6iR4w8dHSCtQXi8EvfCwSVzv0Qu13ciwpjWV8VR7Xysltk8G-K6CH-QXhbWFU?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          14.6200546,32.489371,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>منتجع الأمان السياحي</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoq-qYYduxtpZEDnr6ZsBOI-SDCsQ-f_1DJJvXYwx-XI3XexXUPQSPzSFmcbGrSvL4d-j7Quh6qJjav9Cnz7cbI7nK2LWsN-wGlKbvV7QfF1BheiYHCNNzv3GBTffGzRKv_FbXwxfwiyriHCp_iHYNTptgiJo-JFyGbBQWCMi8y2ZIP62pPI7H98T1PzJe9NT7FE31zLLIBKjUEjGATUa7u0z0B9BDrt68OxYQ4jVJPPZwUqcrdKlRA8sJ0?authuser=1&fife=s16383" height="200" width="auto" /><br><br>منتجع الأمان السياحي <br> <br>المدي مصراتة <br> عدد_ا 90 <br> عدد__1 737]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoq-qYYduxtpZEDnr6ZsBOI-SDCsQ-f_1DJJvXYwx-XI3XexXUPQSPzSFmcbGrSvL4d-j7Quh6qJjav9Cnz7cbI7nK2LWsN-wGlKbvV7QfF1BheiYHCNNzv3GBTffGzRKv_FbXwxfwiyriHCp_iHYNTptgiJo-JFyGbBQWCMi8y2ZIP62pPI7H98T1PzJe9NT7FE31zLLIBKjUEjGATUa7u0z0B9BDrt68OxYQ4jVJPPZwUqcrdKlRA8sJ0?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          15.001973,32.413207,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>منتجع مصراتة</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqrbmTwXyvRxHVjqRdD-cTNFMrvds5Z66joCowJmtERUNa289ag1uN-G0EYKerayepU3T-MeFLaLQRXupm3dnZd9rRuispHuvbV0An7jeDOj_ZIbX1oP2dyM5FKnAf9bwOo3d6_FGqbCg108_bAvvSCuusnXILz6Yu86vxhHJ3QV3G7ZHjqqJt_f7YYLBQhJRDkghCPA1WPrQjsnFVWQzrWDjcdKdMQq1kf_CWHOyJZgDTcXR4CA7c-uUI?authuser=1&fife=s16383" height="200" width="auto" /><br><br>منتجع مصراتة <br><br> التصن منتجع سياحي <br> المدي مصراتة <br> عدد_ا 0 <br> عدد__1 0]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqrbmTwXyvRxHVjqRdD-cTNFMrvds5Z66joCowJmtERUNa289ag1uN-G0EYKerayepU3T-MeFLaLQRXupm3dnZd9rRuispHuvbV0An7jeDOj_ZIbX1oP2dyM5FKnAf9bwOo3d6_FGqbCg108_bAvvSCuusnXILz6Yu86vxhHJ3QV3G7ZHjqqJt_f7YYLBQhJRDkghCPA1WPrQjsnFVWQzrWDjcdKdMQq1kf_CWHOyJZgDTcXR4CA7c-uUI?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          15.114877,32.405137,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>منتجع فينيسيا</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorFGELc2MphviF_7KTOk13W9AK5iHva_HvVid-JXXYUZpiCw8uyzBa-cTBbgkma0T39kzTWrNGzc5qdOvgwB3e0SWXRdXkyW5DRiB25T7THZ_EbHTbGXH6BdqGerKS4b07yYy0Q7nkPdtPQ9TAWFro0_iTgqj9H9aeLZjkuxIBFMatQwyU0LPT32Npq3BhrhnUaDoO2ZVXkZaSDEu_8auohhGz1F8CuKfMjXMmT4WUDcEdxT2MAozFH5B4?authuser=1&fife=s16383" height="200" width="auto" /><br><br>منتجع فينيسيا <br> <br>التصن منتجع سياحي <br> المدي مصراتة <br> عدد_ا 0 <br> عدد__1 0]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorFGELc2MphviF_7KTOk13W9AK5iHva_HvVid-JXXYUZpiCw8uyzBa-cTBbgkma0T39kzTWrNGzc5qdOvgwB3e0SWXRdXkyW5DRiB25T7THZ_EbHTbGXH6BdqGerKS4b07yYy0Q7nkPdtPQ9TAWFro0_iTgqj9H9aeLZjkuxIBFMatQwyU0LPT32Npq3BhrhnUaDoO2ZVXkZaSDEu_8auohhGz1F8CuKfMjXMmT4WUDcEdxT2MAozFH5B4?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          15.030501,32.410642,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>قرية زريق السياحية</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorOb-9KUon2y5opMlTfzIWKUIx2YTfjb8r9CZ-9bunXrCJ3YcVrkiQEkVYpqZamssfaLmgodPSVJRveAmE2154_veW3Ky0kVQdf2rgi6hrosc17yttiIyK120bvLDU4afqEIj4jDFyXvQaH9llEdn8GcIuvxes7viFjGG94WiuBtXr7-J_f96xAcrzWl7Ul6bKN5SpWxPYwhvw34ogMoj0D1EWO_37VRlcHWh41rPDXXW4V4UVnnLiiPHE?authuser=1&fife=s16383" height="200" width="auto" /><br><br>قرية زريق السياحية <br> <br>التصن قرية سياحية <br> المدي مصراتة <br> عدد_ا 24 <br> عدد__1 115]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorOb-9KUon2y5opMlTfzIWKUIx2YTfjb8r9CZ-9bunXrCJ3YcVrkiQEkVYpqZamssfaLmgodPSVJRveAmE2154_veW3Ky0kVQdf2rgi6hrosc17yttiIyK120bvLDU4afqEIj4jDFyXvQaH9llEdn8GcIuvxes7viFjGG94WiuBtXr7-J_f96xAcrzWl7Ul6bKN5SpWxPYwhvw34ogMoj0D1EWO_37VRlcHWh41rPDXXW4V4UVnnLiiPHE?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          14.929789,32.431147,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>حي قصور الضيافة_سرت</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqVxz3o3G_hcZH-fcpK_XYhO9MykOO1jsqQaLb9IzXBt4B3AuHcJ1OfCEhjyQruoXtE6II8SiNZ7cmGEwsa3zTYi7GdeC_6O__vlFcRKcNAD4kqBSr_6l-ekmZ4E-MqthTmkunxEfSxkh0Zo52bOt-fgH5J-kzdQ1YcMLIcNBvfoTB8A_Aq_6b4ylAqjSs9uQf2uP5qOEelaX4xDyfNDjWedPpROOPkP6azGUFscmJR-l960uifV7Cqb-E?authuser=1&fife=s16383" height="200" width="auto" /><br><br>حي قصور الضيافة <br> <br>التصن قرية سياحية <br> المدي سرت <br> عدد_ا 171 <br> عدد__1 684]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqVxz3o3G_hcZH-fcpK_XYhO9MykOO1jsqQaLb9IzXBt4B3AuHcJ1OfCEhjyQruoXtE6II8SiNZ7cmGEwsa3zTYi7GdeC_6O__vlFcRKcNAD4kqBSr_6l-ekmZ4E-MqthTmkunxEfSxkh0Zo52bOt-fgH5J-kzdQ1YcMLIcNBvfoTB8A_Aq_6b4ylAqjSs9uQf2uP5qOEelaX4xDyfNDjWedPpROOPkP6azGUFscmJR-l960uifV7Cqb-E?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          16.6152747,31.2077676,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>شاليهات ريماس</name>
+      <description><![CDATA[شاليهات ريماس <br> <br>التصن شالية سياحي <br> المدي بنغازي <br> عدد_ا 90 <br> عدد__1 360]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          19.949189,31.9031676,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>قرية شاطيء النخيل</name>
+      <description><![CDATA[قرية شاطيء النخيل    <br>       <br>   FID   73    <br>   Field1   74    <br>   إسم_ا   قرية شاطيء النخيل    <br>   X   19.954158    <br>   Y   31.942865    <br>   التصن   قرية  سياحية    <br>   المدي   بنغازي    <br>   عدد_ا   250    <br>   عدد__1   1000]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          19.954158,31.942865,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>منتجع مارينا بنغازي السياحي</name>
+      <description><![CDATA[منتجع مارينا بنغازي السياحي    <br>       <br>   FID   74    <br>   Field1   75    <br>   إسم_ا   منتجع مارينا بنغازي السياحي    <br>   X   19.959256    <br>   Y   31.982998    <br>   التصن   قرية  سياحية    <br>   المدي   بنغازي    <br>   عدد_ا   160    <br>   عدد__1   640]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          19.959256,31.982998,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>منتجع الصفوة السياحي</name>
+      <description><![CDATA[منتجع الصفوة السياحي    <br>       <br>   FID   75    <br>   Field1   76    <br>   إسم_ا   منتجع الصفوة السياحي    <br>   X   19.964499    <br>   Y   31.992255    <br>   التصن   قرية  سياحية    <br>   المدي   بنغازي    <br>   عدد_ا   18    <br>   عدد__1   72]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          19.964499,31.992255,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>منتجع ماربيلا السياحي</name>
+      <description><![CDATA[منتجع ماربيلا السياحي    <br>       <br>   FID   76    <br>   Field1   77    <br>   إسم_ا   منتجع ماربيلا السياحي    <br>   X   19.971313    <br>   Y   31.993245    <br>   التصن   قرية  سياحية    <br>   المدي   بنغازي    <br>   عدد_ا   64    <br>   عدد__1   256]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          19.971313,31.993245,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>مجمع الاصالة السياحي</name>
+      <description><![CDATA[مجمع الاصالة السياحي    <br>       <br>   FID   77    <br>   Field1   78    <br>   إسم_ا   مجمع الاصالة السياحي    <br>   X   19.974266    <br>   Y   31.99976    <br>   التصن   قرية  سياحية    <br>   المدي   بنغازي    <br>   عدد_ا   220    <br>   عدد__1   880]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          19.974266,31.99976,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>قرية الفاضل</name>
+      <description><![CDATA[قرية الفاضل    <br>       <br>   FID   78    <br>   Field1   79    <br>   إسم_ا   قرية الفاضل    <br>   X   20.009364    <br>   Y   32.032708    <br>   التصن   قرية  سياحية    <br>   المدي   بنغازي    <br>   عدد_ا   160    <br>   عدد__1   640]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          20.009364,32.032708,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>منتجع الأسيل</name>
+      <description><![CDATA[منتجع الأسيل    <br>       <br>   FID   79    <br>   Field1   80    <br>   إسم_ا   منتجع الأسيل    <br>   X   19.996643    <br>   Y   32.01888    <br>   التصن   قرية  سياحية    <br>   المدي   بنغازي    <br>   عدد_ا   216    <br>   عدد__1   864]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          19.996643,32.01888,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>منتجع الماسة السياحي</name>
+      <description><![CDATA[منتجع الماسة السياحي    <br>       <br>   FID   80    <br>   Field1   81    <br>   إسم_ا   منتجع الماسة السياحي    <br>   X   20.137676    <br>   Y   32.069522    <br>   التصن   شالية سياحي    <br>   المدي   بنغازي    <br>   عدد_ا   20    <br>   عدد__1   80]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          20.137676,32.069522,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>منتجع قاريونس العائلي</name>
+      <description><![CDATA[منتجع قاريونس العائلي    <br>       <br>   FID   81    <br>   Field1   82    <br>   إسم_ا   منتجع قاريونس العائلي    <br>   X   20.039029    <br>   Y   32.061734    <br>   التصن   قرية  سياحية    <br>   المدي   بنغازي    <br>   عدد_ا   580    <br>   عدد__1   785]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          20.039029,32.061734,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>منتجع النخلة الذهبية</name>
+      <description><![CDATA[منتجع النخلة الذهبية    <br>       <br>   FID   82    <br>   Field1   83    <br>   إسم_ا   منتجع النخلة الذهبية    <br>   X   20.040787    <br>   Y   32.069285    <br>   التصن   قرية  سياحية    <br>   المدي   بنغازي    <br>   عدد_ا   18    <br>   عدد__1   72]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          20.040787,32.069285,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>منتجع فايا لارجو</name>
+      <description><![CDATA[منتجع فايا لارجو <br> <br>التصن قرية سياحية <br> المدي بنغازي <br> عدد_ا 203 <br> عدد__1 812]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          20.042231,32.07227,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>قرية قمرت السياحية</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoohVNeYBm2wDufcnux8qLnANRQBvPgk4xV8ANhRWhtf0Y16k9FkY3MLqa63uylqDjeiuOGciWYqmTqTiC-ND_CMr5dpuJPH3QRNatii8cXKuVAZRH_QExsRuey8DZ1zj8tWUNYrs_AqqvSaXklOpDL5VpmST8TMFEgfElempQW6RTIab4dgU60UpIM8ayduftxpOba9k55lwky6ocuPP6mloEfdakCRGkjSMfjZVRR_6mLwCZKeN0KE1Kk?authuser=1&fife=s16383" height="200" width="auto" /><br><br>قرية قمرت السياحية <br> <br>التصن قرية سياحية <br> المدي بنغازي <br> عدد_ا 167 <br> عدد__1 660]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoohVNeYBm2wDufcnux8qLnANRQBvPgk4xV8ANhRWhtf0Y16k9FkY3MLqa63uylqDjeiuOGciWYqmTqTiC-ND_CMr5dpuJPH3QRNatii8cXKuVAZRH_QExsRuey8DZ1zj8tWUNYrs_AqqvSaXklOpDL5VpmST8TMFEgfElempQW6RTIab4dgU60UpIM8ayduftxpOba9k55lwky6ocuPP6mloEfdakCRGkjSMfjZVRR_6mLwCZKeN0KE1Kk?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          20.212382,32.278478,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>منتجع التلال الحمامة</name>
+      <description><![CDATA[منتجع التلال الحمامة    <br>       <br>   FID   85    <br>   Field1   86    <br>   إسم_ا   منتجع التلال الحمامة    <br>   X   21.615861    <br>   Y   32.911311    <br>   التصن   منتجع سياحي    <br>   المدي   الحمامة    <br>   عدد_ا   0    <br>   عدد__1   0]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          21.615861,32.911311,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>منتجع الجراري السياحي - للعائلات</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqXJThwVQsU0xbCf2z1KLNLilqIVjfHdsAoWzLw8Mr1Xl5ZWHauHENpFgnEsOJnHJ6njYMXFGU4EDWrMkCtyYKkl2JRVdYY4nBPypwicFYl-kkvNbwuk1SyElWi1xGQakQYW-ODRwTpo-0iMN4TGhGie-Jw5nVJuZkOpW8JKUrNWs4t_ZepFORZ0wzcuogmewYHuN-f2z-lZankhSCfKWa566R3JvgU9uvaktuK_9T0BLb0P5u_mJigvBQ?authuser=1&fife=s16383" height="200" width="auto" /><br><br>منتجع الجراري السياحي - للعائلات <br> <br>التصن منتجع سياحي <br> المدي الحمامة <br> عدد_ا 12 <br> عدد__1 48]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqXJThwVQsU0xbCf2z1KLNLilqIVjfHdsAoWzLw8Mr1Xl5ZWHauHENpFgnEsOJnHJ6njYMXFGU4EDWrMkCtyYKkl2JRVdYY4nBPypwicFYl-kkvNbwuk1SyElWi1xGQakQYW-ODRwTpo-0iMN4TGhGie-Jw5nVJuZkOpW8JKUrNWs4t_ZepFORZ0wzcuogmewYHuN-f2z-lZankhSCfKWa566R3JvgU9uvaktuK_9T0BLb0P5u_mJigvBQ?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.604209,32.905579,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>منتجع ومصيف الحمامة</name>
+      <description><![CDATA[منتجع ومصيف الحمامة <br> <br>التصن منتجع سياحي <br> المدي الحمامة <br> عدد_ا 20 <br> عدد__1 80]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          21.621093,32.916555,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>قرية إيلاف السياحية</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorxqZePtGOzKHnW1017dSJC_qR-q66LEuSrOoyKnWmTHtoGlZeuqk9oU_1-tLHJ2a265Co2oO1lXQ_KcGAja1Pqu1OS2D6bBCZ5gO4wGdzhlKCDe8gLeyg_RPzMVHCkhmwKql0yH7oa0aLg4Z7qsXVTwgHcZDK9pN1GjsQEoPODltVElP6ebK8_2cyPliFneFLwhCkJ6VbBSvVbSV76TVwmx00akO3nErFchocSfLFjRLAKAyn_XzLg7IM?authuser=1&fife=s16383" height="200" width="auto" /><br><br>قرية إيلاف السياحية <br> <br>التصن قرية سياحية <br> المدي طلميثة <br> عدد_ا 20 <br> عدد__1 80<br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBornChVbTqyoKphm9QqFxhYoIsES-OlWu9YFhg0vSp5hETsy2_pFDOtFozui4qAI9aQmxnjaa5e-Z9vg-q7xYA2kIPPzTEpbqBpc6oFyt1gEh_xmwchPM8f2A2_O0TJN0_DAeUORZONgrxUHmDb8_J_ljyy_c4-Hm2w7EdBwoL1Aiv86rJ6VUYGuMYlNEJMJEehaDxPQ0UfbamFNo8_JPNP4AKd9dC6MKsC_E7gvOM_LXyqmAILkSjFao0g?authuser=1&fife=s16383" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorxqZePtGOzKHnW1017dSJC_qR-q66LEuSrOoyKnWmTHtoGlZeuqk9oU_1-tLHJ2a265Co2oO1lXQ_KcGAja1Pqu1OS2D6bBCZ5gO4wGdzhlKCDe8gLeyg_RPzMVHCkhmwKql0yH7oa0aLg4Z7qsXVTwgHcZDK9pN1GjsQEoPODltVElP6ebK8_2cyPliFneFLwhCkJ6VbBSvVbSV76TVwmx00akO3nErFchocSfLFjRLAKAyn_XzLg7IM?authuser=1&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBornChVbTqyoKphm9QqFxhYoIsES-OlWu9YFhg0vSp5hETsy2_pFDOtFozui4qAI9aQmxnjaa5e-Z9vg-q7xYA2kIPPzTEpbqBpc6oFyt1gEh_xmwchPM8f2A2_O0TJN0_DAeUORZONgrxUHmDb8_J_ljyy_c4-Hm2w7EdBwoL1Aiv86rJ6VUYGuMYlNEJMJEehaDxPQ0UfbamFNo8_JPNP4AKd9dC6MKsC_E7gvOM_LXyqmAILkSjFao0g?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          20.9638155,32.7194631,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>شاليهات الحدائق الملكية</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqFeOFb-9Tnmqr-rq3UVlYlsNFME9NlEWYiSi_s7GoXEwSKxDciNCz0P3tJTZezNUpdRM00TSmTsFQdpKDiDy1rnoYpBsUfskZREJK-dPQL2wNSpvmhbXlyXFtzs1lWtRrTI7iE-B7LT0_97mb7NrMwMb1kV4iItdDjmtfzA3GJcf9mAk5A9YcPbJ3LZojzcF8hlG0xHM_GJsISob-d4Ox2rKH5aV-FKk8if_BJ5bIO4wdW_kV5zQUWYw8?authuser=1&fife=s16383" height="200" width="auto" /><br><br>شاليهات الحدائق الملكية <br> <br>التصن شالية سياحي <br> المدي البيضاء <br> عدد_ا 2 <br> عدد__1 8]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqFeOFb-9Tnmqr-rq3UVlYlsNFME9NlEWYiSi_s7GoXEwSKxDciNCz0P3tJTZezNUpdRM00TSmTsFQdpKDiDy1rnoYpBsUfskZREJK-dPQL2wNSpvmhbXlyXFtzs1lWtRrTI7iE-B7LT0_97mb7NrMwMb1kV4iItdDjmtfzA3GJcf9mAk5A9YcPbJ3LZojzcF8hlG0xHM_GJsISob-d4Ox2rKH5aV-FKk8if_BJ5bIO4wdW_kV5zQUWYw8?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.5950836,32.8752309,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>منتجع وادي الكوف</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBop3uUhVtfDw6_l13PIUuccf1-vqXO2aCvYbwI2sADHRttarCQcThlOAX9EMLq_XT4apthL_Fgsjszdjifaz5dXZ7JIOTSvxwowENI3zpCrGvNsLwwL4-NTv2EpUUUSM7enxX7bUr8jC1rkm-C2Y0GnRjEeyq5XT1aGZf8Balmv4YQkdoXy5dhQ14elWBUEWzHecAAVY-ar-ACub94x7Zm8lY3Dy4oQWSS1CcJusmaVfVs8uaGOKA05mmXc?authuser=1&fife=s16383" height="200" width="auto" /><br><br>منتجع وادي الكوف <br> <br>التصن منتجع سياحي <br> المدي البيضاء <br> عدد_ا 18 <br> عدد__1 48]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBop3uUhVtfDw6_l13PIUuccf1-vqXO2aCvYbwI2sADHRttarCQcThlOAX9EMLq_XT4apthL_Fgsjszdjifaz5dXZ7JIOTSvxwowENI3zpCrGvNsLwwL4-NTv2EpUUUSM7enxX7bUr8jC1rkm-C2Y0GnRjEeyq5XT1aGZf8Balmv4YQkdoXy5dhQ14elWBUEWzHecAAVY-ar-ACub94x7Zm8lY3Dy4oQWSS1CcJusmaVfVs8uaGOKA05mmXc?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.563798,32.702,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>منتجع إيلاند السياحي</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBop35M0wODLBNn1mx0-kKUYdmsmeJxCbTIGr_6KG_O7XFruMo0ZKx7VGSf_PSyJu8Yv42cZGLBjW20PoYz1fgMzG3R1bqsRopzKa9_34zVKvvUXKkwGHC73C_-_ukU-w1frcfMguu8zy0wkI24QD70weJw7UY1Ub-H7h6P1F31u0NdGBsBUKKCrXwyYkUHfvjj7H8tpWUhcuU86KjGeBgcbMTo3AH8suBLyLp4yN-oAIFCQ5taz36gAS29c?authuser=1&fife=s16383" height="200" width="auto" /><br><br>منتجع إيلاند السياحي <br> <br>التصن قرية سياحية <br> المدي سوسة <br> عدد_ا 10 <br> عدد__1 40]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBop35M0wODLBNn1mx0-kKUYdmsmeJxCbTIGr_6KG_O7XFruMo0ZKx7VGSf_PSyJu8Yv42cZGLBjW20PoYz1fgMzG3R1bqsRopzKa9_34zVKvvUXKkwGHC73C_-_ukU-w1frcfMguu8zy0wkI24QD70weJw7UY1Ub-H7h6P1F31u0NdGBsBUKKCrXwyYkUHfvjj7H8tpWUhcuU86KjGeBgcbMTo3AH8suBLyLp4yN-oAIFCQ5taz36gAS29c?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.940156,32.895682,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>منتجع كنزي السياحي</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorrF8NC9OtkOuNeD9-fCCS-fdm8Y4Jh4E8OwpuJtuhIR4s1k7PPI99k94n1-3mZwhBXmHgT0BbL0wbTAJY8dor91pBWeZsCmzwdhsMyQNk78JGcCZpzY0tyah5suFlFXS_fsKRGPkJCRnFtTsiNWTF9H-nWbYMnH_lskCv6ecuCEf8rZmbY-XoYchZzHOpd6TEtoT5ISfGgV3qY7QFiyY0tcZAPVic8tn3yvxVsphP5xQYAinTVreqw8YE?authuser=1&fife=s16383" height="200" width="auto" /><br><br>منتجع كنزي السياحي <br> <br>التصن قرية سياحية <br> المدي سوسة <br> عدد_ا 12 <br> عدد__1 30]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorrF8NC9OtkOuNeD9-fCCS-fdm8Y4Jh4E8OwpuJtuhIR4s1k7PPI99k94n1-3mZwhBXmHgT0BbL0wbTAJY8dor91pBWeZsCmzwdhsMyQNk78JGcCZpzY0tyah5suFlFXS_fsKRGPkJCRnFtTsiNWTF9H-nWbYMnH_lskCv6ecuCEf8rZmbY-XoYchZzHOpd6TEtoT5ISfGgV3qY7QFiyY0tcZAPVic8tn3yvxVsphP5xQYAinTVreqw8YE?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.9725655,32.9008844,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>منتجع سوسه</name>
+      <description><![CDATA[منتجع سوسه <br> <br>التصن قرية سياحية <br> المدي سوسة <br> عدد_ا 12 <br> عدد__1 30]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          22.0249434,32.9025146,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>مصيف القريه/رأس الهلال</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopzJ7w27ArRED6kRiZCtZbMMgB1NHDlm59rfGOxPAMCHWlJrivHo1HNvDQ8TDHzLcSVMf7nOoJtdV2QsxAFJYDsIt2pboE37KeRqutWVK3HS5uZ-bb0uR937-458J7mhdoJbncXj-e7Wbxj5VXQK9teuRNvxP47PKHTlATfwD1x3W3vURPEhSF4iyVMc4WLMNByKrOLzCHEnvhggI2fga7N2fW-Bho73FzdO8UYoNUTQZOs6bUH7Ep08Bs?authuser=1&fife=s16383" height="200" width="auto" /><br><br>مصيف القريه/رأس الهلال <br> <br>التصن قرية سياحية <br> المدي رأس الهلال <br> عدد_ا 22 <br> عدد__1 220]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopzJ7w27ArRED6kRiZCtZbMMgB1NHDlm59rfGOxPAMCHWlJrivHo1HNvDQ8TDHzLcSVMf7nOoJtdV2QsxAFJYDsIt2pboE37KeRqutWVK3HS5uZ-bb0uR937-458J7mhdoJbncXj-e7Wbxj5VXQK9teuRNvxP47PKHTlATfwD1x3W3vURPEhSF4iyVMc4WLMNByKrOLzCHEnvhggI2fga7N2fW-Bho73FzdO8UYoNUTQZOs6bUH7Ep08Bs?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          22.1691686,32.9017744,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>منتجع الينابيع السياحي</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqiRis4rkHbZy2TuppBzmVvPjDnQsT2PmIEikAAk6OmERvRh14MsHIa4HLWEcpFJIb6QldOXFEDkFBAKuwoB1HNBJxLcOih1rmamGXtVwzjBqGjm2_qyRo2UiE4YL8ZItRv3swfOKijvCaLF3ke19MbpKH8rMNo-Tm_kBfAJLkiBm5QqyZT_fhKkDm2HBn34gYSHQeFJaniygmFkJec0jAKCmx2qN6bCXzQXOFbxEBASp1zE6eYPCM3vdw?authuser=1&fife=s16383" height="200" width="auto" /><br><br>منتجع الينابيع السياحي <br> <br>التصن قرية سياحية <br> المدي رأس الهلال <br> عدد_ا 28 <br> عدد__1 168]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqiRis4rkHbZy2TuppBzmVvPjDnQsT2PmIEikAAk6OmERvRh14MsHIa4HLWEcpFJIb6QldOXFEDkFBAKuwoB1HNBJxLcOih1rmamGXtVwzjBqGjm2_qyRo2UiE4YL8ZItRv3swfOKijvCaLF3ke19MbpKH8rMNo-Tm_kBfAJLkiBm5QqyZT_fhKkDm2HBn34gYSHQeFJaniygmFkJec0jAKCmx2qN6bCXzQXOFbxEBASp1zE6eYPCM3vdw?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          22.190223,32.881896,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>منتجع الاثرون السياحي</name>
+      <description><![CDATA[منتجع الاثرون السياحي <br> <br>التصن منتجع سياحي <br> المدي الاثرون <br> عدد_ا 10 <br> عدد__1 50]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          22.279024,32.869423,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>منتجع إيميليا السياحي</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqMjB6qziMwFTnVkueIbx3qhXJ4RFZ3EOC53uN-pmpzEhmNboG9hNDC8QkgUKj-eehXMx4_ANEl5vrhLnEi8wcw8r8MIf3U3kytJFjjkG9yIsjIvpgkB_94MejsEi--RpzDz-FLvMYE4nKr-KfEa-y_NPlA16ZPm6RkP3e3UjZNGx6N8bS5TS6X0K1bSOUMz_l0PDDz9NCZ_cJj9GOMC1Z1FnXPlXh-yOMbzMC5cHtK4Fc_abrdWGzedJY?authuser=1&fife=s16383" height="200" width="auto" /><br><br>منتجع إيميليا السياحي <br> <br>التصن منتجع سياحي <br> المدي درنة <br> عدد_ا 28 <br> عدد__1 168]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqMjB6qziMwFTnVkueIbx3qhXJ4RFZ3EOC53uN-pmpzEhmNboG9hNDC8QkgUKj-eehXMx4_ANEl5vrhLnEi8wcw8r8MIf3U3kytJFjjkG9yIsjIvpgkB_94MejsEi--RpzDz-FLvMYE4nKr-KfEa-y_NPlA16ZPm6RkP3e3UjZNGx6N8bS5TS6X0K1bSOUMz_l0PDDz9NCZ_cJj9GOMC1Z1FnXPlXh-yOMbzMC5cHtK4Fc_abrdWGzedJY?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          22.5622359,32.7982606,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>مصيف 1805</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorWHuiLSfyVlcgkEvZAwWmtL1SaSBL9PJsm2hTaWGHIlpQXjIPBxlUfjIyywtAxSf1uJtHB61NutJ8vHy27Bdih0j4RMoLFnhW7vVcPa3zwKRNUerBoTM4UAD8Vg07NMjFx6VjLodQDE3CjDm4iQguDPeMPfQ-NiWN1Me3YVMlDIEw-Uz74mf8zjZ99p-NtWh5V3ZNv4ZHufpudI_fCSnPBghn9vU2fa0ygCdO4L8mYRe_EUt9EZTh2PwY?authuser=1&fife=s16383" height="200" width="auto" /><br><br>مصيف 1805 <br> <br>التصن منتجع سياحي <br> المدي درنة <br> عدد_ا 20 <br> عدد__1 160]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorWHuiLSfyVlcgkEvZAwWmtL1SaSBL9PJsm2hTaWGHIlpQXjIPBxlUfjIyywtAxSf1uJtHB61NutJ8vHy27Bdih0j4RMoLFnhW7vVcPa3zwKRNUerBoTM4UAD8Vg07NMjFx6VjLodQDE3CjDm4iQguDPeMPfQ-NiWN1Me3YVMlDIEw-Uz74mf8zjZ99p-NtWh5V3ZNv4ZHufpudI_fCSnPBghn9vU2fa0ygCdO4L8mYRe_EUt9EZTh2PwY?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          22.56117,32.790435,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>منتجع الابرق السياحي</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoroGAs_LYbwjz1kgbySYeTyTLMon2Ri5YcWDdRbEqypi3ljWwCHlUDBRT964fzr0fPf-XYV9CWre5UskFUGUJq0L7fheUNS-6_Ga-HPA1yPjFrftIoFKeaDkiEPQcInqNwHhB8cwIuOYYtGlpgJ9vQzC9VvvZyUe67bxr3FAzQpFKLdvmpZxSUdb4PKBGE9SFDGK4UBiDSP8NbK4S8E_Is25dMYd7_Y_2kbOqkvW4X3Gc7zll_v7C4TyAU?authuser=1&fife=s16383" height="200" width="auto" /><br><br>منتجع الابرق السياحي <br> <br>التصن منتجع سياحي <br> المدي الابرق <br> عدد_ا 9 <br> عدد__1 36]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoroGAs_LYbwjz1kgbySYeTyTLMon2Ri5YcWDdRbEqypi3ljWwCHlUDBRT964fzr0fPf-XYV9CWre5UskFUGUJq0L7fheUNS-6_Ga-HPA1yPjFrftIoFKeaDkiEPQcInqNwHhB8cwIuOYYtGlpgJ9vQzC9VvvZyUe67bxr3FAzQpFKLdvmpZxSUdb4PKBGE9SFDGK4UBiDSP8NbK4S8E_Is25dMYd7_Y_2kbOqkvW4X3Gc7zll_v7C4TyAU?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.954304,32.825786,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>منتج شحات السياحي</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqoWkCiS7D9YGWNjlZ9rN-Q3fsw6b0Er9uppnRhdUQ51jkg0PUAQFRk1jWVyOOHjOvOa_W0cChLIb02XDisT4jz8zQDCMZd7PumYnPZk5roYV74Hy4iIZQg16_XyTZzOr7869K34w4DYimNJnes7a_ccNMzcMZlQr1p52zHr-8VVXjPqWheoEL7brvGvArcQbSFNErTIjZpwfA8hYQBUo0oST0mYYUMrU_RMtPdnO9x_UhtnMOlX_oZXYg?authuser=1&fife=s16383" height="200" width="auto" /><br><br>منتج شحات السياحي <br> <br>التصن منتجع سياحي <br> المدي شحات <br> عدد_ا 15 <br> عدد__1 30]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqoWkCiS7D9YGWNjlZ9rN-Q3fsw6b0Er9uppnRhdUQ51jkg0PUAQFRk1jWVyOOHjOvOa_W0cChLIb02XDisT4jz8zQDCMZd7PumYnPZk5roYV74Hy4iIZQg16_XyTZzOr7869K34w4DYimNJnes7a_ccNMzcMZlQr1p52zHr-8VVXjPqWheoEL7brvGvArcQbSFNErTIjZpwfA8hYQBUo0oST0mYYUMrU_RMtPdnO9x_UhtnMOlX_oZXYg?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.879472,32.824524,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>منتجع وموتيل الأمان 1</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBooxVBBh-QkuIBuXyDWoRzoHW_-65USEZspfgzqolSyKlQsH4N1qmg4nZxFZ4pRpN4s1Rh0bf98Vq3wTjm_yySgFkoR0Erg0bYOlgkbeHVQtDG1KgglEy_fMuZ5q2QAZI66m1xnJvP48xWlyTYSOnoaGh6hkDcNXVNM4l5fzmH6Lby05eksVH-O30fYT-EbNiQEJsf1JW5J1jdyRRuKKucGw2kJcgXeL9TY8qqMbBXiB1la4JST6WUePFMo?authuser=1&fife=s16383" height="200" width="auto" /><br><br>منتجع وموتيل الأمان 1 <br> <br>التصن منتجع سياحي <br> المدي شحات <br> عدد_ا 25 <br> عدد__1 102]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBooxVBBh-QkuIBuXyDWoRzoHW_-65USEZspfgzqolSyKlQsH4N1qmg4nZxFZ4pRpN4s1Rh0bf98Vq3wTjm_yySgFkoR0Erg0bYOlgkbeHVQtDG1KgglEy_fMuZ5q2QAZI66m1xnJvP48xWlyTYSOnoaGh6hkDcNXVNM4l5fzmH6Lby05eksVH-O30fYT-EbNiQEJsf1JW5J1jdyRRuKKucGw2kJcgXeL9TY8qqMbBXiB1la4JST6WUePFMo?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.894591,32.801446,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>منتجع وموتيل الأمان 3</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopqQc5DVNgiPDun8rWGdCqVy2JA2M69c-EioBJfNgmtKUBBDDRtSVMDTK91az9Sn-UDNkGe1uham9knTZzM3kwnAN94SHEMkTTFcQFg_lAQn4zKoie6cSBClswAVEKuA0ftTx0pCO7abG1NuJx2Pf-wicyV97fbSTisKUcYtMW75Rvd7lb4q6oooYEoyxfjYWelOpl2VhhXSndzTHOu-PHGJGZOardE4wy_gFT60GfQIW9sZImojpPvj2I?authuser=1&fife=s16383" height="200" width="auto" /><br><br>منتجع وموتيل الأمان 3 <br> <br>التصن منتجع سياحي <br> المدي شحات <br> عدد_ا 10 <br> عدد__1 45]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopqQc5DVNgiPDun8rWGdCqVy2JA2M69c-EioBJfNgmtKUBBDDRtSVMDTK91az9Sn-UDNkGe1uham9knTZzM3kwnAN94SHEMkTTFcQFg_lAQn4zKoie6cSBClswAVEKuA0ftTx0pCO7abG1NuJx2Pf-wicyV97fbSTisKUcYtMW75Rvd7lb4q6oooYEoyxfjYWelOpl2VhhXSndzTHOu-PHGJGZOardE4wy_gFT60GfQIW9sZImojpPvj2I?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.9234664,32.8263417,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>شاليهات بوعطية</name>
+      <description><![CDATA[شاليهات بوعطية <br> <br>التصن منتجع سياحي <br> المدي شحات <br> عدد_ا 12 <br> عدد__1 65]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          21.897302,32.842844,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>منتجع جود السياحي</name>
+      <description><![CDATA[منتجع جود السياحي <br> <br>التصن منتجع سياحي <br> المدي شحات <br> عدد_ا 23 <br> عدد__1 92]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          21.88843,32.840597,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>إستراحات فردية درجة أولى</name>
+      <description><![CDATA[إستراحات فردية درجة أولى    <br>       <br>   FID   105    <br>   Field1   106    <br>   إسم_ا   إستراحات فردية درجة أولى    <br>   X   21.867999    <br>   Y   32.847121    <br>   التصن   منتجع سياحي    <br>   المدي   شحات    <br>   عدد_ا   30    <br>   عدد__1   120]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          21.867999,32.847121,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>إستراحات فردية</name>
+      <description><![CDATA[إستراحات فردية <br> <br>التصن منتجع سياحي <br> المدي شحات <br> عدد_ا 500 <br> عدد__1 2000]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          21.8672957,32.8470731,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>منتجع الاسرة السعيدة</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqdpCxOke-WfpjNaX_0Qaly6MYEhmaCPb357tHqEZUK_psSRzJm2wEyLG-Ugo_MDF-F40s4IqpmqjS7K2hIbslrUcTuGFxjrwVfwU3q2nx3_tkppm455utSoYUFRfYjZfYnBiH-rmjZ_SBKiIVLAP52_u8wFsC4cdFA-bdUT4QZDCEn31CT1P2oGnE9fe6JU99JgEb-I6WAXCyBHkZ6vkNhPq6UoTLhNV9aVORQf78IaaRsfTWteBrXdpQ?authuser=1&fife=s16383" height="200" width="auto" /><br><br>منتجع الاسرة السعيدة <br> <br>التصن منتجع سياحي <br> المدي شحات <br> عدد_ا 15 <br> عدد__1 45]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqdpCxOke-WfpjNaX_0Qaly6MYEhmaCPb357tHqEZUK_psSRzJm2wEyLG-Ugo_MDF-F40s4IqpmqjS7K2hIbslrUcTuGFxjrwVfwU3q2nx3_tkppm455utSoYUFRfYjZfYnBiH-rmjZ_SBKiIVLAP52_u8wFsC4cdFA-bdUT4QZDCEn31CT1P2oGnE9fe6JU99JgEb-I6WAXCyBHkZ6vkNhPq6UoTLhNV9aVORQf78IaaRsfTWteBrXdpQ?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.873265,32.816855,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>شاليهات بومؤمن</name>
+      <description><![CDATA[شاليهات بومؤمن <br> <br>التصن منتجع سياحي <br> المدي شحات <br> عدد_ا 6 <br> عدد__1 24]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <Point>
+        <coordinates>
+          21.84664,32.858583,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>منتجع سيف للسياحه ولاستثمار</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoog-2gMFbiF-BHMEYN8L5RUIK5JMMk9v4QQiuy985i33x5jdShw4f83TMkUGv1jE7Ca9B3mc2y2JlfGx8gMAdXCSR5j34B9UBLWxK2esI7i-CwanOw8f1yXFdLenP5mRgfeTb3MSlxovy-OI4Cl9rb7ldiQM2dMVRNOvdSxGwI3X9z0EKFAfOkvwM5lQxwlIqN9SrozMjs3nOuu42_5lYQYQKdJoQ93jqp-W-aU2ZM3T3wdOtnejzNtm6s?authuser=1&fife=s16383" height="200" width="auto" /><br><br>منتجع سيف للسياحه ولاستثمار <br> شحات<br>التصن منتجع سياحي <br> المدي شحات <br> عدد_ا 8 <br> عدد__1 32]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoog-2gMFbiF-BHMEYN8L5RUIK5JMMk9v4QQiuy985i33x5jdShw4f83TMkUGv1jE7Ca9B3mc2y2JlfGx8gMAdXCSR5j34B9UBLWxK2esI7i-CwanOw8f1yXFdLenP5mRgfeTb3MSlxovy-OI4Cl9rb7ldiQM2dMVRNOvdSxGwI3X9z0EKFAfOkvwM5lQxwlIqN9SrozMjs3nOuu42_5lYQYQKdJoQ93jqp-W-aU2ZM3T3wdOtnejzNtm6s?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          21.903627,32.796428,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>منتجع وفندق ريفان السياحي</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoogojRDzP3iF_3uVfr2oDAQyMJdZF5DzM6rFYsFQXyXS-OeHNTc7dvMrOeD7vyuBTUDaX3E7FPclfYwAaurcdJWwGRcP7vfO30YLfnjnbRB5R_snQdvx87Q60df0txOZKUUan_Bg2yUnMkalIg9GkDNx6E42hT88GO66bXFn_rY38eUpAfDd4RgIXcDUf-P83XyCFPLoUW2Tb_BUGfCMsV_wfeqxYVEPtC5gfkcu1HL_qtd1eojGgIwqEs?authuser=1&fife=s16383" height="200" width="auto" /><br><br>منتجع وفندق ريفان السياحي <br> <br>المدي طبرق <br> عدد_ا 15 <br> عدد__1 30]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoogojRDzP3iF_3uVfr2oDAQyMJdZF5DzM6rFYsFQXyXS-OeHNTc7dvMrOeD7vyuBTUDaX3E7FPclfYwAaurcdJWwGRcP7vfO30YLfnjnbRB5R_snQdvx87Q60df0txOZKUUan_Bg2yUnMkalIg9GkDNx6E42hT88GO66bXFn_rY38eUpAfDd4RgIXcDUf-P83XyCFPLoUW2Tb_BUGfCMsV_wfeqxYVEPtC5gfkcu1HL_qtd1eojGgIwqEs?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          23.959161,32.0372928,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>قرية سبتيموس السياحية - زوارة</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoofY5KNmwUBeJ_t9jceHJ65UBhXF4uRKnVCmyEf-u2jiaIAUcB1ILdyCISA4A1id0BFQMcjE15YC6bh5AZHzlBn-0Oztc76ZZgJTG2OyDh7WpHBcBKJnNf8y8s9Obw8tMlNWvK2W39fFUKh6FYm7CICLJ2dAZrXh8-JdHH5ErfRc5p_v-fTDUXOyB43CkcZ-AnAz6vpnyDY_juQeaN9oEHkqWT2oGRDtjmK4nvYB7UP_w2U7pussmaLC_g?authuser=1&fife=s16383" height="200" width="auto" /><br><br>X2M5+PCG، زوارة                                                       <br><br>094-0201011]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoofY5KNmwUBeJ_t9jceHJ65UBhXF4uRKnVCmyEf-u2jiaIAUcB1ILdyCISA4A1id0BFQMcjE15YC6bh5AZHzlBn-0Oztc76ZZgJTG2OyDh7WpHBcBKJnNf8y8s9Obw8tMlNWvK2W39fFUKh6FYm7CICLJ2dAZrXh8-JdHH5ErfRc5p_v-fTDUXOyB43CkcZ-AnAz6vpnyDY_juQeaN9oEHkqWT2oGRDtjmK4nvYB7UP_w2U7pussmaLC_g?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          12.0089054,32.9846754,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>قرية سيمو السياحية - زوارة</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopqwA9SeU9MNxSxla8FiiBp5ObCf0s0AWlEs5ViVW2Bbvy1Wou8yQrROVE8S7AevcvGbeAKxz2awj31em466N7lJBqWDtcEaZWjkKTYZTqWLjTvHVyDyPFpcS9Z5cuN_IPKpGuQ0x42uQ7sgcYK_o5codLt-TTsTgNP2YgWKxXaj-d9R5tXfjJ6gEzvieAUKY-VlTlAZDVE8NkkU1d3ubCXzrUqkoWhOfHcETPv8--fohucR8ltWXhYIAk?authuser=1&fife=s16383" height="200" width="auto" /><br><br><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorYLN2I7WFMHfSVgm8YsXS7-TArrqdeL2tdqi-BuhhqVznZSnjH0oGNpddDdtD8xJRda-vSewYD-oSodkXFX05Wrzl4bh1XxdtQCSr6YJXdlWyk2hSfNE_EF0CR8v9kw_4Jagc33C0aPxwTsj-P-dPdknSwTiL0qCMzlnUUomFBG1qc53kdQOTEEZF3BGyoSaZvPE1StoQempcD3pzIa-4cqpOOT0bYW_-LaRZ6BxbYRiKiiYL0WNWhFg4?authuser=1&fife=s16383" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopqwA9SeU9MNxSxla8FiiBp5ObCf0s0AWlEs5ViVW2Bbvy1Wou8yQrROVE8S7AevcvGbeAKxz2awj31em466N7lJBqWDtcEaZWjkKTYZTqWLjTvHVyDyPFpcS9Z5cuN_IPKpGuQ0x42uQ7sgcYK_o5codLt-TTsTgNP2YgWKxXaj-d9R5tXfjJ6gEzvieAUKY-VlTlAZDVE8NkkU1d3ubCXzrUqkoWhOfHcETPv8--fohucR8ltWXhYIAk?authuser=1&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorYLN2I7WFMHfSVgm8YsXS7-TArrqdeL2tdqi-BuhhqVznZSnjH0oGNpddDdtD8xJRda-vSewYD-oSodkXFX05Wrzl4bh1XxdtQCSr6YJXdlWyk2hSfNE_EF0CR8v9kw_4Jagc33C0aPxwTsj-P-dPdknSwTiL0qCMzlnUUomFBG1qc53kdQOTEEZF3BGyoSaZvPE1StoQempcD3pzIa-4cqpOOT0bYW_-LaRZ6BxbYRiKiiYL0WNWhFg4?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          12.0038841,32.9861632,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>إقامة تولين</name>
+      <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopxEIlADI_q2CubfzLY1rRJyD4IKKbUdPb86hpxbEf5Gp5-SF4Wuo8zMghtPmVof-1fOSMqJfRQ0QyOlJK4VqA8dtdAfhTFlUbapssdmMGsdxSSV8kbxthq_4vglxlWR1eY7-1rv7pzqYoU9C3lVWO-JXIWixK5ClcFSUYC-WuG6mrHKM88QFKj1IJ6XlNTUVcb1u8LxpyOABqRGX5mv6ZNxitllSx1cvJQY091T8MOdHHCnHTuCNgKdrg?authuser=1&fife=s16383" height="200" width="auto" /><br><br>التصن قرية سياحية<br>المدي زوارة<br>عدد_ا 8<br>عدد__1 32<br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoptn-KpHRdBCyzwEqM6F0vTJjKGHksaxG0fRswLxLD9KfLY2UP0as1VmOsWTCg5_h74TeXla6-lribwGJr2OB89AOBj9rsbXgkftwUYYQV1t2jXeMR4GyZFiW3_GA4V2bNPHH7P_juqfsAtFCYrf1fyLJwJpxF4JwgBvilpq0wI3AXkPR6eWdFR5a-xxNsydYMp_Uc9LJVGqujWd349vOZmpQdmCzOeWRx6PxLKqRZuaYTzBgUwg6HcxPU?authuser=1&fife=s16383" height="200" width="auto" />]]></description>
+      <styleUrl>#icon-1521-880E4F-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="gx_media_links">
+          <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopxEIlADI_q2CubfzLY1rRJyD4IKKbUdPb86hpxbEf5Gp5-SF4Wuo8zMghtPmVof-1fOSMqJfRQ0QyOlJK4VqA8dtdAfhTFlUbapssdmMGsdxSSV8kbxthq_4vglxlWR1eY7-1rv7pzqYoU9C3lVWO-JXIWixK5ClcFSUYC-WuG6mrHKM88QFKj1IJ6XlNTUVcb1u8LxpyOABqRGX5mv6ZNxitllSx1cvJQY091T8MOdHHCnHTuCNgKdrg?authuser=1&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoptn-KpHRdBCyzwEqM6F0vTJjKGHksaxG0fRswLxLD9KfLY2UP0as1VmOsWTCg5_h74TeXla6-lribwGJr2OB89AOBj9rsbXgkftwUYYQV1t2jXeMR4GyZFiW3_GA4V2bNPHH7P_juqfsAtFCYrf1fyLJwJpxF4JwgBvilpq0wI3AXkPR6eWdFR5a-xxNsydYMp_Uc9LJVGqujWd349vOZmpQdmCzOeWRx6PxLKqRZuaYTzBgUwg6HcxPU?authuser=1&fife=s16383]]></value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          12.0211821,32.9786749,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
