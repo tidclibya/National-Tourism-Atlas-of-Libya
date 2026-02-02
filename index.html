@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<title>National Tourism Atlas of Libya | Executive Dashboard</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- CSS -->
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<style>
+/* ===== Header ===== */
+.header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:18px 30px;
+  background:linear-gradient(135deg,#0f2c66,#1e40af);
+  color:#fff;
+}
+
+.logo{
+  display:flex;
+  align-items:center;
+  gap:15px;
+}
+
+.logo img{
+  height:58px;
+}
+
+.logo h1{
+  margin:0;
+  font-size:20px;
+}
+
+.logo span{
+  font-size:13px;
+  opacity:.9;
+}
+
+/* ===== Navigation ===== */
+nav{
+  background:#020617;
+  display:flex;
+  justify-content:center;
+  gap:30px;
+  padding:12px;
+}
+
+nav a{
+  color:#e5e7eb;
+  text-decoration:none;
+  font-weight:bold;
+  font-size:14px;
+}
+
+nav a:hover{
+  color:#38bdf8;
+}
+
+/* ===== Hero ===== */
+.hero{
+  background:#f8fafc;
+  padding:35px;
+  text-align:center;
+}
+
+.hero h2{
+  margin:0;
+  color:#0f2c66;
+}
+
+.hero p{
+  margin-top:10px;
+  max-width:900px;
+  margin-inline:auto;
+  color:#334155;
+}
+
+/* ===== KPI ===== */
+.kpis{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:20px;
+  padding:25px;
+}
+
+.kpi{
+  background:#fff;
+  padding:22px;
+  border-radius:16px;
+  text-align:center;
+  box-shadow:0 8px 25px rgba(0,0,0,.08);
+}
+
+.kpi i{
+  font-size:26px;
+  color:#2563eb;
+}
+
+.kpi h3{
+  margin:10px 0;
+  font-size:26px;
+  color:#1e40af;
+}
+
+.kpi span{
+  font-size:14px;
+  color:#64748b;
+}
+
+/* ===== Map ===== */
+#map{
+  height:520px;
+  margin:25px;
+  border-radius:18px;
+  box-shadow:0 10px 30px rgba(0,0,0,.12);
+}
+
+/* ===== Footer ===== */
+footer{
+  background:#020617;
+  color:#cbd5f5;
+  text-align:center;
+  padding:15px;
+  font-size:13px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- ===== Header ===== -->
+<div class="header">
+  <div class="logo">
+    <!-- غيّر المسار إذا نقلت الشعار -->
+    <img src="css/atlas-removebg-preview.png" alt="National Tourism Atlas of Libya">
+    <div>
+      <h1>National Tourism Atlas of Libya</h1>
+      <span>Executive Dashboard – Phase One (60 Days)</span>
+    </div>
+  </div>
+
+  <i class="fa-solid fa-map-location-dot fa-2x"></i>
+</div>
+
+<!-- ===== Navigation ===== -->
+<nav>
+  <a href="index.html"><i class="fa-solid fa-gauge"></i> لوحة القيادة</a>
+  <a href="pages/about.html"><i class="fa-solid fa-circle-info"></i> عن المشروع</a>
+  <a href="pages/programs.html"><i class="fa-solid fa-diagram-project"></i> البرامج</a>
+  <a href="pages/reports.html"><i class="fa-solid fa-file-lines"></i> التقارير</a>
+</nav>
+
+<!-- ===== Hero ===== -->
+<div class="hero">
+  <h2>لوحة القيادة الوطنية للسياحة</h2>
+  <p>
+    منصة وطنية تنفيذية لعرض ومتابعة الموارد السياحية والثقافية في ليبيا،
+    ودعم متخذي القرار من خلال الخرائط الذكية والمؤشرات التشغيلية
+    خلال المرحلة الأولى (60 يوم).
+  </p>
+</div>
+
+<!-- ===== KPIs ===== -->
+<div class="kpis">
+  <div class="kpi">
+    <i class="fa-solid fa-location-dot"></i>
+    <h3 id="kpi-total">0</h3>
+    <span>إجمالي المواقع</span>
+  </div>
+
+  <div class="kpi">
+    <i class="fa-solid fa-circle-check"></i>
+    <h3 id="kpi-completed">0</h3>
+    <span>مواقع مكتملة</span>
+  </div>
+
+  <div class="kpi">
+    <i class="fa-solid fa-chart-line"></i>
+    <h3 id="kpi-progress">0%</h3>
+    <span>نسبة الإنجاز</span>
+  </div>
+</div>
+
+<!-- ===== Map ===== -->
+<div id="map"></div>
+
+<!-- ===== Footer ===== -->
+<footer>
+  © 2026 National Tourism Atlas of Libya – Government Executive Platform
+</footer>
+
+<!-- ===== Scripts ===== -->
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet-omnivore/leaflet-omnivore.min.js"></script>
+
+<script src="assets/js/map.js"></script>
+<script src="assets/js/kpi.js"></script>
+
+</body>
+</html>
