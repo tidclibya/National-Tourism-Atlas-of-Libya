@@ -2,52 +2,18 @@
 <html lang="ar" dir="rtl">
 <head>
 <meta charset="UTF-8">
-<title>التقارير الأسبوعية | National Tourism Atlas of Libya</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<link rel="stylesheet" href="../assets/css/style.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
-<style>
-.page-header{
-  background:linear-gradient(135deg,#0f2c66,#1e40af);
-  color:#fff;
-  padding:35px;
-  text-align:center;
-}
-
-.section{
-  background:#fff;
-  margin:25px;
-  padding:30px;
-  border-radius:18px;
-  box-shadow:0 10px 30px rgba(0,0,0,.08);
-  text-align:center;
-}
-</style>
+<title>التقارير الأسبوعية</title>
+<link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body>
+<body data-page="reports">
+<div id="nav-placeholder"></div>
 
-<div class="page-header">
-  <h1>التقارير الأسبوعية</h1>
-  <p>متابعة تقدم المرحلة الأولى (60 يوم)</p>
-</div>
+<section class="section" style="text-align:center">
+<button onclick="generateReport()">تحميل التقرير الأسبوعي</button>
+</section>
 
-<div class="section">
-  <p>
-    تُمثل هذه الصفحة أداة متابعة دورية لتقدم أعمال
-    مشروع الأطلس السياحي الوطني،
-    حيث يتم استخراج التقارير مباشرة من البيانات المكانية
-    والمؤشرات التشغيلية.
-  </p>
-
-  <button onclick="generateReport()" class="tab-btn">
-    <i class="fa-solid fa-file-export"></i>
-    تحميل التقرير الأسبوعي
-  </button>
-</div>
-
-<script src="../assets/js/reports.js"></script>
+<script src="assets/js/include.js"></script>
+<script src="assets/js/reports.js"></script>
 </body>
 </html>
