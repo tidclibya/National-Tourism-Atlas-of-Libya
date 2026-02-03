@@ -1,164 +1,1165 @@
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
 
-<script>
-  let map;
-  let currentLayer = null;
-  let isSatellite = false;
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>أطلس ليبيا السياحي  - National Tourism Atlas of Libya</title>
   
-  // روابط ملفات KML من GitHub
-  const kmlFiles = {
-    'الفنادق': 'https://raw.githubusercontent.com/tidclibya/National-Tourism-Atlas-of-Libya/data/الفنادق.kml',
-    'القرى_والمنتجعات_السياحية': 'https://raw.githubusercontent.com/tidclibya/National-Tourism-Atlas-of-Libya/data/القرى_والمنتجعات_السياحية.kml',
-    'المشاريع_وفرص_الاستثمار_السياحي': 'https://raw.githubusercontent.com/tidclibya/National-Tourism-Atlas-of-Libya/data/المشاريع%20وفرص%20الاستثمار%20السياحي.kml',
-    'خريطة_مدن_الثراث_العالمي_الخمسة': 'https://raw.githubusercontent.com/tidclibya/National-Tourism-Atlas-of-Libya/data/خريطة%20مدن%20الثراث%20العالمي%20الخمسة.kml',
-    'نقاط': 'https://raw.githubusercontent.com/tidclibya/National-Tourism-Atlas-of-Libya/data/نقاط.kml'
-  };
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   
-  const mapTitles = {
-    'الفنادق': 'خريطة الفنادق في ليبيا',
-    'القرى_والمنتجعات_السياحية': 'خريطة القرى والمنتجعات السياحية',
-    'المشاريع_وفرص_الاستثمار_السياحي': 'خريطة فرص الاستثمار السياحي',
-    'خريطة_مدن_الثراث_العالمي_الخمسة': 'خريطة مدن التراث العالمي الخمسة',
-    'نقاط': 'خريطة النقاط السياحية الرئيسية'
-  };
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
   
-  const mapDescriptions = {
-    'الفنادق': 'مواقع الفنادق والمنشآت الفندقية في جميع أنحاء ليبيا',
-    'القرى_والمنتجعات_السياحية': 'القرى والمنتجعات السياحية والمنشآت الترفيهية',
-    'المشاريع_وفرص_الاستثمار_السياحي': 'المشاريع السياحية وفرص الاستثمار المتاحة',
-    'خريطة_مدن_الثراث_العالمي_الخمسة': 'مدن ليبيا المصنفة كتراث عالمي من قبل اليونسكو',
-    'نقاط': 'النقاط والمواقع السياحية الرئيسية في ليبيا'
-  };
-
-  // تهيئة الخريطة
-  function initMap() {
-    map = L.map('map').setView([27.0, 17.0], 6);
-    
-    // طبقة الخريطة الأساسية
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution: '© OpenStreetMap contributors',
-      maxZoom: 18
-    }).addTo(map);
-    
-    // تحميل الطبقة الافتراضية (النقاط)
-    loadKML('نقاط');
-  }
-
-  // تحميل ملف KML
-  function loadKML(layerName) {
-    if (currentLayer) {
-      map.removeLayer(currentLayer);
+  <!-- الخطوط -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&amp;family=Tajawal:wght@300;400;500;700;800&amp;display=swap" rel="stylesheet">
+  
+  <style>
+    /* الأنماط المخصصة */
+    ::-webkit-scrollbar {
+      display: none;
     }
+
+    .slide-in {
+      animation: slideIn 0.6s ease-out;
+    }
+
+    @keyframes slideIn {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .hover-lift {
+      transition: all 0.3s ease;
+    }
+
+    .hover-lift:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    }
+
+    .gradient-text {
+      background: linear-gradient(135deg, #0D47A1, #1565C0);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .gold-gradient-text {
+      background: linear-gradient(135deg, #D4AF37, #FFD700, #FFE55C);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-size: 200% auto;
+      animation: shine 3s linear infinite;
+    }
+
+    @keyframes shine {
+      to {
+        background-position: 200% center;
+      }
+    }
+
+    .floating {
+      animation: floating 3s ease-in-out infinite;
+    }
+
+    @keyframes floating {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-10px); }
+      100% { transform: translateY(0px); }
+    }
+
+    .border-glow {
+      box-shadow: 0 0 20px rgba(21, 101, 192, 0.3);
+    }
+
+    .card-hover {
+      transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+
+    .card-hover:hover {
+      transform: translateY(-10px) scale(1.02);
+      box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+    }
+
+    .rtl {
+      direction: rtl;
+    }
+
+    .text-shadow {
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    }
+
+    .glass-effect {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .gold-badge {
+      background: linear-gradient(135deg, #D4AF37, #FFD700);
+      color: #1E3A8A;
+      font-weight: bold;
+    }
+
+    .gold-border {
+      border-color: #D4AF37;
+    }
+
+    .btn-large {
+      padding: 18px 32px;
+      font-size: 1.125rem;
+      border-radius: 16px;
+    }
+
+    .active-map {
+      background: linear-gradient(90deg, rgba(13, 71, 161, 0.08) 0%, rgba(255, 255, 255, 1) 100%);
+      font-weight: bold;
+      border-right-width: 4px !important;
+    }
+
+    .map-frame {
+      width: 100%;
+      height: 100%;
+      border: none;
+      border-radius: 16px;
+    }
+
+    .map-loading {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(255, 255, 255, 0.9);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+      border-radius: 16px;
+    }
+
+    .loading-spinner {
+      width: 50px;
+      height: 50px;
+      border: 5px solid #f3f3f3;
+      border-top: 5px solid #0D47A1;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+
+  <script>
+    // تكوين Tailwind
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            'sans': ['Inter', 'Tajawal', 'sans-serif'],
+            'arabic': ['Tajawal', 'sans-serif'],
+          },
+          colors: {
+            'snow-white': '#F8FAFC',
+            'ice-blue': '#E3F2FD',
+            'royal-blue': '#0D47A1',
+            'deep-blue': '#0A3566',
+            'light-blue': '#64B5F6',
+            'gold': '#D4AF37',
+            'light-gold': '#FFD700',
+            'accent-gray': '#64748B',
+            'soft-gray': '#F1F5F9',
+            'dark-blue': '#1E3A8A'
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="font-sans bg-gradient-to-br from-snow-white via-ice-blue to-snow-white rtl">
+  
+  <!-- الهيدر -->
+  <header id="header" class="bg-white/95 backdrop-blur-lg shadow-xl border-b border-blue-100 sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-8 py-4">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center space-x-6">
+          <!-- الشعارات -->
+          <div class="flex items-center space-x-4">
+            <div class="relative group">
+              <div class="absolute -inset-1 bg-gradient-to-r from-royal-blue to-gold rounded-2xl blur opacity-25 group-hover:opacity-75 transition duration-1000"></div>
+              <div class="relative bg-white p-3 rounded-2xl shadow-lg border border-gray-100">
+                <div class="bg-gradient-to-br from-royal-blue to-deep-blue w-12 h-12 rounded-xl flex items-center justify-center">
+                  <i class="fas fa-map-marked-alt text-white text-2xl"></i>
+                </div>
+              </div>
+            </div>
+            
+            <div class="relative group">
+              <div class="absolute -inset-1 bg-gradient-to-r from-gold to-royal-blue rounded-2xl blur opacity-25 group-hover:opacity-75 transition duration-1000"></div>
+              <div class="relative bg-white p-3 rounded-2xl shadow-lg border border-gray-100">
+                <div class="bg-gradient-to-br from-gold to-light-gold w-12 h-12 rounded-xl flex items-center justify-center">
+                  <i class="fas fa-crown text-deep-blue text-2xl"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="flex flex-col">
+            <h1 class="text-2xl font-extrabold bg-gradient-to-r from-royal-blue via-deep-blue to-gold bg-clip-text text-transparent font-arabic">أطلس ليبيا السياحي الوطني</h1>
+            <p class="text-sm text-accent-gray font-medium">National Tourism Atlas of Libya</p>
+            <div class="flex items-center space-x-2 mt-1">
+              <span class="text-xs px-2 py-1 bg-royal-blue/10 text-royal-blue rounded-full font-medium">منصة وطنية</span>
+              <span class="text-xs px-2 py-1 bg-gold/10 text-gold rounded-full font-medium">ذكاء اصطناعي</span>
+              <span class="text-xs px-2 py-1 bg-light-blue/10 text-light-blue rounded-full font-medium">خرائط تفاعلية</span>
+            </div>
+          </div>
+        </div>
+        
+        <nav class="flex items-center space-x-8 font-arabic">
+          <a href="#about" class="text-gray-700 hover:text-royal-blue font-medium transition-colors text-lg">عن المشروع</a>
+          <a href="#detailed-costing" class="text-gray-700 hover:text-royal-blue font-medium transition-colors text-lg">التكاليف</a>
+          <a href="#interactive-maps" class="text-gray-700 hover:text-royal-blue font-medium transition-colors text-lg">الخرائط</a>
+          <a href="#features" class="text-gray-700 hover:text-royal-blue font-medium transition-colors text-lg">المميزات</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="h-[650px] bg-gradient-to-br from-royal-blue via-deep-blue to-royal-blue relative overflow-hidden">
+    <div class="absolute inset-0">
+      <div class="absolute inset-0 bg-gradient-to-r from-black/20 to-transparent"></div>
+      <div class="absolute top-0 right-0 w-96 h-96 bg-gold/10 rounded-full blur-3xl"></div>
+      <div class="absolute bottom-0 left-0 w-96 h-96 bg-light-blue/20 rounded-full blur-3xl"></div>
+      <div class="absolute top-1/4 left-1/4 w-64 h-64 bg-white/5 rounded-full blur-2xl"></div>
+    </div>
     
-    // تحديث العنوان والوصف
-    document.getElementById('map-title').textContent = mapTitles[layerName];
-    document.getElementById('map-description').textContent = mapDescriptions[layerName];
-    
-    // إضافة مؤشر التحميل
-    const loadingDiv = document.createElement('div');
-    loadingDiv.id = 'loading';
-    loadingDiv.innerHTML = `
-      <div class="absolute inset-0 bg-white/80 flex items-center justify-center z-1000">
-        <div class="text-center">
-          <div class="animate-spin rounded-full h-12 w-12 border-b-2 border-royal-blue mx-auto mb-4"></div>
-          <p class="text-gray-700">جاري تحميل البيانات...</p>
+    <div class="relative max-w-7xl mx-auto px-8 h-full flex items-center">
+      <div class="text-white max-w-3xl slide-in">
+        <div class="mb-10">
+          <div class="inline-flex items-center bg-white/20 backdrop-blur-sm px-6 py-3 rounded-full text-lg font-medium mb-6">
+            <i class="fas fa-star text-gold ml-3"></i>
+            <span>مشروع وطني استراتيجي</span>
+          </div>
+          <h1 class="text-6xl font-extrabold mb-8 leading-tight text-shadow font-arabic">أطلس ليبيا السياحي </h1>
+          <p class="text-2xl mb-12 font-light leading-relaxed opacity-95">
+            منصة رقمية وطنية متكاملة توثق التراث الثقافي والسياحي الليبي باستخدام أحدث تقنيات الذكاء الاصطناعي والخرائط التفاعلية
+          </p>
+        </div>
+        
+        <div class="flex flex-wrap gap-6 mb-12">
+          <div class="glass-effect px-10 py-5 rounded-2xl hover-lift cursor-pointer group flex-1 min-w-[220px]">
+            <div class="flex items-center justify-between">
+              <div class="flex items-center space-x-5">
+                <div class="bg-white/20 p-4 rounded-xl group-hover:bg-white/30 transition-all">
+                  <i class="fas fa-map-marked-alt text-2xl"></i>
+                </div>
+                <div>
+                  <span class="font-bold block text-xl">خرائط تفاعلية</span>
+                  <span class="text-base opacity-80">Google Maps مباشرة</span>
+                </div>
+              </div>
+              <i class="fas fa-arrow-left opacity-50 text-xl group-hover:opacity-100 group-hover:translate-x-1 transition-all"></i>
+            </div>
+          </div>
+          
+          <div class="glass-effect px-10 py-5 rounded-2xl hover-lift cursor-pointer group flex-1 min-w-[220px]">
+            <div class="flex items-center justify-between">
+              <div class="flex items-center space-x-5">
+                <div class="bg-white/20 p-4 rounded-xl group-hover:bg-white/30 transition-all">
+                  <i class="fas fa-brain text-2xl"></i>
+                </div>
+                <div>
+                  <span class="font-bold block text-xl">ذكاء اصطناعي</span>
+                  <span class="text-base opacity-80">مساعد RAG ذكي</span>
+                </div>
+              </div>
+              <i class="fas fa-arrow-left opacity-50 text-xl group-hover:opacity-100 group-hover:translate-x-1 transition-all"></i>
+            </div>
+          </div>
+        </div>
+        
+        <div class="flex items-center space-x-8">
+          <a href="#about" class="btn-large bg-gradient-to-r from-gold to-light-gold text-dark-blue px-12 py-5 rounded-2xl font-bold hover:shadow-2xl transition-all hover-lift flex items-center text-xl">
+            <i class="fas fa-info-circle ml-4 text-2xl"></i>
+            اكتشف المشروع
+          </a>
+          
+          <a href="#interactive-maps" class="btn-large border-2 border-white/50 text-white px-12 py-5 rounded-2xl font-bold hover:bg-white/10 transition-all flex items-center text-xl">
+            <i class="fas fa-map ml-4 text-2xl"></i>
+            استكشف الخرائط
+          </a>
         </div>
       </div>
-    `;
-    document.getElementById('map-container').appendChild(loadingDiv);
-    
-    // تحميل ملف KML
-    const kmlFile = kmlFiles[layerName];
-    currentLayer = new L.KML(kmlFile, {
-      async: true,
-      icon: getIconForLayer(layerName)
-    });
-    
-    currentLayer.on('loaded', function(e) {
-      map.addLayer(currentLayer);
-      map.fitBounds(currentLayer.getBounds());
-      document.getElementById('loading').remove();
       
-      // إضافة عناصر التحكم
-      if (isSatellite) {
-        toggleSatellite();
-      }
-    });
-    
-    currentLayer.on('error', function(e) {
-      document.getElementById('loading').remove();
-      alert('حدث خطأ أثناء تحميل البيانات. يرجى المحاولة مرة أخرى.');
-    });
-  }
+      <div class="absolute left-8 bottom-10 text-white/50 text-base">
+        <div class="flex items-center space-x-6">
+          <div class="flex items-center space-x-3">
+            <div class="w-3 h-3 bg-green-400 rounded-full animate-pulse"></div>
+            <span>مشروع نشط</span>
+          </div>
+          <span>•</span>
+          <span>نسخة 2026</span>
+          <span>•</span>
+          <span>مشروع وطني</span>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  // الحصول على الأيقونة المناسبة للطبقة
-  function getIconForLayer(layerName) {
-    const icons = {
-      'الفنادق': {color: '#0D47A1', icon: 'hotel'},
-      'القرى_والمنتجعات_السياحية': {color: '#D4AF37', icon: 'umbrella-beach'},
-      'المشاريع_وفرص_الاستثمار_السياحي': {color: '#10B981', icon: 'chart-line'},
-      'خريطة_مدن_الثراث_العالمي_الخمسة': {color: '#8B5CF6', icon: 'landmark'},
-      'نقاط': {color: '#3B82F6', icon: 'map-marker-alt'}
+  <!-- قسم "عن المشروع" -->
+  <section id="about" class="py-24 bg-gradient-to-b from-snow-white to-ice-blue">
+    <div class="max-w-7xl mx-auto px-8">
+      <div class="text-center mb-16 slide-in">
+        <div class="inline-flex items-center bg-gradient-to-r from-royal-blue to-gold px-6 py-3 rounded-full text-white font-bold mb-6">
+          <i class="fas fa-crown ml-3"></i>
+          <span>National Tourism Atlas of Libya</span>
+        </div>
+        <h2 class="text-5xl font-extrabold gold-gradient-text mb-6 font-arabic">عن المشروع الوطني</h2>
+        <p class="text-2xl text-accent-gray max-w-3xl mx-auto leading-relaxed">
+          مشروع استراتيجي وطني يهدف إلى بناء منصة رقمية موحدة توثق التراث الثقافي والسياحي الليبي
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-20">
+        <!-- تعريف المشروع -->
+        <div class="bg-white rounded-3xl shadow-2xl p-10 border-r-4 border-royal-blue hover-lift">
+          <div class="flex items-center mb-8">
+            <div class="bg-gradient-to-br from-royal-blue to-deep-blue w-16 h-16 rounded-2xl flex items-center justify-center mr-5 shadow-lg">
+              <i class="fas fa-circle-info text-white text-2xl"></i>
+            </div>
+            <h3 class="text-3xl font-bold text-gray-900 font-arabic">تعريف المشروع</h3>
+          </div>
+          <p class="text-gray-700 leading-relaxed text-lg mb-6">
+            <strong class="text-deep-blue">أطلس ليبيا السياحي الوطني</strong> هو مشروع وطني استراتيجي
+            يهدف إلى إنشاء منصة رقمية موحدة لتوثيق وإدارة وتحليل الموارد السياحية
+            والثقافية في ليبيا، بالاعتماد على البيانات المكانية والخرائط الذكية.
+          </p>
+          <div class="bg-gradient-to-r from-ice-blue to-snow-white rounded-2xl p-8 border border-royal-blue/20">
+            <p class="text-gray-600 text-lg">
+              يدعم المشروع التخطيط السياحي، وصناعة القرار، وجذب الاستثمار، وحفظ وصون
+              الهوية الثقافية والتراثية للدولة.
+            </p>
+          </div>
+        </div>
+
+        <!-- الرؤية والرسالة -->
+        <div class="space-y-8">
+          <div class="bg-gradient-to-br from-royal-blue to-deep-blue rounded-3xl p-8 text-white hover-lift shadow-xl">
+            <div class="flex items-center mb-6">
+              <div class="bg-white/20 w-14 h-14 rounded-xl flex items-center justify-center mr-5">
+                <i class="fas fa-eye text-xl"></i>
+              </div>
+              <h3 class="text-2xl font-bold font-arabic">الرؤية</h3>
+            </div>
+            <p class="text-white/90 leading-relaxed text-lg">
+              بناء أطلس سياحي وطني رقمي يعكس ثراء ليبيا الثقافي والطبيعي،
+              ويجعل من البيانات السياحية أداة سيادية لدعم التنمية المستدامة
+              وتعزيز مكانة ليبيا إقليميًا ودوليًا.
+            </p>
+          </div>
+
+          <div class="bg-gradient-to-br from-gold to-light-gold rounded-3xl p-8 text-deep-blue hover-lift shadow-xl">
+            <div class="flex items-center mb-6">
+              <div class="bg-deep-blue/20 w-14 h-14 rounded-xl flex items-center justify-center mr-5">
+                <i class="fas fa-bullseye text-deep-blue text-xl"></i>
+              </div>
+              <h3 class="text-2xl font-bold font-arabic">الرسالة</h3>
+            </div>
+            <p class="text-deep-blue/90 leading-relaxed text-lg">
+              توفير منصة وطنية موثوقة تعتمد على التقنيات الحديثة والبيانات
+              المحدثة لتوثيق القطاع السياحي، ودعم متخذي القرار،
+              وتحفيز الاستثمار، وحفظ القيمة الثقافية والتراثية.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- الأهداف الاستراتيجية -->
+      <div class="mb-20">
+        <div class="flex items-center mb-12">
+          <div class="bg-gradient-to-br from-royal-blue to-gold w-20 h-20 rounded-2xl flex items-center justify-center mr-6 shadow-xl">
+            <i class="fas fa-flag text-white text-3xl"></i>
+          </div>
+          <h3 class="text-4xl font-bold text-gray-900 font-arabic">الأهداف الاستراتيجية</h3>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div class="bg-white rounded-3xl p-8 shadow-2xl hover-lift border-t-4 border-royal-blue">
+            <div class="text-royal-blue text-4xl mb-6 font-bold">1</div>
+            <h4 class="font-bold text-gray-900 text-xl mb-4">توثيق شامل</h4>
+            <p class="text-accent-gray text-base">توثيق كامل للمواقع السياحية والثقافية والطبيعية في ليبيا</p>
+            <div class="mt-6">
+              <span class="inline-block px-4 py-2 bg-royal-blue/10 text-royal-blue rounded-full text-sm font-medium">أولوية وطنية</span>
+            </div>
+          </div>
+          
+          <div class="bg-white rounded-3xl p-8 shadow-2xl hover-lift border-t-4 border-gold">
+            <div class="text-gold text-4xl mb-6 font-bold">2</div>
+            <h4 class="font-bold text-gray-900 text-xl mb-4">دعم التخطيط</h4>
+            <p class="text-accent-gray text-base">دعم التخطيط السياحي المبني على البيانات الدقيقة</p>
+            <div class="mt-6">
+              <span class="inline-block px-4 py-2 bg-gold/10 text-gold rounded-full text-sm font-medium">تحليل بيانات</span>
+            </div>
+          </div>
+          
+          <div class="bg-white rounded-3xl p-8 shadow-2xl hover-lift border-t-4 border-light-blue">
+            <div class="text-light-blue text-4xl mb-6 font-bold">3</div>
+            <h4 class="font-bold text-gray-900 text-xl mb-4">جذب الاستثمار</h4>
+            <p class="text-accent-gray text-base">تحفيز وجذب الاستثمارات السياحية المحلية والدولية</p>
+            <div class="mt-6">
+              <span class="inline-block px-4 py-2 bg-light-blue/10 text-light-blue rounded-full text-sm font-medium">تنمية اقتصادية</span>
+            </div>
+          </div>
+          
+          <div class="bg-white rounded-3xl p-8 shadow-2xl hover-lift border-t-4 border-emerald-500">
+            <div class="text-emerald-500 text-4xl mb-6 font-bold">4</div>
+            <h4 class="font-bold text-gray-900 text-xl mb-4">التحول الرقمي</h4>
+            <p class="text-accent-gray text-base">دعم التحول الرقمي الحكومي في القطاع السياحي</p>
+            <div class="mt-6">
+              <span class="inline-block px-4 py-2 bg-emerald-500/10 text-emerald-500 rounded-full text-sm font-medium">تقنية متقدمة</span>
+            </div>
+          </div>
+          
+          <div class="bg-white rounded-3xl p-8 shadow-2xl hover-lift border-t-4 border-purple-500">
+            <div class="text-purple-500 text-4xl mb-6 font-bold">5</div>
+            <h4 class="font-bold text-gray-900 text-xl mb-4">حفظ التراث</h4>
+            <p class="text-accent-gray text-base">حفظ وصون التراث الثقافي والإنساني للأجيال القادمة</p>
+            <div class="mt-6">
+              <span class="inline-block px-4 py-2 bg-purple-500/10 text-purple-500 rounded-full text-sm font-medium">تراث ثقافي</span>
+            </div>
+          </div>
+          
+          <div class="bg-white rounded-3xl p-8 shadow-2xl hover-lift border-t-4 border-rose-500">
+            <div class="text-rose-500 text-4xl mb-6 font-bold">6</div>
+            <h4 class="font-bold text-gray-900 text-xl mb-4">تحسين الصورة</h4>
+            <p class="text-accent-gray text-base">تحسين الصورة الذهنية الدولية للسياحة الليبية</p>
+            <div class="mt-6">
+              <span class="inline-block px-4 py-2 bg-rose-500/10 text-rose-500 rounded-full text-sm font-medium">صورة عالمية</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- البرامج التابعة -->
+      <div class="bg-gradient-to-r from-deep-blue to-royal-blue rounded-3xl p-12 text-white shadow-2xl">
+        <div class="flex items-center mb-12">
+          <div class="bg-gradient-to-br from-gold to-light-gold w-20 h-20 rounded-2xl flex items-center justify-center mr-6 shadow-xl">
+            <i class="fas fa-diagram-project text-deep-blue text-3xl"></i>
+          </div>
+          <h3 class="text-4xl font-bold font-arabic">البرامج التابعة للمشروع</h3>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+          <div class="bg-white/10 backdrop-blur-sm rounded-3xl p-8 hover:bg-white/15 transition-all border border-white/20">
+            <div class="flex items-start mb-6">
+              <div class="bg-gradient-to-br from-gold to-light-gold p-4 rounded-2xl mr-5">
+                <i class="fas fa-child text-deep-blue text-2xl"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-2xl mb-3">أطلس الأطفال</h4>
+                <p class="text-white/80 text-lg leading-relaxed">برنامج توعوي تربوي يهدف إلى تعريف الأطفال بالتراث الثقافي والسياحي الليبي بأسلوب مبسط وتفاعلي</p>
+              </div>
+            </div>
+            <a href="#" class="inline-flex items-center text-gold font-bold text-lg hover:underline mt-4">
+              <span>المزيد من التفاصيل</span>
+              <i class="fas fa-arrow-left mr-3"></i>
+            </a>
+          </div>
+          
+          <div class="bg-white/10 backdrop-blur-sm rounded-3xl p-8 hover:bg-white/15 transition-all border border-white/20">
+            <div class="flex items-start mb-6">
+              <div class="bg-gradient-to-br from-royal-blue to-light-blue p-4 rounded-2xl mr-5">
+                <i class="fas fa-shield-alt text-white text-2xl"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-2xl mb-3">برنامج حفظ وصون القيمة</h4>
+                <p class="text-white/80 text-lg leading-relaxed">يُعنى بتوثيق وحماية المواقع التراثية والثقافية، ورصد حالتها، ودعم خطط الصيانة والحفاظ</p>
+              </div>
+            </div>
+            <a href="#" class="inline-flex items-center text-gold font-bold text-lg hover:underline mt-4">
+              <span>المزيد من التفاصيل</span>
+              <i class="fas fa-arrow-left mr-3"></i>
+            </a>
+          </div>
+          
+          <div class="bg-white/10 backdrop-blur-sm rounded-3xl p-8 hover:bg-white/15 transition-all border border-white/20">
+            <div class="flex items-start mb-6">
+              <div class="bg-gradient-to-br from-emerald-500 to-green-400 p-4 rounded-2xl mr-5">
+                <i class="fas fa-film text-white text-2xl"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-2xl mb-3">سلسلة تعريفية</h4>
+                <p class="text-white/80 text-lg leading-relaxed">إنتاج محتوى مرئي وتعريفي يبرز المواقع السياحية والثقافية الليبية للاستخدام المحلي والدولي</p>
+              </div>
+            </div>
+            <a href="#" class="inline-flex items-center text-gold font-bold text-lg hover:underline mt-4">
+              <span>المزيد من التفاصيل</span>
+              <i class="fas fa-arrow-left mr-3"></i>
+            </a>
+          </div>
+          
+          <div class="bg-white/10 backdrop-blur-sm rounded-3xl p-8 hover:bg-white/15 transition-all border border-white/20">
+            <div class="flex items-start mb-6">
+              <div class="bg-gradient-to-br from-purple-500 to-pink-500 p-4 rounded-2xl mr-5">
+                <i class="fas fa-chart-line text-white text-2xl"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-2xl mb-3">الإحصائيات والمؤشرات</h4>
+                <p class="text-white/80 text-lg leading-relaxed">برنامج تحليلي يُنتج بيانات ومؤشرات دورية لدعم التخطيط والتقييم وصناعة القرار</p>
+              </div>
+            </div>
+            <a href="#" class="inline-flex items-center text-gold font-bold text-lg hover:underline mt-4">
+              <span>المزيد من التفاصيل</span>
+              <i class="fas fa-arrow-left mr-3"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- النتائج المتوقعة -->
+      <div class="mt-24">
+        <div class="flex items-center mb-12">
+          <div class="bg-gradient-to-br from-gold to-light-gold w-20 h-20 rounded-2xl flex items-center justify-center mr-6 shadow-xl">
+            <i class="fas fa-trophy text-deep-blue text-3xl"></i>
+          </div>
+          <h3 class="text-4xl font-bold text-gray-900 font-arabic">النتائج المتوقعة</h3>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div class="bg-gradient-to-br from-white to-snow-white rounded-3xl p-8 text-center hover-lift shadow-xl border border-royal-blue/10">
+            <div class="w-20 h-20 bg-gradient-to-br from-royal-blue/10 to-light-blue/10 rounded-2xl flex items-center justify-center mx-auto mb-6">
+              <i class="fas fa-map text-royal-blue text-3xl"></i>
+            </div>
+            <h4 class="font-bold text-gray-900 text-xl mb-4">خريطة وطنية سياحية</h4>
+            <p class="text-accent-gray text-base">خريطة وطنية معتمدة وشاملة للمواقع السياحية الليبية</p>
+            <div class="mt-6">
+              <span class="inline-block px-4 py-2 bg-royal-blue text-white rounded-full text-sm font-bold">نتائج فورية</span>
+            </div>
+          </div>
+          
+          <div class="bg-gradient-to-br from-white to-snow-white rounded-3xl p-8 text-center hover-lift shadow-xl border border-gold/10">
+            <div class="w-20 h-20 bg-gradient-to-br from-gold/10 to-light-gold/10 rounded-2xl flex items-center justify-center mx-auto mb-6">
+              <i class="fas fa-database text-gold text-3xl"></i>
+            </div>
+            <h4 class="font-bold text-gray-900 text-xl mb-4">قاعدة بيانات مركزية</h4>
+            <p class="text-accent-gray text-base">قاعدة بيانات مركزية شاملة للقطاع السياحي الليبي</p>
+            <div class="mt-6">
+              <span class="inline-block px-4 py-2 bg-gold text-deep-blue rounded-full text-sm font-bold">معلومات موثوقة</span>
+            </div>
+          </div>
+          
+          <div class="bg-gradient-to-br from-white to-snow-white rounded-3xl p-8 text-center hover-lift shadow-xl border border-light-blue/10">
+            <div class="w-20 h-20 bg-gradient-to-br from-light-blue/10 to-cyan-100 rounded-2xl flex items-center justify-center mx-auto mb-6">
+              <i class="fas fa-chart-bar text-light-blue text-3xl"></i>
+            </div>
+            <h4 class="font-bold text-gray-900 text-xl mb-4">مؤشرات أداء</h4>
+            <p class="text-accent-gray text-base">مؤشرات أداء سياحية وطنية دقيقة وموثوقة</p>
+            <div class="mt-6">
+              <span class="inline-block px-4 py-2 bg-light-blue text-white rounded-full text-sm font-bold">تحليل بيانات</span>
+            </div>
+          </div>
+          
+          <div class="bg-gradient-to-br from-white to-snow-white rounded-3xl p-8 text-center hover-lift shadow-xl border border-emerald-500/10">
+            <div class="w-20 h-20 bg-gradient-to-br from-emerald-500/10 to-green-100 rounded-2xl flex items-center justify-center mx-auto mb-6">
+              <i class="fas fa-expand-arrows-alt text-emerald-500 text-3xl"></i>
+            </div>
+            <h4 class="font-bold text-gray-900 text-xl mb-4">جاهزية للتوسع</h4>
+            <p class="text-accent-gray text-base">جاهزية كاملة للتوسع المرحلي محليًا ودوليًا</p>
+            <div class="mt-6">
+              <span class="inline-block px-4 py-2 bg-emerald-500 text-white rounded-full text-sm font-bold">نمو مستمر</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="mt-16 text-center">
+          <a href="#detailed-costing" class="btn-large bg-gradient-to-r from-royal-blue to-deep-blue text-white px-16 py-6 rounded-2xl font-bold hover:shadow-2xl transition-all hover-lift inline-flex items-center text-xl">
+            <i class="fas fa-dollar-sign ml-4 text-2xl"></i>
+            اكتشف تفاصيل التكاليف
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- قسم التكاليف التفصيلي -->
+  <section id="detailed-costing" class="py-20 bg-gradient-to-br from-snow-white to-ice-blue">
+    <div class="max-w-7xl mx-auto px-8">
+      <div class="text-center mb-16 slide-in">
+        <h2 class="text-5xl font-extrabold gradient-text mb-6 font-arabic">تفاصيل التكاليف والتمويل</h2>
+        <p class="text-2xl text-accent-gray max-w-3xl mx-auto leading-relaxed">
+          تحليل مفصل للتكاليف الاستثمارية وتوزيع الميزانية على مراحل المشروع
+        </p>
+      </div>
+
+      <!-- الميزانية الإجمالية -->
+      <div class="bg-white rounded-3xl shadow-2xl p-10 mb-16">
+        <div class="flex items-center justify-between mb-10">
+          <h3 class="text-3xl font-bold text-gray-900 font-arabic">الملخص المالي للمشروع</h3>
+          <div class="text-center">
+            <div class="text-5xl font-black bg-gradient-to-r from-royal-blue to-gold bg-clip-text text-transparent">$237,800</div>
+            <p class="text-accent-gray">إجمالي تكاليف 5 سنوات</p>
+          </div>
+        </div>
+
+        <!-- توزيع الميزانية -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+          <!-- توزيع النسب -->
+          <div>
+            <h4 class="text-xl font-bold text-gray-900 mb-8 font-arabic">توزيع الميزانية</h4>
+            <div class="space-y-6">
+              <div>
+                <div class="flex justify-between mb-2">
+                  <span class="font-medium">تطوير المنصة الأساسية</span>
+                  <span class="font-bold text-royal-blue">45%</span>
+                </div>
+                <div class="h-3 bg-gray-200 rounded-full overflow-hidden">
+                  <div class="h-full bg-royal-blue rounded-full" style="width: 45%"></div>
+                </div>
+              </div>
+              
+              <div>
+                <div class="flex justify-between mb-2">
+                  <span class="font-medium">نظام الواقع الافتراضي VR</span>
+                  <span class="font-bold text-gold">35%</span>
+                </div>
+                <div class="h-3 bg-gray-200 rounded-full overflow-hidden">
+                  <div class="h-full bg-gold rounded-full" style="width: 35%"></div>
+                </div>
+              </div>
+              
+              <div>
+                <div class="flex justify-between mb-2">
+                  <span class="font-medium">التراخيص والتدريب</span>
+                  <span class="font-bold text-light-blue">15%</span>
+                </div>
+                <div class="h-3 bg-gray-200 rounded-full overflow-hidden">
+                  <div class="h-full bg-light-blue rounded-full" style="width: 15%"></div>
+                </div>
+              </div>
+              
+              <div>
+                <div class="flex justify-between mb-2">
+                  <span class="font-medium">الصيانة والتطوير</span>
+                  <span class="font-bold text-emerald-500">5%</span>
+                </div>
+                <div class="h-3 bg-gray-200 rounded-full overflow-hidden">
+                  <div class="h-full bg-emerald-500 rounded-full" style="width: 5%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- جدول التكاليف السنوية -->
+          <div>
+            <h4 class="text-xl font-bold text-gray-900 mb-8 font-arabic">التكاليف السنوية (5 سنوات)</h4>
+            <div class="overflow-x-auto">
+              <table class="w-full text-sm">
+                <thead>
+                  <tr class="bg-gray-100">
+                    <th class="px-4 py-3 text-right font-bold">السنة</th>
+                    <th class="px-4 py-3 text-center font-bold">التطوير</th>
+                    <th class="px-4 py-3 text-center font-bold">التراخيص</th>
+                    <th class="px-4 py-3 text-center font-bold">الصيانة</th>
+                    <th class="px-4 py-3 text-center font-bold">الإجمالي</th>
+                  </tr>
+                </thead>
+                <tbody class="text-center">
+                  <tr class="border-b">
+                    <td class="px-4 py-3 font-medium">السنة الأولى</td>
+                    <td class="px-4 py-3">$107,000</td>
+                    <td class="px-4 py-3">$8,760</td>
+                    <td class="px-4 py-3">$2,000</td>
+                    <td class="px-4 py-3 font-bold text-royal-blue">$117,760</td>
+                  </tr>
+                  <tr class="border-b bg-gray-50">
+                    <td class="px-4 py-3 font-medium">السنة الثانية</td>
+                    <td class="px-4 py-3">$83,000</td>
+                    <td class="px-4 py-3">$8,760</td>
+                    <td class="px-4 py-3">$3,000</td>
+                    <td class="px-4 py-3 font-bold text-royal-blue">$94,760</td>
+                  </tr>
+                  <tr class="border-b">
+                    <td class="px-4 py-3 font-medium">السنة الثالثة</td>
+                    <td class="px-4 py-3">$0</td>
+                    <td class="px-4 py-3">$8,760</td>
+                    <td class="px-4 py-3">$5,000</td>
+                    <td class="px-4 py-3 font-bold text-royal-blue">$13,760</td>
+                  </tr>
+                  <tr class="border-b bg-gray-50">
+                    <td class="px-4 py-3 font-medium">السنة الرابعة</td>
+                    <td class="px-4 py-3">$0</td>
+                    <td class="px-4 py-3">$8,760</td>
+                    <td class="px-4 py-3">$5,000</td>
+                    <td class="px-4 py-3 font-bold text-royal-blue">$13,760</td>
+                  </tr>
+                  <tr>
+                    <td class="px-4 py-3 font-medium">السنة الخامسة</td>
+                    <td class="px-4 py-3">$0</td>
+                    <td class="px-4 py-3">$8,760</td>
+                    <td class="px-4 py-3">$5,000</td>
+                    <td class="px-4 py-3 font-bold text-royal-blue">$13,760</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  <!-- قسم الخرائط التفاعلية -->
+  <section id="interactive-maps" class="py-20 bg-gradient-to-b from-white to-snow-white">
+    <div class="max-w-7xl mx-auto px-8">
+      <div class="text-center mb-16 slide-in">
+        <h2 class="text-5xl font-extrabold gradient-text mb-6 font-arabic">الخرائط التفاعلية</h2>
+        <p class="text-2xl text-accent-gray max-w-3xl mx-auto leading-relaxed">
+          استكشف الموارد السياحية الليبية عبر خرائط Google التفاعلية المباشرة
+        </p>
+      </div>
+
+      <div class="bg-white rounded-3xl shadow-2xl overflow-hidden">
+        <div class="grid grid-cols-1 lg:grid-cols-4">
+          <!-- قائمة ملفات KML -->
+          <div class="bg-gray-50 p-8 border-r border-gray-200">
+            <h3 class="text-2xl font-bold text-gray-900 mb-8 font-arabic">الخرائط المتاحة</h3>
+            <div class="space-y-4">
+              <button onclick="loadMap('map1')" 
+                      class="w-full text-right px-6 py-4 bg-white rounded-xl shadow-sm hover:shadow-md transition-all hover:border-r-4 border-royal-blue group active-map" id="btn-map1">
+                <div class="flex items-center justify-between">
+                  <div>
+                    <i class="fas fa-hotel text-royal-blue ml-3"></i>
+                    <span class="font-bold text-gray-900">المشاريع والاستثمار</span>
+                  </div>
+                  <i class="fas fa-arrow-left text-gray-400 group-hover:text-royal-blue"></i>
+                </div>
+                <p class="text-sm text-accent-gray mt-2">قرى، منتجعات، فنادق وفرص استثمارية</p>
+              </button>
+              
+              <button onclick="loadMap('map2')" 
+                      class="w-full text-right px-6 py-4 bg-white rounded-xl shadow-sm hover:shadow-md transition-all hover:border-r-4 border-gold group" id="btn-map2">
+                <div class="flex items-center justify-between">
+                  <div>
+                    <i class="fas fa-map-marked-alt text-gold ml-3"></i>
+                    <span class="font-bold text-gray-900">الخريطة الثانية</span>
+                  </div>
+                  <i class="fas fa-arrow-left text-gray-400 group-hover:text-gold"></i>
+                </div>
+                <p class="text-sm text-accent-gray mt-2">خريطة خاصة (تتطلب صلاحيات)</p>
+              </button>
+              
+              <button onclick="loadMap('map3')" 
+                      class="w-full text-right px-6 py-4 bg-white rounded-xl shadow-sm hover:shadow-md transition-all hover:border-r-4 border-emerald-500 group" id="btn-map3">
+                <div class="flex items-center justify-between">
+                  <div>
+                    <i class="fas fa-landmark text-emerald-500 ml-3"></i>
+                    <span class="font-bold text-gray-900">مدن التراث العالمي</span>
+                  </div>
+                  <i class="fas fa-arrow-left text-gray-400 group-hover:text-emerald-500"></i>
+                </div>
+                <p class="text-sm text-accent-gray mt-2">خريطة مدن التراث العالمي الخمسة</p>
+              </button>
+              
+              <button onclick="loadMap('map4')" 
+                      class="w-full text-right px-6 py-4 bg-white rounded-xl shadow-sm hover:shadow-md transition-all hover:border-r-4 border-light-blue group" id="btn-map4">
+                <div class="flex items-center justify-between">
+                  <div>
+                    <i class="fas fa-map-marker-alt text-light-blue ml-3"></i>
+                    <span class="font-bold text-gray-900">النقاط السياحية</span>
+                  </div>
+                  <i class="fas fa-arrow-left text-gray-400 group-hover:text-light-blue"></i>
+                </div>
+                <p class="text-sm text-accent-gray mt-2">خريطة شاملة للنقاط السياحية في ليبيا</p>
+              </button>
+            </div>
+            
+            <div class="mt-12 p-6 bg-gradient-to-r from-royal-blue/5 to-gold/5 rounded-2xl">
+              <h4 class="font-bold text-gray-900 mb-3 font-arabic">معلومات تقنية</h4>
+              <p class="text-sm text-accent-gray mb-4">
+                الخرائط معروضة مباشرة من Google My Maps وتتميز بتفاعلية كاملة
+              </p>
+              <div class="flex items-center text-sm">
+                <i class="fas fa-sync-alt text-royal-blue ml-2"></i>
+                <span>بيانات محدثة في الوقت الفعلي</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- منطقة عرض الخريطة -->
+          <div class="lg:col-span-3 p-8">
+            <div class="flex items-center justify-between mb-8">
+              <div>
+                <h3 id="map-title" class="text-3xl font-bold text-gray-900 font-arabic">المشاريع وفرص الاستثمار السياحي</h3>
+                <p id="map-description" class="text-accent-gray">قرى ومنتجعات سياحية، فنادق ومواقع فرص استثمارية</p>
+              </div>
+              <div class="flex items-center space-x-4">
+                <a id="fullscreen-link" href="https://www.google.com/maps/d/edit?mid=19Ry36XqRUmG3vLRokt7ozjMp8PB5jUU" target="_blank" class="px-6 py-3 bg-royal-blue text-white rounded-xl hover:bg-deep-blue transition-all flex items-center">
+                  <i class="fas fa-external-link-alt ml-2"></i>
+                  فتح في نافذة جديدة
+                </a>
+              </div>
+            </div>
+
+            <!-- حاوية الخريطة -->
+            <div id="map-container" class="h-[600px] rounded-2xl overflow-hidden shadow-lg border border-gray-200 relative">
+              <!-- سيتم تحميل الخريطة هنا ديناميكيًا -->
+              <iframe id="google-map-frame" class="map-frame" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
+                      src="https://www.google.com/maps/d/embed?mid=19Ry36XqRUmG3vLRokt7ozjMp8PB5jUU&ehbc=2E312F">
+              </iframe>
+              <div id="map-loading" class="map-loading" style="display: none;">
+                <div class="text-center">
+                  <div class="loading-spinner mx-auto mb-4"></div>
+                  <p class="text-gray-700 font-arabic">جاري تحميل الخريطة...</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- إحصائيات الخريطة -->
+            <div class="grid grid-cols-4 gap-6 mt-8">
+              <div class="text-center p-6 bg-gradient-to-br from-royal-blue/5 to-blue-50 rounded-2xl">
+                <div class="text-3xl font-black text-royal-blue mb-2">150+</div>
+                <p class="text-sm text-accent-gray">موقع استثماري</p>
+              </div>
+              <div class="text-center p-6 bg-gradient-to-br from-gold/5 to-yellow-50 rounded-2xl">
+                <div class="text-3xl font-black text-gold mb-2">700+</div>
+                <p class="text-sm text-accent-gray">قرية ومنتجع سياحي</p>
+              </div>
+              <div class="text-center p-6 bg-gradient-to-br from-emerald-500/5 to-green-50 rounded-2xl">
+                <div class="text-3xl font-black text-emerald-500 mb-2">5</div>
+                <p class="text-sm text-accent-gray">مدن تراث عالمي</p>
+              </div>
+              <div class="text-center p-6 bg-gradient-to-br from-light-blue/5 to-blue-50 rounded-2xl">
+                <div class="text-3xl font-black text-light-blue mb-2">7000+</div>
+                <p class="text-sm text-accent-gray">موقع مرصود بنظام التموضع العالمي</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- قسم المميزات التقنية -->
+  <section id="features" class="py-20 bg-gradient-to-br from-snow-white to-ice-blue">
+    <div class="max-w-7xl mx-auto px-8">
+      <div class="text-center mb-16 slide-in">
+        <h2 class="text-5xl font-extrabold gradient-text mb-6 font-arabic">المميزات التقنية</h2>
+        <p class="text-2xl text-accent-gray max-w-3xl mx-auto leading-relaxed">
+          تقنيات متطورة لبناء منصة سياحية وطنية شاملة
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- منصة الويب -->
+        <div class="bg-gradient-to-br from-white to-snow-white rounded-3xl p-8 shadow-2xl hover-lift border border-royal-blue/10">
+          <div class="flex items-center mb-6">
+            <div class="bg-gradient-to-br from-royal-blue to-deep-blue w-14 h-14 rounded-2xl flex items-center justify-center mr-4">
+              <i class="fas fa-globe text-white text-2xl"></i>
+            </div>
+            <h3 class="text-2xl font-bold text-gray-900 font-arabic">منصة الويب</h3>
+          </div>
+          <ul class="space-y-4 text-gray-700">
+            <li class="flex items-start">
+              <i class="fas fa-check text-emerald-500 mt-1 ml-3"></i>
+              <span>نظام خرائط GIS تفاعلي متقدم</span>
+            </li>
+            <li class="flex items-start">
+              <i class="fas fa-check text-emerald-500 mt-1 ml-3"></i>
+              <span>تصنيف متعدد المستويات للمعالم السياحية</span>
+            </li>
+            <li class="flex items-start">
+              <i class="fas fa-check text-emerald-500 mt-1 ml-3"></i>
+              <span>بحث وتصفية متقدمة بمعايير متعددة</span>
+            </li>
+            <li class="flex items-start">
+              <i class="fas fa-check text-emerald-500 mt-1 ml-3"></i>
+              <span>دعم متعدد اللغات (عربي/إنجليزي)</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- تطبيقات الجوال -->
+        <div class="bg-gradient-to-br from-white to-snow-white rounded-3xl p-8 shadow-2xl hover-lift border border-gold/10">
+          <div class="flex items-center mb-6">
+            <div class="bg-gradient-to-br from-gold to-light-gold w-14 h-14 rounded-2xl flex items-center justify-center mr-4">
+              <i class="fas fa-mobile-alt text-deep-blue text-2xl"></i>
+            </div>
+            <h3 class="text-2xl font-bold text-gray-900 font-arabic">تطبيقات الجوال</h3>
+          </div>
+          <ul class="space-y-4 text-gray-700">
+            <li class="flex items-start">
+              <i class="fas fa-check text-emerald-500 mt-1 ml-3"></i>
+              <span>تطبيقات أصلية لنظامي Android و iOS</span>
+            </li>
+            <li class="flex items-start">
+              <i class="fas fa-check text-emerald-500 mt-1 ml-3"></i>
+              <span>خرائط تفاعلية تعمل بدون إنترنت</span>
+            </li>
+            <li class="flex items-start">
+              <i class="fas fa-check text-emerald-500 mt-1 ml-3"></i>
+              <span>تحديد المواقع وخدمات الملاحة</span>
+            </li>
+            <li class="flex items-start">
+              <i class="fas fa-check text-emerald-500 mt-1 ml-3"></i>
+              <span>إشعارات سياحية ذكية</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- الذكاء الاصطناعي -->
+        <div class="bg-gradient-to-br from-white to-snow-white rounded-3xl p-8 shadow-2xl hover-lift border border-emerald-500/10">
+          <div class="flex items-center mb-6">
+            <div class="bg-gradient-to-br from-emerald-500 to-green-500 w-14 h-14 rounded-2xl flex items-center justify-center mr-4">
+              <i class="fas fa-brain text-white text-2xl"></i>
+            </div>
+            <h3 class="text-2xl font-bold text-gray-900 font-arabic">الذكاء الاصطناعي</h3>
+          </div>
+          <ul class="space-y-4 text-gray-700">
+            <li class="flex items-start">
+              <i class="fas fa-check text-emerald-500 mt-1 ml-3"></i>
+              <span>نظام RAG متقدم للإجابة على الاستفسارات</span>
+            </li>
+            <li class="flex items-start">
+              <i class="fas fa-check text-emerald-500 mt-1 ml-3"></i>
+              <span>مساعد سياحي ذكي متعدد اللغات</span>
+            </li>
+            <li class="flex items-start">
+              <i class="fas fa-check text-emerald-500 mt-1 ml-3"></i>
+              <span>توصيات مخصصة بناءً على التفضيلات</span>
+            </li>
+            <li class="flex items-start">
+              <i class="fas fa-check text-emerald-500 mt-1 ml-3"></i>
+              <span>تحليل المشاعر وتقييمات الزوار</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gradient-to-br from-deep-blue to-royal-blue text-white py-16">
+    <div class="max-w-7xl mx-auto px-8">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+        <div>
+          <div class="flex items-center space-x-5 mb-8">
+            <div class="bg-gradient-to-br from-gold to-light-gold p-4 rounded-2xl">
+              <i class="fas fa-map-marked-alt text-deep-blue text-2xl"></i>
+            </div>
+            <div>
+              <h3 class="text-2xl font-bold font-arabic">أطلس ليبيا السياحي الوطني</h3>
+              <p class="text-white/70 text-base">National Tourism Atlas of Libya</p>
+            </div>
+          </div>
+          <p class="text-white/80 text-lg leading-relaxed">
+            منصة رقمية وطنية لتوثيق التراث الثقافي والسياحي الليبي باستخدام أحدث التقنيات المتطورة
+          </p>
+        </div>
+        
+        <div>
+          <h4 class="font-bold text-2xl mb-8 font-arabic">روابط سريعة</h4>
+          <div class="space-y-5">
+            <a href="#about" class="flex items-center text-white/80 hover:text-gold transition-colors text-lg">
+              <i class="fas fa-chevron-left ml-4 text-gold"></i>
+              <span>عن المشروع</span>
+            </a>
+            <a href="#detailed-costing" class="flex items-center text-white/80 hover:text-gold transition-colors text-lg">
+              <i class="fas fa-chevron-left ml-4 text-gold"></i>
+              <span>التكاليف والتمويل</span>
+            </a>
+            <a href="#interactive-maps" class="flex items-center text-white/80 hover:text-gold transition-colors text-lg">
+              <i class="fas fa-chevron-left ml-4 text-gold"></i>
+              <span>الخرائط التفاعلية</span>
+            </a>
+            <a href="#features" class="flex items-center text-white/80 hover:text-gold transition-colors text-lg">
+              <i class="fas fa-chevron-left ml-4 text-gold"></i>
+              <span>المميزات التقنية</span>
+            </a>
+          </div>
+        </div>
+        
+        <div>
+          <h4 class="font-bold text-2xl mb-8 font-arabic">معلومات الاتصال</h4>
+          <div class="space-y-6">
+            <div class="flex items-center text-white/80">
+              <div class="bg-white/10 p-3 rounded-xl ml-4">
+                <i class="fas fa-map-marker-alt text-gold"></i>
+              </div>
+              <span class="text-lg">ليبيا - حكومةالوحدةالوطنية </span>
+            </div>
+            <div class="flex items-center text-white/80">
+              <div class="bg-white/10 p-3 rounded-xl ml-4">
+                <i class="fas fa-flag text-gold"></i>
+              </div>
+              <span class="text-lg">مشروع أطلس ليبيا السياحي  </span>
+            </div>
+            <div class="flex items-center text-white/80">
+              <div class="bg-white/10 p-3 rounded-xl ml-4">
+                <i class="fas fa-calendar-alt text-gold"></i>
+              </div>
+              <span class="text-lg">إطلاق2026</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="border-t border-white/20 mt-16 pt-10 text-center">
+        <div class="mb-8">
+          <div class="inline-flex items-center bg-white/10 px-6 py-3 rounded-full">
+            <i class="fas fa-star text-gold ml-3"></i>
+            <span class="font-bold">مشروع وطني لتنمية السياحة الليبية</span>
+          </div>
+        </div>
+        <p class="text-white/60 text-lg">© 2026 أطلس ليبيا السياحي الوطني - جميع الحقوق محفوظة للمشروع الوطني</p>
+        <p class="text-white/50 text-base mt-4">National Tourism Atlas of Libya - A National Strategic Project</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Action Button -->
+  <a href="#header" 
+     class="fixed bottom-8 left-8 bg-gradient-to-r from-gold to-light-gold text-deep-blue w-16 h-16 rounded-2xl flex items-center justify-center shadow-2xl hover:shadow-3xl transition-all z-40 hover-lift">
+    <i class="fas fa-chevron-up text-2xl"></i>
+  </a>
+
+  <script>
+    // روابط خرائط Google My Maps للتضمين
+    const googleMaps = {
+      'map1': {
+        title: 'المشاريع وفرص الاستثمار السياحي',
+        description: 'قرى ومنتجعات سياحية، فنادق ومواقع فرص استثمارية',
+        embedUrl: 'https://www.google.com/maps/d/embed?mid=19Ry36XqRUmG3vLRokt7ozjMp8PB5jUU&ehbc=2E312F',
+        fullUrl: 'https://www.google.com/maps/d/edit?mid=19Ry36XqRUmG3vLRokt7ozjMp8PB5jUU'
+      },
+      'map2': {
+        title: 'الخريطة الثانية',
+        description: 'خريطة خاصة (قد تتطلب صلاحيات للعرض)',
+        embedUrl: 'https://www.google.com/maps/d/embed?mid=18NZ__kAoNRF_qS0cHn15sC_sOipd9xA&ehbc=2E312F',
+        fullUrl: 'https://www.google.com/maps/d/edit?mid=18NZ__kAoNRF_qS0cHn15sC_sOipd9xA'
+      },
+      'map3': {
+        title: 'خريطة مدن الثراث العالمي الخمسة',
+        description: 'خريطة مدن التراث العالمي الخمسة في ليبيا',
+        embedUrl: 'https://www.google.com/maps/d/embed?mid=1_i7Q69Pot6v4duF0YA0UOchTLQt_-E0&ehbc=2E312F',
+        fullUrl: 'https://www.google.com/maps/d/edit?mid=1_i7Q69Pot6v4duF0YA0UOchTLQt_-E0'
+      },
+      'map4': {
+        title: 'نقاط',
+        description: 'خريطة شاملة للنقاط والفنادق والمواقع السياحية في ليبيا',
+        embedUrl: 'https://www.google.com/maps/d/embed?mid=1eUHI1S1q0Xp41Ffrl1EEXrQl9rMDMSg&ehbc=2E312F',
+        fullUrl: 'https://www.google.com/maps/d/edit?mid=1eUHI1S1q0Xp41Ffrl1EEXrQl9rMDMSg'
+      }
     };
-    
-    return L.divIcon({
-      html: `<div class="w-8 h-8 rounded-full bg-${icons[layerName].color} flex items-center justify-center text-white">
-              <i class="fas fa-${icons[layerName].icon}"></i>
-             </div>`,
-      className: 'custom-div-icon',
-      iconSize: [32, 32],
-      iconAnchor: [16, 16]
-    });
-  }
 
-  // تبديل وضع القمر الصناعي
-  function toggleSatellite() {
-    isSatellite = !isSatellite;
-    
-    map.eachLayer(function(layer) {
-      if (layer instanceof L.TileLayer) {
-        map.removeLayer(layer);
-      }
-    });
-    
-    if (isSatellite) {
-      L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
-        attribution: '© Esri',
-        maxZoom: 18
-      }).addTo(map);
-    } else {
-      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '© OpenStreetMap contributors',
-        maxZoom: 18
-      }).addTo(map);
+    // تحميل الخريطة المحددة
+    function loadMap(mapId) {
+      const map = googleMaps[mapId];
+      if (!map) return;
+      
+      // عرض مؤشر التحميل
+      const loadingElement = document.getElementById('map-loading');
+      loadingElement.style.display = 'flex';
+      
+      // تحديث العنوان والوصف
+      document.getElementById('map-title').textContent = map.title;
+      document.getElementById('map-description').textContent = map.description;
+      
+      // تحديث رابط العرض الكامل
+      document.getElementById('fullscreen-link').href = map.fullUrl;
+      
+      // تحديث iframe لعرض الخريطة الجديدة
+      const iframe = document.getElementById('google-map-frame');
+      iframe.src = map.embedUrl;
+      
+      // تحديث الأزرار النشطة
+      document.querySelectorAll('button[id^="btn-"]').forEach(btn => {
+        btn.classList.remove('active-map');
+        btn.classList.remove('border-royal-blue', 'border-gold', 'border-emerald-500', 'border-light-blue');
+      });
+      
+      const activeBtn = document.getElementById(`btn-${mapId}`);
+      activeBtn.classList.add('active-map');
+      
+      // إضافة لون الحدود حسب الزر النشط
+      const colorClass = getColorClassForMap(mapId);
+      activeBtn.classList.add(colorClass);
+      
+      // إخفاء مؤشر التحميل بعد ثانية (لمحاكاة تحميل الخريطة)
+      setTimeout(() => {
+        loadingElement.style.display = 'none';
+      }, 1000);
     }
-    
-    if (currentLayer) {
-      map.addLayer(currentLayer);
+
+    // الحصول على لون الحدود للزر النشط
+    function getColorClassForMap(mapId) {
+      const colors = {
+        'map1': 'border-royal-blue',
+        'map2': 'border-gold',
+        'map3': 'border-emerald-500',
+        'map4': 'border-light-blue'
+      };
+      return colors[mapId] || 'border-royal-blue';
     }
-  }
 
-  // إعادة تعيين الخريطة
-  function resetMap() {
-    map.setView([27.0, 17.0], 6);
-    loadKML('نقاط');
-    isSatellite = false;
-    
-    map.eachLayer(function(layer) {
-      if (layer instanceof L.TileLayer) {
-        map.removeLayer(layer);
-      }
+    // تهيئة الخريطة الأولى عند تحميل الصفحة
+    document.addEventListener('DOMContentLoaded', function() {
+      // تعيين الزر الأول كنشط
+      document.getElementById('btn-map1').classList.add('active-map', 'border-royal-blue');
+      
+      // إخفاء مؤشر التحميل بعد تحميل الصفحة
+      setTimeout(() => {
+        const loadingElement = document.getElementById('map-loading');
+        if (loadingElement) {
+          loadingElement.style.display = 'none';
+        }
+      }, 2000);
     });
-    
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution: '© OpenStreetMap contributors',
-      maxZoom: 18
-    }).addTo(map);
-  }
 
-  // تهيئة الخريطة عند تحميل الصفحة
-  document.addEventListener('DOMContentLoaded', function() {
-    initMap();
-  });
-</script>
+    // Smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const targetId = this.getAttribute('href');
+        if(targetId === '#') return;
+        
+        const targetElement = document.querySelector(targetId);
+        if(targetElement) {
+          window.scrollTo({
+            top: targetElement.offsetTop - 80,
+            behavior: 'smooth'
+          });
+        }
+      });
+    });
+
+    // Add scroll animation to elements
+    const observerOptions = {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if(entry.isIntersecting) {
+          entry.target.classList.add('slide-in');
+        }
+      });
+    }, observerOptions);
+
+    // Observe all sections
+    document.querySelectorAll('section').forEach(section => {
+      observer.observe(section);
+    });
+  </script>
+</body>
+</html>
