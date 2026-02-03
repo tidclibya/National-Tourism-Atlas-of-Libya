@@ -1,0 +1,164 @@
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+<script>
+  let map;
+  let currentLayer = null;
+  let isSatellite = false;
+  
+  // روابط ملفات KML من GitHub
+  const kmlFiles = {
+    'الفنادق': 'https://raw.githubusercontent.com/tidclibya/National-Tourism-Atlas-of-Libya/data/الفنادق.kml',
+    'القرى_والمنتجعات_السياحية': 'https://raw.githubusercontent.com/tidclibya/National-Tourism-Atlas-of-Libya/data/القرى_والمنتجعات_السياحية.kml',
+    'المشاريع_وفرص_الاستثمار_السياحي': 'https://raw.githubusercontent.com/tidclibya/National-Tourism-Atlas-of-Libya/data/المشاريع%20وفرص%20الاستثمار%20السياحي.kml',
+    'خريطة_مدن_الثراث_العالمي_الخمسة': 'https://raw.githubusercontent.com/tidclibya/National-Tourism-Atlas-of-Libya/data/خريطة%20مدن%20الثراث%20العالمي%20الخمسة.kml',
+    'نقاط': 'https://raw.githubusercontent.com/tidclibya/National-Tourism-Atlas-of-Libya/data/نقاط.kml'
+  };
+  
+  const mapTitles = {
+    'الفنادق': 'خريطة الفنادق في ليبيا',
+    'القرى_والمنتجعات_السياحية': 'خريطة القرى والمنتجعات السياحية',
+    'المشاريع_وفرص_الاستثمار_السياحي': 'خريطة فرص الاستثمار السياحي',
+    'خريطة_مدن_الثراث_العالمي_الخمسة': 'خريطة مدن التراث العالمي الخمسة',
+    'نقاط': 'خريطة النقاط السياحية الرئيسية'
+  };
+  
+  const mapDescriptions = {
+    'الفنادق': 'مواقع الفنادق والمنشآت الفندقية في جميع أنحاء ليبيا',
+    'القرى_والمنتجعات_السياحية': 'القرى والمنتجعات السياحية والمنشآت الترفيهية',
+    'المشاريع_وفرص_الاستثمار_السياحي': 'المشاريع السياحية وفرص الاستثمار المتاحة',
+    'خريطة_مدن_الثراث_العالمي_الخمسة': 'مدن ليبيا المصنفة كتراث عالمي من قبل اليونسكو',
+    'نقاط': 'النقاط والمواقع السياحية الرئيسية في ليبيا'
+  };
+
+  // تهيئة الخريطة
+  function initMap() {
+    map = L.map('map').setView([27.0, 17.0], 6);
+    
+    // طبقة الخريطة الأساسية
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '© OpenStreetMap contributors',
+      maxZoom: 18
+    }).addTo(map);
+    
+    // تحميل الطبقة الافتراضية (النقاط)
+    loadKML('نقاط');
+  }
+
+  // تحميل ملف KML
+  function loadKML(layerName) {
+    if (currentLayer) {
+      map.removeLayer(currentLayer);
+    }
+    
+    // تحديث العنوان والوصف
+    document.getElementById('map-title').textContent = mapTitles[layerName];
+    document.getElementById('map-description').textContent = mapDescriptions[layerName];
+    
+    // إضافة مؤشر التحميل
+    const loadingDiv = document.createElement('div');
+    loadingDiv.id = 'loading';
+    loadingDiv.innerHTML = `
+      <div class="absolute inset-0 bg-white/80 flex items-center justify-center z-1000">
+        <div class="text-center">
+          <div class="animate-spin rounded-full h-12 w-12 border-b-2 border-royal-blue mx-auto mb-4"></div>
+          <p class="text-gray-700">جاري تحميل البيانات...</p>
+        </div>
+      </div>
+    `;
+    document.getElementById('map-container').appendChild(loadingDiv);
+    
+    // تحميل ملف KML
+    const kmlFile = kmlFiles[layerName];
+    currentLayer = new L.KML(kmlFile, {
+      async: true,
+      icon: getIconForLayer(layerName)
+    });
+    
+    currentLayer.on('loaded', function(e) {
+      map.addLayer(currentLayer);
+      map.fitBounds(currentLayer.getBounds());
+      document.getElementById('loading').remove();
+      
+      // إضافة عناصر التحكم
+      if (isSatellite) {
+        toggleSatellite();
+      }
+    });
+    
+    currentLayer.on('error', function(e) {
+      document.getElementById('loading').remove();
+      alert('حدث خطأ أثناء تحميل البيانات. يرجى المحاولة مرة أخرى.');
+    });
+  }
+
+  // الحصول على الأيقونة المناسبة للطبقة
+  function getIconForLayer(layerName) {
+    const icons = {
+      'الفنادق': {color: '#0D47A1', icon: 'hotel'},
+      'القرى_والمنتجعات_السياحية': {color: '#D4AF37', icon: 'umbrella-beach'},
+      'المشاريع_وفرص_الاستثمار_السياحي': {color: '#10B981', icon: 'chart-line'},
+      'خريطة_مدن_الثراث_العالمي_الخمسة': {color: '#8B5CF6', icon: 'landmark'},
+      'نقاط': {color: '#3B82F6', icon: 'map-marker-alt'}
+    };
+    
+    return L.divIcon({
+      html: `<div class="w-8 h-8 rounded-full bg-${icons[layerName].color} flex items-center justify-center text-white">
+              <i class="fas fa-${icons[layerName].icon}"></i>
+             </div>`,
+      className: 'custom-div-icon',
+      iconSize: [32, 32],
+      iconAnchor: [16, 16]
+    });
+  }
+
+  // تبديل وضع القمر الصناعي
+  function toggleSatellite() {
+    isSatellite = !isSatellite;
+    
+    map.eachLayer(function(layer) {
+      if (layer instanceof L.TileLayer) {
+        map.removeLayer(layer);
+      }
+    });
+    
+    if (isSatellite) {
+      L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+        attribution: '© Esri',
+        maxZoom: 18
+      }).addTo(map);
+    } else {
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '© OpenStreetMap contributors',
+        maxZoom: 18
+      }).addTo(map);
+    }
+    
+    if (currentLayer) {
+      map.addLayer(currentLayer);
+    }
+  }
+
+  // إعادة تعيين الخريطة
+  function resetMap() {
+    map.setView([27.0, 17.0], 6);
+    loadKML('نقاط');
+    isSatellite = false;
+    
+    map.eachLayer(function(layer) {
+      if (layer instanceof L.TileLayer) {
+        map.removeLayer(layer);
+      }
+    });
+    
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '© OpenStreetMap contributors',
+      maxZoom: 18
+    }).addTo(map);
+  }
+
+  // تهيئة الخريطة عند تحميل الصفحة
+  document.addEventListener('DOMContentLoaded', function() {
+    initMap();
+  });
+</script>
