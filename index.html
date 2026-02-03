@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>أطلس ليبيا السياحي  - National Tourism Atlas of Libya</title>
+  <title>أطلس ليبيا السياحي - National Tourism Atlas of Libya</title>
   
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -158,6 +158,49 @@
       0% { transform: rotate(0deg); }
       100% { transform: rotate(360deg); }
     }
+
+    .youtube-container {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+      border-radius: 16px;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    }
+
+    .youtube-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border-radius: 16px;
+    }
+
+    .banner-slide {
+      position: relative;
+      overflow: hidden;
+      border-radius: 20px;
+      box-shadow: 0 25px 50px rgba(0, 0, 0, 0.2);
+    }
+
+    .banner-slide img {
+      transition: transform 0.8s ease;
+    }
+
+    .banner-slide:hover img {
+      transform: scale(1.05);
+    }
+
+    .banner-overlay {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      background: linear-gradient(to top, rgba(13, 71, 161, 0.9), transparent);
+      color: white;
+      padding: 30px;
+    }
   </style>
 
   <script>
@@ -189,61 +232,61 @@
 
 <body class="font-sans bg-gradient-to-br from-snow-white via-ice-blue to-snow-white rtl">
   
- <!-- الهيدر -->
-<header id="header" class="bg-white/95 backdrop-blur-lg shadow-xl border-b border-blue-100 sticky top-0 z-50">
-  <div class="max-w-7xl mx-auto px-8 py-4">
-    <div class="flex items-center justify-between">
-      <div class="flex items-center space-x-6">
-        <!-- الشعارات -->
-        <div class="flex items-center space-x-4">
-          <!-- شعار الأطلس -->
-          <div class="relative group">
-            <div class="absolute -inset-1 bg-gradient-to-r from-royal-blue to-gold rounded-2xl blur opacity-25 group-hover:opacity-75 transition duration-1000"></div>
-            <div class="relative bg-white p-3 rounded-2xl shadow-lg border border-gray-100">
-              <img 
-                src="https://raw.githubusercontent.com/tidclibya/National-Tourism-Atlas-of-Libya/main/logo-atlas.png" 
-                alt="شعار أطلس ليبيا السياحي" 
-                class="w-12 h-12 object-contain"
-                onerror="this.onerror=null; this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iMjQiIGN5PSIyNCIgcj0iMjAiIGZpbGw9IiMwRDQ3QTEiLz4KPHBhdGggZD0iTTI0IDE0TDMwIDI2SDE4TDI0IDE0WiIgZmlsbD0id2hpdGUiLz4KPGNpcmNsZSBjeD0iMjQiIGN5PSIyNCIgcj0iOCIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIi8+Cjwvc3ZnPgo='"
-              >
+  <!-- الهيدر -->
+  <header id="header" class="bg-white/95 backdrop-blur-lg shadow-xl border-b border-blue-100 sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-8 py-4">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center space-x-6">
+          <!-- الشعارات -->
+          <div class="flex items-center space-x-4">
+            <!-- شعار الأطلس -->
+            <div class="relative group">
+              <div class="absolute -inset-1 bg-gradient-to-r from-royal-blue to-gold rounded-2xl blur opacity-25 group-hover:opacity-75 transition duration-1000"></div>
+              <div class="relative bg-white p-3 rounded-2xl shadow-lg border border-gray-100">
+                <img 
+                  src="https://raw.githubusercontent.com/tidclibya/National-Tourism-Atlas-of-Libya/main/logo-atlas.png" 
+                  alt="شعار أطلس ليبيا السياحي" 
+                  class="w-12 h-12 object-contain"
+                  onerror="this.onerror=null; this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iMjQiIGN5PSIyNCIgcj0iMjAiIGZpbGw9IiMwRDQ3QTEiLz4KPHBhdGggZD0iTTI0IDE0TDMwIDI2SDE4TDI0IDE0WiIgZmlsbD0id2hpdGUiLz4KPGNpcmNsZSBjeD0iMjQiIGN5PSIyNCIgcj0iOCIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIi8+Cjwvc3ZnPgo='"
+                >
+              </div>
+            </div>
+            
+            <!-- الشعار الوطني -->
+            <div class="relative group">
+              <div class="absolute -inset-1 bg-gradient-to-r from-gold to-royal-blue rounded-2xl blur opacity-25 group-hover:opacity-75 transition duration-1000"></div>
+              <div class="relative bg-white p-3 rounded-2xl shadow-lg border border-gray-100">
+                <img 
+                  src="https://raw.githubusercontent.com/tidclibya/National-Tourism-Atlas-of-Libya/main/natunal-logo.png" 
+                  alt="الشعار الوطني" 
+                  class="w-12 h-12 object-contain"
+                  onerror="this.onerror=null; this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjQ4IiBoZWlnaHQ9IjQ4IiByeD0iMTIiIGZpbGw9IiMwRDQ3QTEiLz4KPHJlY3QgeD0iMTIiIHk9IjEyIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHJ4PSI2IiBmaWxsPSIjRjRGNUY5Ii8+CjxwYXRoIGQ9Ik0yNCAxOEwzMCAyNEgyNEwxOCAyNEwyNCAxOFoiIGZpbGw9IiNERDdCMDMiLz4KPC9zdmc+Cg=='"
+                >
+              </div>
             </div>
           </div>
           
-          <!-- الشعار الوطني -->
-          <div class="relative group">
-            <div class="absolute -inset-1 bg-gradient-to-r from-gold to-royal-blue rounded-2xl blur opacity-25 group-hover:opacity-75 transition duration-1000"></div>
-            <div class="relative bg-white p-3 rounded-2xl shadow-lg border border-gray-100">
-              <img 
-                src="https://raw.githubusercontent.com/tidclibya/National-Tourism-Atlas-of-Libya/main/natunal-logo.png" 
-                alt="الشعار الوطني" 
-                class="w-12 h-12 object-contain"
-                onerror="this.onerror=null; this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjQ4IiBoZWlnaHQ9IjQ4IiByeD0iMTIiIGZpbGw9IiMwRDQ3QTEiLz4KPHJlY3QgeD0iMTIiIHk9IjEyIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHJ4PSI2IiBmaWxsPSIjRjRGNUY5Ii8+CjxwYXRoIGQ9Ik0yNCAxOEwzMCAyNEgyNEwxOCAyNEwyNCAxOFoiIGZpbGw9IiNERDdCMDMiLz4KPC9zdmc+Cg=='"
-              >
+          <div class="flex flex-col">
+            <h1 class="text-2xl font-extrabold bg-gradient-to-r from-royal-blue via-deep-blue to-gold bg-clip-text text-transparent font-arabic">أطلس ليبيا السياحي الوطني</h1>
+            <p class="text-sm text-accent-gray font-medium">National Tourism Atlas of Libya</p>
+            <div class="flex items-center space-x-2 mt-1">
+              <span class="text-xs px-2 py-1 bg-royal-blue/10 text-royal-blue rounded-full font-medium">منصة وطنية</span>
+              <span class="text-xs px-2 py-1 bg-gold/10 text-gold rounded-full font-medium">ذكاء اصطناعي</span>
+              <span class="text-xs px-2 py-1 bg-light-blue/10 text-light-blue rounded-full font-medium">خرائط تفاعلية</span>
             </div>
           </div>
         </div>
         
-        <div class="flex flex-col">
-          <h1 class="text-2xl font-extrabold bg-gradient-to-r from-royal-blue via-deep-blue to-gold bg-clip-text text-transparent font-arabic">أطلس ليبيا السياحي الوطني</h1>
-          <p class="text-sm text-accent-gray font-medium">National Tourism Atlas of Libya</p>
-          <div class="flex items-center space-x-2 mt-1">
-            <span class="text-xs px-2 py-1 bg-royal-blue/10 text-royal-blue rounded-full font-medium">منصة وطنية</span>
-            <span class="text-xs px-2 py-1 bg-gold/10 text-gold rounded-full font-medium">ذكاء اصطناعي</span>
-            <span class="text-xs px-2 py-1 bg-light-blue/10 text-light-blue rounded-full font-medium">خرائط تفاعلية</span>
-          </div>
-        </div>
+        <nav class="flex items-center space-x-8 font-arabic">
+          <a href="#about" class="text-gray-700 hover:text-royal-blue font-medium transition-colors text-lg">عن المشروع</a>
+          <a href="#banners" class="text-gray-700 hover:text-royal-blue font-medium transition-colors text-lg">معرض الصور</a>
+          <a href="#youtube" class="text-gray-700 hover:text-royal-blue font-medium transition-colors text-lg">قناة اليوتيوب</a>
+          <a href="#detailed-costing" class="text-gray-700 hover:text-royal-blue font-medium transition-colors text-lg">التكاليف</a>
+          <a href="#interactive-maps" class="text-gray-700 hover:text-royal-blue font-medium transition-colors text-lg">الخرائط</a>
+        </nav>
       </div>
-      
-      <nav class="flex items-center space-x-8 font-arabic">
-        <a href="#about" class="text-gray-700 hover:text-royal-blue font-medium transition-colors text-lg">عن المشروع</a>
-        <a href="#detailed-costing" class="text-gray-700 hover:text-royal-blue font-medium transition-colors text-lg">التكاليف</a>
-        <a href="#launch-plan" class="text-gray-700 hover:text-royal-blue font-medium transition-colors text-lg">خطة الإطلاق</a>
-        <a href="#interactive-maps" class="text-gray-700 hover:text-royal-blue font-medium transition-colors text-lg">الخرائط</a>
-        <a href="#features" class="text-gray-700 hover:text-royal-blue font-medium transition-colors text-lg">المميزات</a>
-      </nav>
     </div>
-  </div>
-</header>
+  </header>
 
   <!-- Hero Section -->
   <section id="hero" class="h-[650px] bg-gradient-to-br from-royal-blue via-deep-blue to-royal-blue relative overflow-hidden">
@@ -298,17 +341,216 @@
             </div>
           </div>
         </div>
-             
-            <div class="absolute left-8 bottom-10 text-white/50 text-base">
+        
+        <a href="#banners" class="inline-flex items-center bg-gradient-to-r from-gold to-light-gold text-deep-blue px-10 py-5 rounded-2xl font-bold text-xl hover:shadow-2xl hover:scale-105 transition-all">
+          <i class="fas fa-images ml-4"></i>
+          <span>استكشف معرض الصور</span>
+          <i class="fas fa-arrow-left mr-4"></i>
+        </a>
+      </div>
+      
+      <div class="absolute left-8 bottom-10 text-white/50 text-base">
         <div class="flex items-center space-x-6">
           <div class="flex items-center space-x-3">
             <div class="w-3 h-3 bg-green-400 rounded-full animate-pulse"></div>
-            <span>مشروع لدعم صناع القرارا</span>
+            <span>مشروع لدعم صناع القرار</span>
           </div>
           <span>•</span>
           <span>نسخة 2026</span>
           <span>•</span>
           <span>مشروع وطني</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- قسم البانر (معرض الصور) -->
+  <section id="banners" class="py-20 bg-gradient-to-b from-white to-snow-white">
+    <div class="max-w-7xl mx-auto px-8">
+      <div class="text-center mb-16 slide-in">
+        <div class="inline-flex items-center bg-gradient-to-r from-royal-blue to-gold px-6 py-3 rounded-full text-white font-bold mb-6">
+          <i class="fas fa-images ml-3"></i>
+          <span>معرض الصور</span>
+        </div>
+        <h2 class="text-5xl font-extrabold gradient-text mb-6 font-arabic">جماليات ليبيا السياحية</h2>
+        <p class="text-2xl text-accent-gray max-w-3xl mx-auto leading-relaxed">
+          استكشف روعة التراث الثقافي والطبيعي الليبي من خلال هذه المجموعة المختارة
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+        <!-- بانر 1 -->
+        <div class="banner-slide card-hover h-96 rounded-2xl overflow-hidden">
+          <img src="https://github.com/tidclibya/National-Tourism-Atlas-of-Libya/blob/imges/3.jpg?raw=true" 
+               alt="ليبيا السياحية" 
+               class="w-full h-full object-cover"
+               onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80'">
+          <div class="banner-overlay">
+            <h3 class="text-2xl font-bold mb-2">مناطق الجذب السياحي</h3>
+            <p class="text-white/90">مواقع سياحية فريدة في ربوع ليبيا</p>
+          </div>
+        </div>
+
+        <!-- بانر 2 -->
+        <div class="banner-slide card-hover h-96 rounded-2xl overflow-hidden">
+          <img src="https://github.com/tidclibya/National-Tourism-Atlas-of-Libya/blob/imges/13.jpg?raw=true" 
+               alt="تراث ليبيا" 
+               class="w-full h-full object-cover"
+               onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80'">
+          <div class="banner-overlay">
+            <h3 class="text-2xl font-bold mb-2">التراث الثقافي</h3>
+            <p class="text-white/90">إرث حضاري عريق عبر العصور</p>
+          </div>
+        </div>
+
+        <!-- بانر 3 -->
+        <div class="banner-slide card-hover h-96 rounded-2xl overflow-hidden">
+          <img src="https://github.com/tidclibya/National-Tourism-Atlas-of-Libya/blob/imges/14.jpg?raw=true" 
+               alt="طبيعة ليبيا" 
+               class="w-full h-full object-cover"
+               onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80'">
+          <div class="banner-overlay">
+            <h3 class="text-2xl font-bold mb-2">الطبيعة الساحرة</h3>
+            <p class="text-white/90">تنوع جغرافي وبيئي فريد</p>
+          </div>
+        </div>
+
+        <!-- بانر 4 -->
+        <div class="banner-slide card-hover h-96 rounded-2xl overflow-hidden">
+          <img src="https://github.com/tidclibya/National-Tourism-Atlas-of-Libya/blob/imges/15.jpg?raw=true" 
+               alt="معالم ليبيا" 
+               class="w-full h-full object-cover"
+               onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80'">
+          <div class="banner-overlay">
+            <h3 class="text-2xl font-bold mb-2">معالم تاريخية</h3>
+            <p class="text-white/90">شواهد على عراقة الحضارة الليبية</p>
+          </div>
+        </div>
+
+        <!-- بانر 5 -->
+        <div class="banner-slide card-hover h-96 rounded-2xl overflow-hidden">
+          <img src="https://github.com/tidclibya/National-Tourism-Atlas-of-Libya/blob/imges/18.jpg?raw=true" 
+               alt="سياحة ليبيا" 
+               class="w-full h-full object-cover"
+               onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80'">
+          <div class="banner-overlay">
+            <h3 class="text-2xl font-bold mb-2">وجهات سياحية</h3>
+            <p class="text-white/90">مواقع تستحق الزيارة والاستكشاف</p>
+          </div>
+        </div>
+
+        <!-- بانر اليوتيوب -->
+        <div class="banner-slide card-hover h-96 rounded-2xl overflow-hidden bg-gradient-to-br from-royal-blue to-deep-blue p-8 flex flex-col justify-center items-center text-center">
+          <div class="mb-6">
+            <i class="fab fa-youtube text-6xl text-white mb-4"></i>
+            <h3 class="text-2xl font-bold text-white mb-2">قناة اليوتيوب</h3>
+            <p class="text-white/90 mb-6">فيديوهات ومحتوى مرئي عن السياحة الليبية</p>
+          </div>
+          <a href="#youtube" class="inline-flex items-center bg-gradient-to-r from-gold to-light-gold text-deep-blue px-8 py-4 rounded-xl font-bold text-lg hover:shadow-2xl hover:scale-105 transition-all">
+            <i class="fas fa-play ml-3"></i>
+            <span>شاهد القناة</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- قسم قناة اليوتيوب -->
+  <section id="youtube" class="py-20 bg-gradient-to-br from-snow-white to-ice-blue">
+    <div class="max-w-7xl mx-auto px-8">
+      <div class="text-center mb-16 slide-in">
+        <div class="inline-flex items-center bg-gradient-to-r from-red-600 to-red-500 px-6 py-3 rounded-full text-white font-bold mb-6">
+          <i class="fab fa-youtube ml-3"></i>
+          <span>قناة اليوتيوب</span>
+        </div>
+        <h2 class="text-5xl font-extrabold gradient-text mb-6 font-arabic">محتوى مرئي عن سياحة ليبيا</h2>
+        <p class="text-2xl text-accent-gray max-w-3xl mx-auto leading-relaxed">
+          استكشف ليبيا من خلال سلسلة الفيديوهات التعريفية على قناتنا في اليوتيوب
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-16">
+        <!-- فيديو اليوتيوب -->
+        <div class="slide-in">
+          <div class="youtube-container">
+            <iframe 
+              src="https://www.youtube.com/embed/-KW6pQcq-LI" 
+              title="أطلس ليبيا السياحي الوطني" 
+              frameborder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+
+        <!-- معلومات القناة -->
+        <div class="flex flex-col justify-center">
+          <div class="bg-white rounded-3xl shadow-2xl p-10 hover-lift">
+            <div class="flex items-center mb-8">
+              <div class="bg-gradient-to-br from-red-600 to-red-500 w-16 h-16 rounded-2xl flex items-center justify-center mr-5 shadow-lg">
+                <i class="fab fa-youtube text-white text-2xl"></i>
+              </div>
+              <h3 class="text-3xl font-bold text-gray-900 font-arabic">قناة أطلس ليبيا السياحي</h3>
+            </div>
+            <p class="text-gray-700 leading-relaxed text-lg mb-8">
+              تقدم القناة محتوى مرئيًا متنوعًا يعكس جمال وثراء السياحة الليبية، بما في ذلك:
+            </p>
+            <ul class="space-y-6 mb-10">
+              <li class="flex items-start">
+                <div class="bg-gradient-to-br from-royal-blue/10 to-light-blue/10 p-3 rounded-xl ml-4">
+                  <i class="fas fa-video text-royal-blue text-xl"></i>
+                </div>
+                <div>
+                  <h4 class="font-bold text-gray-900 text-lg mb-1">جولات افتراضية</h4>
+                  <p class="text-accent-gray">استكشاف المواقع السياحية عبر جولات افتراضية 360 درجة</p>
+                </div>
+              </li>
+              <li class="flex items-start">
+                <div class="bg-gradient-to-br from-gold/10 to-light-gold/10 p-3 rounded-xl ml-4">
+                  <i class="fas fa-history text-gold text-xl"></i>
+                </div>
+                <div>
+                  <h4 class="font-bold text-gray-900 text-lg mb-1">وثائقيات تاريخية</h4>
+                  <p class="text-accent-gray">فيديوهات توثق التراث الثقافي والتاريخي الليبي</p>
+                </div>
+              </li>
+              <li class="flex items-start">
+                <div class="bg-gradient-to-br from-emerald-500/10 to-green-400/10 p-3 rounded-xl ml-4">
+                  <i class="fas fa-map-marked-alt text-emerald-500 text-xl"></i>
+                </div>
+                <div>
+                  <h4 class="font-bold text-gray-900 text-lg mb-1">دليل سياحي مرئي</h4>
+                  <p class="text-accent-gray">إرشادات ونصائح للسياح والزوار المحليين والدوليين</p>
+                </div>
+              </li>
+            </ul>
+            <a href="https://youtube.com" target="_blank" class="inline-flex items-center justify-center w-full bg-gradient-to-r from-red-600 to-red-500 text-white px-8 py-5 rounded-2xl font-bold text-xl hover:shadow-2xl hover:scale-105 transition-all">
+              <i class="fab fa-youtube ml-4"></i>
+              <span>زيارة القناة على اليوتيوب</span>
+              <i class="fas fa-external-link-alt mr-4"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- إحصائيات القناة -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-white rounded-3xl p-8 text-center hover-lift shadow-xl border border-red-100">
+          <div class="text-4xl font-black bg-gradient-to-r from-red-600 to-red-500 bg-clip-text text-transparent mb-4">500+</div>
+          <h4 class="font-bold text-gray-900 text-xl mb-3">مشاهد يوميًا</h4>
+          <p class="text-accent-gray">زيادة مستمرة في عدد المشاهدات</p>
+        </div>
+        
+        <div class="bg-white rounded-3xl p-8 text-center hover-lift shadow-xl border border-royal-blue/10">
+          <div class="text-4xl font-black bg-gradient-to-r from-royal-blue to-deep-blue bg-clip-text text-transparent mb-4">50+</div>
+          <h4 class="font-bold text-gray-900 text-xl mb-3">فيديو تعريفي</h4>
+          <p class="text-accent-gray">محتوى متنوع عن السياحة الليبية</p>
+        </div>
+        
+        <div class="bg-white rounded-3xl p-8 text-center hover-lift shadow-xl border border-gold/10">
+          <div class="text-4xl font-black bg-gradient-to-r from-gold to-light-gold bg-clip-text text-transparent mb-4">10K+</div>
+          <h4 class="font-bold text-gray-900 text-xl mb-3">مشترك في القناة</h4>
+          <p class="text-accent-gray">مجتمع متنامٍ من المهتمين بسياحة ليبيا</p>
         </div>
       </div>
     </div>
@@ -578,8 +820,11 @@
             </div>
           </div>
         </div>
-        
-        <!-- قسم التكاليف التفصيلي -->
+      </div>
+    </div>
+  </section>
+
+  <!-- قسم التكاليف التفصيلي -->
   <section id="detailed-costing" class="py-20 bg-gradient-to-br from-snow-white to-ice-blue">
     <div class="max-w-7xl mx-auto px-8">
       <div class="text-center mb-16 slide-in">
@@ -703,30 +948,9 @@
           </div>
         </div>
       </div>
-<!-- خطة الإطلاق خلال 60 يوم -->
-<section id="launch-plan" class="py-20 bg-gradient-to-br from-snow-white to-ice-blue">
-  <div class="max-w-7xl mx-auto px-8">
-    <div class="text-center mb-16 slide-in">
-      <h2 class="text-5xl font-extrabold gradient-text mb-6 font-arabic">خطة إطلاق المنصة خلال 60 يوم</h2>
-      <p class="text-2xl text-accent-gray max-w-3xl mx-auto leading-relaxed">
-               خطة تنفيذية متكاملة لإطلاق المرحلة الأولى من منصة أطلس ليبيا السياحي وتفعيل منصة البيانات
-        تتضمن الفنادق والقري السياحية ومواقع التراث العالمي في ليبيا وايضا المزارات السياحية ومواقع الجدب السياحي
-        والمواقع الخدمية أهمها المستشفيلت والجامعات والاتصالات والامن والشرطة والسفارات و والحدائق والمنتزهات والاسواق التجارية 
-      </p>
     </div>
+  </section>
 
-    <!-- المؤشر الزمني -->
-    <div class="mb-16">
-      <div class="flex items-center justify-between mb-12">
-        <div>
-          <h3 class="text-3xl font-bold text-gray-900 font-arabic">المؤشر الزمني للتنفيذ</h3>
-          <p class="text-accent-gray">60 يومًا من الاعتماد حتى الإطلاق</p>
-        </div>
-        <div class="text-center">
-          <div class="text-4xl font-black bg-gradient-to-r from-royal-blue to-gold bg-clip-text text-transparent">60 يوم</div>
-          <p class="text-accent-gray">مدة التنفيذ الكلية</p>
-        </div>
-      </div>
   <!-- قسم الخرائط التفاعلية -->
   <section id="interactive-maps" class="py-20 bg-gradient-to-b from-white to-snow-white">
     <div class="max-w-7xl mx-auto px-8">
@@ -982,6 +1206,14 @@
               <i class="fas fa-chevron-left ml-4 text-gold"></i>
               <span>عن المشروع</span>
             </a>
+            <a href="#banners" class="flex items-center text-white/80 hover:text-gold transition-colors text-lg">
+              <i class="fas fa-chevron-left ml-4 text-gold"></i>
+              <span>معرض الصور</span>
+            </a>
+            <a href="#youtube" class="flex items-center text-white/80 hover:text-gold transition-colors text-lg">
+              <i class="fas fa-chevron-left ml-4 text-gold"></i>
+              <span>قناة اليوتيوب</span>
+            </a>
             <a href="#detailed-costing" class="flex items-center text-white/80 hover:text-gold transition-colors text-lg">
               <i class="fas fa-chevron-left ml-4 text-gold"></i>
               <span>التكاليف والتمويل</span>
@@ -1004,19 +1236,19 @@
               <div class="bg-white/10 p-3 rounded-xl ml-4">
                 <i class="fas fa-map-marker-alt text-gold"></i>
               </div>
-              <span class="text-lg">ليبيا - حكومةالوحدةالوطنية </span>
+              <span class="text-lg">ليبيا - حكومة الوحدة الوطنية</span>
             </div>
             <div class="flex items-center text-white/80">
               <div class="bg-white/10 p-3 rounded-xl ml-4">
-                <i class="fas fa-flag text-gold"></i>
+                <i class="fab fa-youtube text-gold"></i>
               </div>
-              <span class="text-lg">مشروع أطلس ليبيا السياحي  </span>
+              <span class="text-lg">قناة اليوتيوب: أطلس ليبيا السياحي</span>
             </div>
             <div class="flex items-center text-white/80">
               <div class="bg-white/10 p-3 rounded-xl ml-4">
                 <i class="fas fa-calendar-alt text-gold"></i>
               </div>
-              <span class="text-lg">إطلاق2026</span>
+              <span class="text-lg">إطلاق 2026</span>
             </div>
           </div>
         </div>
@@ -1025,8 +1257,10 @@
       <div class="border-t border-white/20 mt-16 pt-10 text-center">
         <div class="mb-8">
           <div class="inline-flex items-center bg-white/10 px-6 py-3 rounded-full">
-            <i class="fas fa-star text-gold ml-3"></i>
-            <span class="font-bold">مشروع وطني لتنمية السياحة الليبية</span>
+            <i class="fab fa-youtube text-gold ml-3"></i>
+            <span class="font-bold ml-3">تابعنا على يوتيوب</span>
+            <i class="fas fa-images text-gold mr-3"></i>
+            <span class="font-bold">استكشف معرض الصور</span>
           </div>
         </div>
         <p class="text-white/60 text-lg">© 2026 أطلس ليبيا السياحي الوطني - جميع الحقوق محفوظة للمشروع الوطني</p>
@@ -1132,6 +1366,13 @@
           loadingElement.style.display = 'none';
         }
       }, 2000);
+
+      // إضافة تأثيرات للبانرات
+      const banners = document.querySelectorAll('.banner-slide');
+      banners.forEach((banner, index) => {
+        banner.style.animationDelay = `${index * 0.1}s`;
+        banner.classList.add('slide-in');
+      });
     });
 
     // Smooth scrolling for anchor links
