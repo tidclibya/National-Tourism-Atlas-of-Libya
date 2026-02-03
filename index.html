@@ -189,52 +189,61 @@
 
 <body class="font-sans bg-gradient-to-br from-snow-white via-ice-blue to-snow-white rtl">
   
-  <!-- الهيدر -->
-  <header id="header" class="bg-white/95 backdrop-blur-lg shadow-xl border-b border-blue-100 sticky top-0 z-50">
-    <div class="max-w-7xl mx-auto px-8 py-4">
-      <div class="flex items-center justify-between">
-        <div class="flex items-center space-x-6">
-          <!-- الشعارات -->
-          <div class="flex items-center space-x-4">
-            <div class="relative group">
-              <div class="absolute -inset-1 bg-gradient-to-r from-royal-blue to-gold rounded-2xl blur opacity-25 group-hover:opacity-75 transition duration-1000"></div>
-              <div class="relative bg-white p-3 rounded-2xl shadow-lg border border-gray-100">
-                <div class="bg-gradient-to-br from-royal-blue to-deep-blue w-12 h-12 rounded-xl flex items-center justify-center">
-                  <i class="fas fa-map-marked-alt text-white text-2xl"></i>
-                </div>
-              </div>
-            </div>
-            
-            <div class="relative group">
-              <div class="absolute -inset-1 bg-gradient-to-r from-gold to-royal-blue rounded-2xl blur opacity-25 group-hover:opacity-75 transition duration-1000"></div>
-              <div class="relative bg-white p-3 rounded-2xl shadow-lg border border-gray-100">
-                <div class="bg-gradient-to-br from-gold to-light-gold w-12 h-12 rounded-xl flex items-center justify-center">
-                  <i class="fas fa-crown text-deep-blue text-2xl"></i>
-                </div>
-              </div>
+ <!-- الهيدر -->
+<header id="header" class="bg-white/95 backdrop-blur-lg shadow-xl border-b border-blue-100 sticky top-0 z-50">
+  <div class="max-w-7xl mx-auto px-8 py-4">
+    <div class="flex items-center justify-between">
+      <div class="flex items-center space-x-6">
+        <!-- الشعارات -->
+        <div class="flex items-center space-x-4">
+          <!-- شعار الأطلس -->
+          <div class="relative group">
+            <div class="absolute -inset-1 bg-gradient-to-r from-royal-blue to-gold rounded-2xl blur opacity-25 group-hover:opacity-75 transition duration-1000"></div>
+            <div class="relative bg-white p-3 rounded-2xl shadow-lg border border-gray-100">
+              <img 
+                src="https://raw.githubusercontent.com/tidclibya/National-Tourism-Atlas-of-Libya/main/logo-atlas.png" 
+                alt="شعار أطلس ليبيا السياحي" 
+                class="w-12 h-12 object-contain"
+                onerror="this.onerror=null; this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iMjQiIGN5PSIyNCIgcj0iMjAiIGZpbGw9IiMwRDQ3QTEiLz4KPHBhdGggZD0iTTI0IDE0TDMwIDI2SDE4TDI0IDE0WiIgZmlsbD0id2hpdGUiLz4KPGNpcmNsZSBjeD0iMjQiIGN5PSIyNCIgcj0iOCIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIi8+Cjwvc3ZnPgo='"
+              >
             </div>
           </div>
           
-          <div class="flex flex-col">
-            <h1 class="text-2xl font-extrabold bg-gradient-to-r from-royal-blue via-deep-blue to-gold bg-clip-text text-transparent font-arabic">أطلس ليبيا السياحي الوطني</h1>
-            <p class="text-sm text-accent-gray font-medium">National Tourism Atlas of Libya</p>
-            <div class="flex items-center space-x-2 mt-1">
-              <span class="text-xs px-2 py-1 bg-royal-blue/10 text-royal-blue rounded-full font-medium">منصة وطنية</span>
-              <span class="text-xs px-2 py-1 bg-gold/10 text-gold rounded-full font-medium">ذكاء اصطناعي</span>
-              <span class="text-xs px-2 py-1 bg-light-blue/10 text-light-blue rounded-full font-medium">خرائط تفاعلية</span>
+          <!-- الشعار الوطني -->
+          <div class="relative group">
+            <div class="absolute -inset-1 bg-gradient-to-r from-gold to-royal-blue rounded-2xl blur opacity-25 group-hover:opacity-75 transition duration-1000"></div>
+            <div class="relative bg-white p-3 rounded-2xl shadow-lg border border-gray-100">
+              <img 
+                src="https://raw.githubusercontent.com/tidclibya/National-Tourism-Atlas-of-Libya/main/natunal-logo.png" 
+                alt="الشعار الوطني" 
+                class="w-12 h-12 object-contain"
+                onerror="this.onerror=null; this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjQ4IiBoZWlnaHQ9IjQ4IiByeD0iMTIiIGZpbGw9IiMwRDQ3QTEiLz4KPHJlY3QgeD0iMTIiIHk9IjEyIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHJ4PSI2IiBmaWxsPSIjRjRGNUY5Ii8+CjxwYXRoIGQ9Ik0yNCAxOEwzMCAyNEgyNEwxOCAyNEwyNCAxOFoiIGZpbGw9IiNERDdCMDMiLz4KPC9zdmc+Cg=='"
+              >
             </div>
           </div>
         </div>
         
-        <nav class="flex items-center space-x-8 font-arabic">
-          <a href="#about" class="text-gray-700 hover:text-royal-blue font-medium transition-colors text-lg">عن المشروع</a>
-          <a href="#detailed-costing" class="text-gray-700 hover:text-royal-blue font-medium transition-colors text-lg">التكاليف</a>
-          <a href="#interactive-maps" class="text-gray-700 hover:text-royal-blue font-medium transition-colors text-lg">الخرائط</a>
-          <a href="#features" class="text-gray-700 hover:text-royal-blue font-medium transition-colors text-lg">المميزات</a>
-        </nav>
+        <div class="flex flex-col">
+          <h1 class="text-2xl font-extrabold bg-gradient-to-r from-royal-blue via-deep-blue to-gold bg-clip-text text-transparent font-arabic">أطلس ليبيا السياحي الوطني</h1>
+          <p class="text-sm text-accent-gray font-medium">National Tourism Atlas of Libya</p>
+          <div class="flex items-center space-x-2 mt-1">
+            <span class="text-xs px-2 py-1 bg-royal-blue/10 text-royal-blue rounded-full font-medium">منصة وطنية</span>
+            <span class="text-xs px-2 py-1 bg-gold/10 text-gold rounded-full font-medium">ذكاء اصطناعي</span>
+            <span class="text-xs px-2 py-1 bg-light-blue/10 text-light-blue rounded-full font-medium">خرائط تفاعلية</span>
+          </div>
+        </div>
       </div>
+      
+      <nav class="flex items-center space-x-8 font-arabic">
+        <a href="#about" class="text-gray-700 hover:text-royal-blue font-medium transition-colors text-lg">عن المشروع</a>
+        <a href="#detailed-costing" class="text-gray-700 hover:text-royal-blue font-medium transition-colors text-lg">التكاليف</a>
+        <a href="#launch-plan" class="text-gray-700 hover:text-royal-blue font-medium transition-colors text-lg">خطة الإطلاق</a>
+        <a href="#interactive-maps" class="text-gray-700 hover:text-royal-blue font-medium transition-colors text-lg">الخرائط</a>
+        <a href="#features" class="text-gray-700 hover:text-royal-blue font-medium transition-colors text-lg">المميزات</a>
+      </nav>
     </div>
-  </header>
+  </div>
+</header>
 
   <!-- Hero Section -->
   <section id="hero" class="h-[650px] bg-gradient-to-br from-royal-blue via-deep-blue to-royal-blue relative overflow-hidden">
