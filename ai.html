@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>المساعد الذكي للسياحة في ليبيا</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- الهيدر -->
+        <header class="header">
+            <div class="logo">
+                <i class="fas fa-plane-departure"></i>
+                <h1>المساعد الذكي للسياحة في ليبيا</h1>
+            </div>
+            <p class="subtitle">مرحباً بك! أنا مساعدك الذكي للسياحة في ليبيا. اسألني عن أي شيء يتعلق بالفنادق، المعالم السياحية، النقل، والمزيد!</p>
+        </header>
+
+        <!-- المنطقة الرئيسية -->
+        <main class="main-content">
+            <!-- قسم الدردشة -->
+            <div class="chat-container">
+                <div class="chat-header">
+                    <h2><i class="fas fa-comments"></i> محادثة مباشرة</h2>
+                    <div class="language-switch">
+                        <button id="lang-ar" class="lang-btn active">العربية</button>
+                        <button id="lang-en" class="lang-btn">English</button>
+                    </div>
+                </div>
+                
+                <div class="chat-messages" id="chatMessages">
+                    <!-- الرسائل ستظهر هنا -->
+                    <div class="message bot-message">
+                        <div class="message-content">
+                            <strong>المساعد:</strong> أهلاً بك في المساعد السياحي الليبي! يمكنني الإجابة على أسئلتك عن الفنادق، المعالم السياحية، النقل، المطاعم، وأكثر. جرب أن تسألني عن "فنادق في طرابلس" أو "معالم سياحية في بنغازي".
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="chat-input">
+                    <input type="text" id="userInput" placeholder="اكتب سؤالك هنا... (مثال: فنادق في طرابلس)">
+                    <button id="sendBtn"><i class="fas fa-paper-plane"></i> إرسال</button>
+                    <button id="voiceBtn"><i class="fas fa-microphone"></i></button>
+                </div>
+                
+                <div class="quick-actions">
+                    <button class="quick-btn" data-question="فنادق في طرابلس"><i class="fas fa-hotel"></i> فنادق</button>
+                    <button class="quick-btn" data-question="معالم سياحية في بنغازي"><i class="fas fa-landmark"></i> معالم</button>
+                    <button class="quick-btn" data-question="نقل في صبراتة"><i class="fas fa-bus"></i> نقل</button>
+                    <button class="quick-btn" data-question="مطاعم في غدامس"><i class="fas fa-utensils"></i> مطاعم</button>
+                    <button class="quick-btn" data-question="تأشيرة ليبيا"><i class="fas fa-passport"></i> تأشيرة</button>
+                </div>
+            </div>
+            
+            <!-- قسم المعلومات -->
+            <div class="info-panel">
+                <div class="info-card">
+                    <h3><i class="fas fa-city"></i> المدن المتاحة</h3>
+                    <div class="cities-grid" id="citiesList">
+                        <!-- المدن سيتم إضافتها بالجافاسكريبت -->
+                    </div>
+                </div>
+                
+                <div class="info-card">
+                    <h3><i class="fas fa-list-alt"></i> المواضيع المتاحة</h3>
+                    <div class="topics-grid" id="topicsList">
+                        <!-- المواضيع سيتم إضافتها بالجافاسكريبت -->
+                    </div>
+                </div>
+                
+                <div class="info-card">
+                    <h3><i class="fas fa-lightbulb"></i> أسئلة مقترحة</h3>
+                    <ul class="suggestions-list" id="suggestionsList">
+                        <!-- الأسئلة المقترحة سيتم إضافتها بالجافاسكريبت -->
+                    </ul>
+                </div>
+            </div>
+        </main>
+        
+        <!-- الفوتر -->
+        <footer class="footer">
+            <p>© 2024 المساعد الذكي للسياحة في ليبيا | جميع المعلومات مبنية على قاعدة بيانات شاملة</p>
+            <p class="footer-links">
+                <a href="#"><i class="fas fa-question-circle"></i> المساعدة</a>
+                <a href="#"><i class="fas fa-info-circle"></i> معلومات عنا</a>
+                <a href="#"><i class="fas fa-download"></i> تنزيل البيانات</a>
+            </p>
+        </footer>
+    </div>
+
+    <!-- جلب البيانات والمكتبات -->
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
